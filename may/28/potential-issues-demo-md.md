@@ -2,7 +2,7 @@
 
 Lists a couple of potential issues that I have noted in demo.md as I have been working through it today.
 
-Just opened a pull request to fix these issues [https://github.com/google/ml-compiler-opt/pull/22](here).
+Just opened a pull request to fix these issues [here](https://github.com/google/ml-compiler-opt/pull/22).
 
 ### compile_task flag has been deprecated
 
