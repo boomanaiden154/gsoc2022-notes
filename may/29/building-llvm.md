@@ -70,7 +70,7 @@ git clone https://github.com/llvm/llvm-project.git
 
 After installing of the necessary dependencies and performing the setup tasks, you should be able to configure the LLVM build using the following commands from inside the llvm source directory:
 
-**TODO:** Evaluate compiling LLVM with `-DLLVM_USE_SPLIT_DWARF=ON`, especially in regards to memory usage during linking so that I can hopefully utilize more threads.
+
 
 ```bash
 mkdir build
@@ -84,13 +84,16 @@ cmake -G Ninja \
     -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
     -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
     -DLLVM_ENABLE_PROJECTS="clang" \
-    -DLLVM_PARALLEL_LINK_JOBS=8 \
+    -DLLVM_PARALLEL_LINK_JOBS=24 \
+    -DLLVM_USE_SPLIT_DWARF=ON \
     ../llvm
 ```
 
 **Note:** the above command also configures the build for clang as specified with the `-DLLVM_ENABLE_PROJECTS="clang"` flag. If you don't want to build clang, remove this flag. However, any sort of testing/work with the MLGO stuff will require a build of clang.
 
-**Note:** The above command also restricts the maximum number of parallel linking jobs. When compiling with debug symbols, the memory usage during linking is massive, and linking on only 8 threads should keep memory usage to under 128gb at  any one point (around 100GB from my testing).
+**Note:** The above command also restricts the maximum number of parallel linking jobs. When compiling with debug symbols, the memory usage during linking is massive, and linking on only 24 threads should keep memory usage to under 128gb at  any one point (around 110GB from my testing). If you set `LLVM_USE_SPLIT_DWARF` to off, this number needs to be significantly reduced.
+
+**Note:** The above command also sets the `LLVM_USE_SPLIT_DWARF` option. This reduces memory usage during the build process, primarily during linking, and also speeds up builds. The debug symbols are split to a separate file, so if you plan on installing clang or llvm with debug symbols, this is important to note.
 
 Then, running the following command should start a build:
 
