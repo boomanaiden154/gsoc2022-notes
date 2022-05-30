@@ -56,6 +56,16 @@ tar xfz libtensorflow-cpu-linux-x86_64-2.6.0.tar.gz -C /tmp/tensorflow
 
 After this, everything should be set up to build LLVM with ML support.
 
+### Cloning the repository
+
+Clone the llvm repository from the central repository (currently on Github, shown below), or a personal fork:
+
+```bash
+git clone https://github.com/llvm/llvm-project.git
+```
+
+**Note:** make sure that you are in whatever directory you want to have the LLVM sources in when you run the above command.
+
 ### Building LLVM
 
 After installing of the necessary dependencies and performing the setup tasks, you should be able to install LLVM using the following commands from inside the llvm source directory:
