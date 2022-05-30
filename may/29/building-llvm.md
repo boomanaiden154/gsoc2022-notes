@@ -49,9 +49,9 @@ python3 -m pip install -r /tmp/requirements.txt
 Now we need to install the Tensorflow C API so that we can reference it in the LLVM build. This can be achieved with the following:
 
 ```bash
-wget --quiet https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-x86_64-2.6.0.tar.gz
+wget --quiet https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-x86_64-1.15.0.tar.gz
 mkdir /tmp/tensorflow
-tar xfz libtensorflow-cpu-linux-x86_64-2.6.0.tar.gz -C /tmp/tensorflow
+tar xfz libtensorflow-cpu-linux-x86_64-1.15.0.tar.gz -C /tmp/tensorflow
 ```
 
 After this, everything should be set up to build LLVM with ML support.
@@ -68,16 +68,32 @@ git clone https://github.com/llvm/llvm-project.git
 
 ### Building LLVM
 
-After installing of the necessary dependencies and performing the setup tasks, you should be able to install LLVM using the following commands from inside the llvm source directory:
+After installing of the necessary dependencies and performing the setup tasks, you should be able to configure the LLVM build using the following commands from inside the llvm source directory:
+
+**TODO:** Evaluate compiling LLVM with `-DLLVM_USE_SPLIT_DWARF=ON`, especially in regards to memory usage during linking so that I can hopefully utilize more threads.
 
 ```bash
 mkdir build
 cd build
 cmake -G Ninja \
+    -DCMAKE_BUILD_TYPE=Debug \
     -DLLVM_ENTABLE_LTO=OFF \
     -DLLVM_CACHE_BUILD=ON \
     -DLLVM_ENABLE_ASSERTATIONS=ON \
     -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
     -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
-    -DCMAKE_INSTALL_RPATH_USE_LINUX_PATH=ON
+    -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
+    -DLLVM_ENABLE_PROJECTS="clang" \
+    -DLLVM_PARALLEL_LINK_JOBS=8 \
+    ../llvm
+```
+
+**Note:** the above command also configures the build for clang as specified with the `-DLLVM_ENABLE_PROJECTS="clang"` flag. If you don't want to build clang, remove this flag. However, any sort of testing/work with the MLGO stuff will require a build of clang.
+
+**Note:** The above command also restricts the maximum number of parallel linking jobs. When compiling with debug symbols, the memory usage during linking is massive, and linking on only 8 threads should keep memory usage to under 128gb at  any one point (around 100GB from my testing).
+
+Then, running the following command should start a build:
+
+```bash
+cmake --build .
 ```
