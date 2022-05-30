@@ -64,5 +64,3 @@ And again, to download the latest model and set everything up, the following com
 curl -L https://github.com/google/ml-compiler-opt/releases/download/regalloc-evict-v1.0/regalloc-evict-e67430c-v1.0.tar.gz > regalloc-model.tar.gz
 tar -xf regalloc-model.tar.gz
 ```
-
-

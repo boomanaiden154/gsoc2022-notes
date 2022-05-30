@@ -5,5 +5,3 @@ Getting raw assembly out of clang can sometimes be useful for debugging purposes
 ```bash
 clang -S -mllvm --x86-asm-sytnax=intel test.cpp -o test
 ```
-
-
