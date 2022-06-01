@@ -12,6 +12,7 @@ Then it is just a matter of running cmake with the desired flags as well as `-DC
 
 ```bash
 cmake \
+    -G Ninja \
     -DCMAKE_BUILD_TYPE=Release \
     -DLLVM_ENABLE_LTO=OFF \
     -DLLVM_ENABLE_PROJECTS="clang" \
