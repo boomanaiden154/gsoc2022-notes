@@ -70,16 +70,14 @@ git clone https://github.com/llvm/llvm-project.git
 
 After installing of the necessary dependencies and performing the setup tasks, you should be able to configure the LLVM build using the following commands from inside the llvm source directory:
 
-
-
 ```bash
 mkdir build
 cd build
 cmake -G Ninja \
     -DCMAKE_BUILD_TYPE=Debug \
-    -DLLVM_ENTABLE_LTO=OFF \
-    -DLLVM_CACHE_BUILD=ON \
-    -DLLVM_ENABLE_ASSERTATIONS=ON \
+    -DLLVM_ENABLE_LTO=OFF \
+    -DLLVM_CCACHE_BUILD=ON \
+    -DLLVM_ENABLE_ASSERTIONS=ON \
     -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
     -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
     -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
