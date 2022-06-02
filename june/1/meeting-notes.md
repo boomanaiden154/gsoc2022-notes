@@ -75,3 +75,23 @@
     - [Spektral](https://graphneural.network/) - looks like the ideal choice. Mature, seems to have all the necessary layer types/input encodings.
     
     - [Tensorflow GNN](https://github.com/tensorflow/gnn) - Doesn't seem mature enough to be used in production
+
+### After meeting
+
+- Scaling back on the size of the initial model. Instead of going straight for GNNs, the focus early on will be feeding an embedding of the instructions directly to something similar to the existing model.
+  
+  - Starting small, slowly branching out into larger models, evaluating performance at each stage.
+  
+  - Anecdote on non-graph aware model outperforming a graph aware model.
+
+- Future directions
+  
+  - Work on building clang/LLVM with current head of tree clang/LLVM. **Due:** Hopefully have everything done on Friday.
+  
+  - Hack on the compiler to get necessary features exposed (instruction opcodes in this case). **Due:** Hopefully have this done before the meeting next Monday.
+  
+  - Work on an initial model **Due:** TBD
+  
+  - 
+
+
