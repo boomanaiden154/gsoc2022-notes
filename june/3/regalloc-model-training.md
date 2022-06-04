@@ -4,6 +4,28 @@ Based off of the inliner demo, using clang/LLVM as a corpus. Starting off, make 
 
 ### Building Clang/LLVM
 
+The config to build Clang/LLVM to get everything ready to compile the corpus:
+
+```bash
+cd $LLVM_SOURCE_DIR
+mkdir build
+cd build
+cmake -G Ninja \
+    -DLLVM_BINUTILS_INCDIR=/usr/include \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DLLVM_ENABLE_LTO=OFF \
+    -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
+    -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
+    -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
+    -DLLVM_ENABLE_PROJECTS="clang" \
+    ../llvm
+cmake --build .
+```
+
+Note the `DLLVM_BINUTILS_INCDIR` flag. This is important as it allows for the `LLVMGold.so` shared object to be built, which is needed for ThinLTO in the next step.
+
+### Building Clang/LLVM for the corpus
+
 Start off by building the clang/LLVM corpus with some custom flags:
 
 ```bash
@@ -19,11 +41,15 @@ cmake -G Ninja \
     -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
     -DCMAKE_C_COMPILER=/llvm-project/build/bin/clang \
     -DCMAKE_CXX_COMPILER=/llvm-project/build/bin/clang++ \
+    -DCMAKE_RANLIB=/llvm-project/build/bin/llvm-ranlib \
+    -DCMAKE_AR=/llvm-project/build/bin/llvm-ar \
     ../llvm
 cmake --build .
 ```
 
 ### Install python dependencies
+
+Should already be done if there is an already existing build based on the earlier building LLVM article.
 
 ```bash
 python3 -m pip install --upgrade pip
@@ -59,7 +85,3 @@ PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/tools/generate_default_trace.py \
     --gin_bindings=clang_path="'/llvm-project/build/bin/clang'" \
     --sampling_rate=0.2
 ```
-
-
-
-
