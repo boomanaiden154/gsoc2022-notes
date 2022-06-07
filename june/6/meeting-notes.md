@@ -41,5 +41,5 @@ stuff.
 - Benchmark current head of tree clang (make sure to note 
 commit benchmarked at)
 - Benchmark current head of tree clang with current
-regalloc enabled (making sure to not commit/specific
+regalloc enabled (making sure to note commit/specific
 model parameters used).
