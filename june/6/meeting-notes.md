@@ -22,3 +22,15 @@ a live range.
   - Encoding use/def instructions for all candidate
   registers.
   - Encoding all instructions used within a live range.
+  ### During/Post meeting notes
+- When running `extract_ir.py`, just use `-fembed-bitcode`, no ThinLTO.
+Everything should be able to work without using a ThinLTO corpus.
+- LLVM test suite for benchmarking (https://llvm.org/docs/TestSuiteGuide.html)
+Specifcally run the microbenchmarks that use google test.
+- Iterating through all instructions for a live range should
+be as simple as iterating through all the segments in
+a specific live range, iterating through all the slot
+indices within that segment, and then map the slot
+indices to instructions using the `LiveIntervals` class
+instance that gets passed to the register allocator/ML
+stuff.
