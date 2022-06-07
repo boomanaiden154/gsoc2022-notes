@@ -22,7 +22,7 @@ a live range.
   - Encoding use/def instructions for all candidate
   registers.
   - Encoding all instructions used within a live range.
-  ### During/Post meeting notes
+### During/Post meeting notes
 - When running `extract_ir.py`, just use `-fembed-bitcode`, no ThinLTO.
 Everything should be able to work without using a ThinLTO corpus.
 - LLVM test suite for benchmarking (https://llvm.org/docs/TestSuiteGuide.html)
@@ -35,3 +35,11 @@ indices within that segment, and then map the slot
 indices to instructions using the `LiveIntervals` class
 instance that gets passed to the register allocator/ML
 stuff.
+### TODO for next week
+- Get corpus built/model trained
+- Get PGO clang built
+- Benchmark current head of tree clang (make sure to note 
+commit benchmarked at)
+- Benchmark current head of tree clang with current
+regalloc enabled (making sure to not commit/specific
+model parameters used).
