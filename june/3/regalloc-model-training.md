@@ -71,8 +71,6 @@ python3 compiler_opt/tools/extract_ir.py \
 ### Collect the default trace
 
 ```bash
-mkdir /default_trace
-# If /default_trace already exists and contains data, make sure to delete
 PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/tools/generate_default_trace.py \
     --data_path=/corpus \
     --output_path=/default_trace \
@@ -80,4 +78,37 @@ PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/tools/generate_default_trace.py \
     --gin_bindings=config_registry.get_configuration.implementation=@configs.RegallocEvictionConfig \
     --gin_bindings=clang_path="'/llvm-project/build/bin/clang'" \
     --sampling_rate=0.2
+```
+
+### Vocab generation
+
+```bash
+rm -rf ./compiler_opt/rl/regalloc/vocab
+PYTHONPATH=$PYTHONPATH:. python3 \
+    compiler_opt/tools/sparse_bucket_generator.py \
+    --input=/default_trace \
+    --output_dir=./compiler_opt/rl/regalloc/vocab
+```
+
+### Warmstart
+
+```bash
+mkdir /warmstart
+PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/rl/train_bc.py \
+    --root_dir=/warmstart \
+    --data_path=/default_trace \
+    --gin_files=compiler_opt/rl/regalloc/gin_configs/behavioral_cloning_nn_agent.gin
+```
+
+### Actual Training
+
+```bash
+mkdir /output_model
+PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/rl/train_locally.py \
+    --root_dir=/output_model \
+    --data_path=/corpus \
+    --gin_bindings=clang_path="'/llvm-project/build/bin/clang'" \
+    --num_modules=100 \
+    --gin_files=compiler_opt/rl/regalloc/gin_configs/ppo_nn_agent.gin \
+    --gin_bindings=train_eval.warmstart_policy_dir=\"/warmstart/saved_policy\"
 ```
