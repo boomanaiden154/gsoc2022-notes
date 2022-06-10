@@ -41,15 +41,32 @@ Make sure that `./log` is not a directory. If it is, clang will crash and spit o
 
 ### Compiling using release mode ML register allocation
 
-I couldn't find a whole lot of documentation on using release mode ML register allocation. I'm assuming it exists somewhere as thre is a release on Github and there have been references to Google using it internally, but it is not currently well documented. More investigation needed.
-
-### Compiling using development mode ML register allocation
-
-Should just need a couple of flags. The flags passed in by the regalloc runner in the ml-compiler-opt repository include `-mllvm -thinlto-assume-merged`, `-mllvm -regalloc-enable-advisor=development`, `-mllvm -regalloc-training-log`, and `-mllvm -regalloc-model`. Still not 100% of the function of the LLVM flag `-thinlto-assume-merged` here. Might be something training specific. Bypasses function importing. Example command assuming a similar environment to before:
+Assuming that you have a built version of LLVM with the right settings
+so that you have the release mode ML regalloc eviction advisor model
+embedded into your LLVM install (eg setting `LLVM_RAEVICT_MODEL_PATH` to `"download"`), you should be able to compile using the release mode advisor
+with the following command:
 
 ```bash
 $LLVM_SOURCE_DIR/build/bin/clang \
-    -mllvm -thinlto-assume-merged \
+    -mllvm -regalloc-enable-advisor=release \
+    -mllvm -regalloc=greedy \
+    test.cpp \
+    -O1 \
+    -o test
+```
+
+Compiling with optimizations seems to be necessary otherwise the ML regalloc
+eviction advisor never seems to get called, but this might have to do with
+a different register allocator being used if no optimizations are enabled,
+which should be overridden with the `-mllvm -regalloc=greedy` flag. Most
+of the time in production, the model will be used with optimizations though.
+
+### Compiling using development mode ML register allocation
+
+Should just need a couple of flags. The flags passed in by the regalloc runner in the ml-compiler-opt repository include `-mllvm -regalloc-enable-advisor=development`, `-mllvm -regalloc-training-log`, and `-mllvm -regalloc-model`. Example command assuming a similar environment to before:
+
+```bash
+$LLVM_SOURCE_DIR/build/bin/clang \
     -mllvm -regalloc-enable-advisor=development \
     -mllvm -regalloc-training-log=./log \
     -mllvm -regalloc-model=./model \
