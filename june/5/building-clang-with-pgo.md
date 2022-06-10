@@ -13,17 +13,13 @@ Building stage 1 is relatively straightforward using the system gcc and g++:
 mkdir /llvm-stage1
 cd /llvm-stage1
 cmake -G Ninja \
-    -DPGO_INSTRUMENT_INSTALL_PATH=/llvm-stage1-install \
+    -DPGO_STAGE_INSTRUMENT_INSTALL_PATH=/llvm-stage1-install \
     -DCMAKE_C_COMPILER=gcc \
     -DCMAKE_CXX_COMPILER=g++ \
     -DLLVM_ENABLE_ASSERTIONS=OFF \
-    -C /LLVM_PGO_CMake/stage1.cmake \
+    -C /LLVM_PGO_CMake/stage_instrument.cmake \
     /llvm-project/llvm
 cmake --build .
-```
-After building stage1, you need to install everything. The install prefix is already set, so you just need to run install using cmake:
-```bash
-cmake --install .
 ```
 ### Building Stage 2
 Building stage2 is again relatively straightforward.
@@ -31,7 +27,7 @@ Building stage2 is again relatively straightforward.
 mkdir /llvm-stage2
 cd /llvm-stage2
 cmake -G Ninja \
-    -DPGO_STAGE_INSTRUMENT_INSTALL_PATH=/llvm-stage1-install \
+    -DPGO_STAGE_INSTRUMENT_INSTALL_PATH=/llvm-stage1 \
     -DLLVM_BINUTILS_INCDIR=/usr/include \
     -C /LLVM_PGO_CMake/stage_profiling.cmake \
     /llvm-project/llvm
@@ -42,7 +38,7 @@ To generate profile data, run the following couple commands:
 ```bash
 cmake --build . --target check-llvm
 cmake --build . --target check-clang
-/llvm-stage1-install/llvm-profdata merge -output=/profdata.prof \
+/llvm-stage1/bin/llvm-profdata merge -output=/profdata.prof \
     /llvm-stage2/profiles/*.profraw
 ```
 
@@ -60,8 +56,13 @@ PGO optimized clang/LLVM.
 To build the PGO optimized clang, run the following build command with
 CMake to set the appropriate flags, mainly the PGO profile data:
 ```bash
+mkdir /llvm-stage3
+cd /llvm-stage3
 cmake -G Ninja \
     -DPGO_STAGE_INSTRUMENT_INSTALL_PATH=/profdata.prof \
+    -DCMAKE_C_COMPILER=/llvm-stage1/bin/clang \
+    -DCMAKE_CXX_COMPILER=/llvm-stage1/bin/clang++ \
+    -C /LLVM_PGO_CMake/stage_pgo.cmake \
     /llvm-project/llvm
 cmake --build .
 ```
