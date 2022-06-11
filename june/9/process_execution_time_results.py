@@ -19,6 +19,7 @@ def writeExecutionTimes(results, outputFileName):
     with open(outputFileName, "w") as outputFile:
         for output in results:
             testName, testExecTime = output
+            testName = testName.replace(",",";")
             outputFile.write(testName + "," + str(testExecTime) + "\n")
 
 if __name__ == "__main__":

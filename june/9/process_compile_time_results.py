@@ -14,6 +14,7 @@ def writeCompileTimes(results, outputFileName):
     with open(outputFileName, "w") as outputFile:
         for result in results:
             testName, compileTime = result
+            testName = testName.replace(",",";")
             outputFile.write(testName + "," + str(compileTime) + "\n")
 
 if __name__ == "__main__":
