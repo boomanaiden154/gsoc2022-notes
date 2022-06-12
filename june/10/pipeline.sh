@@ -49,7 +49,7 @@ mkdir /tmp/tensorflow
 tar xfz libtensorflow-cpu-linux-x86_64-1.15.0.tar.gz -C /tmp/tensorflow
 
 # Clone projects
-https://github.com/boomanaiden154/llvm-project.git
+git clone https://github.com/boomanaiden154/llvm-project.git
 git clone https://github.com/eopXD/LLVM_PGO_CMake
 
 # Unpack the given model
