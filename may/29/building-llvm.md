@@ -98,3 +98,25 @@ Then, running the following command should start a build:
 ```bash
 cmake --build .
 ```
+
+### Other common configuation options:
+Here is a list of a couple other common configuration options so that
+they can easily be copied ans pasted.
+
+Release mode, no MLGO:
+```bash
+cmake -G Ninja \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DLLVM_ENABLE_PROJECTS="clang" \
+    ../llvm
+```
+Release mode MLGO:
+```bash
+cmake -G Ninja \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
+    -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
+    -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
+    -DLLVM_ENABLE_PROJECTS="clang" \
+    ../llvm
+```
