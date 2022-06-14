@@ -11,9 +11,8 @@ def getExecutionTimes(resultsFileName):
     with open(resultsFileName) as resultsFile:
         resultsData = json.load(resultsFile)
         for test in resultsData["tests"]:
-            if "exec_time" in test["metrics"] and "MicroBenchmarks" in test["name"]:
+            if "exec_time" in test["metrics"]:
                 outputs.append((test["name"],test["metrics"]["exec_time"]))
-    print(len(outputs))
     return outputs
 
 def writeExecutionTimes(results, outputFileName):
