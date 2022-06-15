@@ -41,3 +41,14 @@ defaulty available inside of containers. You should be able to get
 everything running by running the container in a privileged state
 (passing `--privileged` to `docker run`), or by setting a custom
 SECCOMP policy that enables the necessary syscalls.
+
+### Getting other perf counters
+
+Finding out all of the available performance counters for an existing
+system is not always trivial, at least just from reading documentation.
+The most effective method that I have found is to take the 
+[libpfm4](https://github.com/wcohen/libpfm4) sources, building all of them
+with a simple `make` command, and then running the `showevtinfo` example.
+This will output all of the different performance counters available for
+your specific platform along with some descriptions of what each
+performance counter measures.
