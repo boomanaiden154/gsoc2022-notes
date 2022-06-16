@@ -1,6 +1,11 @@
 # TODO(boomanaiden154): Refactor common parts between this file
 # and ../12/pipeline.sh into other files
 
+# This script must be run inside a container that has been
+# started in PRIVILEGED mode
+# Running docker inspect --format='{{.HostConfig.Privileged}}' <container id>
+# on the host should say true
+
 apt-get update
 
 # install all necessary dependencies for building LLVM
@@ -54,7 +59,6 @@ tar xfz libtensorflow-cpu-linux-x86_64-1.15.0.tar.gz -C /tmp/tensorflow
 
 # Clone projects
 git clone https://github.com/boomanaiden154/llvm-project.git
-git clone https://github.com/eopXD/LLVM_PGO_CMake
 
 # Unpack the given model
 tar xfz $1 -C /tmp
@@ -67,7 +71,7 @@ cmake -G Ninja \
     -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
     -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
     -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
-    -DLLVM_RAEVICT_MODEL_PATH=/tmp/model \
+    -DLLVM_ENABLE_PROJECTS="clang" \
     /llvm-project/llvm
 cmake --build .
 
@@ -77,7 +81,7 @@ git clone https://github.com/llvm/llvm-test-suite.git /llvm-test-suite
 mkdir /llvm-test-suite/build
 cd /llvm-test-suite/build
 
-make -G Ninja \
+cmake -G Ninja \
     -DCMAKE_C_COMPILER="/llvm-build/bin/clang" \
     -DCMAKE_CXX_COMPILER="/llvm-build/bin/clang++" \
     -DTEST_SUITE_BENCHMARKING_ONLY=ON \
