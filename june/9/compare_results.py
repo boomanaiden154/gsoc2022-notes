@@ -1,4 +1,5 @@
 import sys
+import statistics
 
 def loadResults(fileName):
     output = {}
@@ -16,12 +17,11 @@ def constructComparisons(resultMap1, resultMap2):
     return output
 
 def calculateAverageChange(comparisonsList):
-    changeSum = 0
+    changes = []
     for comparison in comparisonsList:
         result1, result2 = comparison
-        if result2 != 0 and result1 != 0:
-            changeSum += result2 / result1
-    return changeSum / len(comparisonsList)
+        changes.append(result2 / result1)
+    return statistics.geometric_mean(changes)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
