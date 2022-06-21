@@ -12,3 +12,5 @@
     * Benchmarks results for this new model. Ran under the same process as the
     last benchmarks (other than being built on a clang/LLVM version about 1000
     commits ahead).
+    * Baseline benchmarks (same flags as `output.json`), same build process (eg
+    using PGO), but no MLGO optimizations enabled.
