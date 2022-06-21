@@ -26,6 +26,19 @@ mkdir /chromium
 cd /chromium
 fetch --nohooks chromium
 ```
+Now, add the following to the `custom_vars` variable in the `.gclient` file 
+inside the `/chromium` directory:
+```
+solutions = [
+  {
+    "name": "src",
+    # ...
+    "custom_vars": {
+      "checkout_pgo_profiles": True
+    },
+  },
+],
+```
 All of the code and important stuff will be pulled into the `./src`
 directory. Now, install the depencies (`install-build-deps.sh` assumes
 a debian based linux environment) and run other setup/prebuild procedures:
@@ -43,4 +56,24 @@ symbols, and that PGO is enabled/ThinLTO is disabled:
 ```bash
 gn gen out/Default --export-compile-commands
 ```
-TODO(boomanaiden154): figure out gn flags, maybe just is_official_build=true along with setting some flags in the gclient config before running the build to ensure the PGO profiles get checked out. Still need to confirm that ThinLTO gets disabled.
+TODO(boomanaiden154): Get custom toolchain/custom flags working
+
+Use host toolchain:
+```
+custom_toolchain="//build/toolchain/linux/unbundle:default"
+host_toolchain="//build/toolchain/linux/unbundle:default"
+```
+When using the host toolchain, it will grab some environment variables such as
+`CC`, `CXX`, `AR`, and `NM`, along with the standard c/c++ flags environment
+variables. The name within th `BUILD.gn` file for configuring these toolchains
+mentions a `gcc_toolchain`, but this can be any gcc-like toolchain, which is
+explicitly mentioned to include clang in the documentation.
+
+Working flags:
+```
+is_official_build=true
+use_thin_lto=false
+is_cfi=false
+use_cfi_icall=false
+use_cfi_cast=false
+```
