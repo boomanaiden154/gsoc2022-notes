@@ -8,3 +8,7 @@
     the default heuristic for about 100,000 iterations (10x what the current
     value is set to in the main repository). Not really done for any reason
     in particular.
+* output.json
+    * Benchmarks results for this new model. Ran under the same process as the
+    last benchmarks (other than being built on a clang/LLVM version about 1000
+    commits ahead).
