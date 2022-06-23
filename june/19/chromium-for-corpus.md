@@ -69,6 +69,14 @@ variables. The name within th `BUILD.gn` file for configuring these toolchains
 mentions a `gcc_toolchain`, but this can be any gcc-like toolchain, which is
 explicitly mentioned to include clang in the documentation.
 
+```
+export CC=/llvm-build/bin/clang
+export CXX=/llvm-build/bin/clang++
+export AR=/llvm-build/bin/llvm-ar
+export NM=/llvm-build/bin/llvm-nm
+export CPPFLAGS="-fembed-bitcode=all"
+```
+
 Working flags:
 ```
 is_official_build=true
@@ -76,4 +84,5 @@ use_thin_lto=false
 is_cfi=false
 use_cfi_icall=false
 use_cfi_cast=false
+clang_use_chrome_plugins=false
 ```
