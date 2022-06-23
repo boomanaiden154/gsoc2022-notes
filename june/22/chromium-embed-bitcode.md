@@ -34,5 +34,17 @@ clang: error: -fno-unique-section-names is not supported with -fembed-bitcode
     * `./build/config/compiler/BUILD.gn`
 * `-mllvm -instcombine-lower-dbg-declare`
     * `./build/config/compiler/BUILD.gn`
+* Unable to find plugin `find-bad-constructs`
+    * The above issue can be fixed pretty easily by disabling the use of chromium plugins with clang by setting the gn flag
+    `clang_use_chrome_plugins` to `false`.
 
-Unable to find plugin `find-bad-constructs`
+### Solution
+
+I have implemented a pretty basic patch in my chromium fork on github
+implementing a `enable_bitcode` flag for the chromium gn build system. When
+this flag is set to true, all the conflicting flags are automatically
+disabled. The `-fembed-bitcode=all` flag isn't set though, and instead needs
+to be set manually using the `CPPFLAGS` environment variable when using the
+linux unbundle toolchain. Probably not going to upstream it as it's pretty
+darn simple (ie not a whole ton of need for rebasing), and it probably
+wouldn't be super desirable in upstream chromium.
