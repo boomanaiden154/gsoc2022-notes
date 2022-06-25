@@ -24,7 +24,7 @@ cloning process:
 ```bash
 mkdir /chromium
 cd /chromium
-fetch --nohooks chromium
+fetch --nohooks --no-history chromium
 ```
 Now, add the following to the `custom_vars` variable in the `.gclient` file 
 inside the `/chromium` directory:
