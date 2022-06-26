@@ -21,6 +21,16 @@ export PATH="$PATH:/depot_tools"
 ```
 Then you can create a folder for the chromium source and begin the
 cloning process:
+
+**NOTE**: Running this fetch operation for the chromium source code
+with certain versions of git seems to fail on some of the third party
+dependencies (specifically angle from what I've noticed). This specifically
+occurs with the version of git that Ubuntu 20.04/the chromium code base
+as of 6/25/2022. Upgrading to the latest git seems to solve this issue.
+Downgrading to Ubuntu 18.04 should probably work as well as this is the
+primary development platform for Chromium, but going down an operating
+system version is of course not ideal/reccomended.
+
 ```bash
 mkdir /chromium
 cd /chromium

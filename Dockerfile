@@ -30,7 +30,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
     wget \
     zlib1g-dev \
     tcl-dev \
-    libpfm4-dev
+    libpfm4-dev \
+    software-properties-common
 RUN wget --quiet https://raw.githubusercontent.com/google/ml-compiler-opt/main/requirements.txt -P /tmp && \
     python3 -m pip install -r /tmp/requirements.txt
 RUN wget --quiet https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-x86_64-1.15.0.tar.gz && \
@@ -42,3 +43,6 @@ RUN wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/nul
     apt-get update && \
     apt-get install -y cmake
 RUN git clone https://github.com/llvm/llvm-test-suite.git
+RUN apt-add-repository ppa:git-core/ppa && \
+    apt-get update
+    apt-get install -y git
