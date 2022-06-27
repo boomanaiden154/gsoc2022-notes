@@ -44,5 +44,5 @@ RUN wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/nul
     apt-get install -y cmake
 RUN git clone https://github.com/llvm/llvm-test-suite.git
 RUN apt-add-repository ppa:git-core/ppa && \
-    apt-get update
+    apt-get update && \
     apt-get install -y git
