@@ -28,3 +28,4 @@ variability is within tolerance.
 * Think about future features/experiments to run.
 * Get chromium benchmarking pipeline set up/benchmark created model.
 * Integration tests through the gsoc2022 demos?
+* Get sparse tensors working on the `instructions_and_mapping` feature.
