@@ -117,6 +117,7 @@ cmake -G Ninja \
     -DTENSORFLOW_C_LIB_PATH=/tmp/tensorflow \
     -DTENSORFLOW_AOT_PATH=$(python3 -c "import tensorflow; import os; print(os.path.dirname(tensorflow.__file__))") \
     -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON \
-    -DLLVM_ENABLE_PROJECTS="clang" \
+    -DLLVM_ENABLE_PROJECTS="clang;lld" \
+    -DLLVM_ENABLE_RUNTIMES="compiler-rt" \
     ../llvm
 ```
