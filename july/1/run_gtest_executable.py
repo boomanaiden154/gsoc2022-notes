@@ -44,6 +44,6 @@ if __name__ == "__main__":
     for test in tests_list:
         test_output = run_test(sys.argv[1], test)
         test_data_output[test] = parse_perf_stat_output(test_output)
-        print("Finished running:{test}".format(test=test))
+        print("Finished running:{test}".format(test=test), file=sys.stderr)
     # output data
     print(json.dumps(test_data_output, indent=4))
