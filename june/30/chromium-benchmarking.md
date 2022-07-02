@@ -49,4 +49,21 @@ xr.vr.common_perftests
 ```
 
 The `base_perftests` executable has a dependency on `test_support_perf`
-according to the `base/BUILD.gn` build config. 
+according to the `base/BUILD.gn` build config.
+
+Tying into the chromium performance benchmarking stuff would be pretty
+difficult in order to just get performance counters working. It would
+probably be doable, but everything seems to still be run through google
+test. Instrumentation could be added in there since using it for performance
+tests probably isn't totally out of the question (chromium does it, someone
+else has to do it). Might be an interesting addition at some point.
+
+Building just the tests is a pretty decent strategy to manage compile time/
+storage space required in order to build the tests. `autoninja` accepts a
+target at the end just like a normal build command, so for example, in order
+to build the `base_perftests` target, just run:
+```
+autoninja -C /path/to/output base_perftests
+```
+This only takes about 3000 compile steps to finish everything up, so everything
+is even nice and quick.
