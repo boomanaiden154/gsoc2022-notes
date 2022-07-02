@@ -2,7 +2,6 @@ from hmac import compare_digest
 import json
 import sys
 import statistics
-from typing import Dict
 
 def load_benchmarks(benchmark_file_path):
     with open(benchmark_file_path) as benchmark_file:
