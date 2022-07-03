@@ -14,6 +14,13 @@ def parse_gtest_all_tests(gtest_output):
     current_test_prefix = ""
     gtest_output_split = gtest_output.split("\n")
     current_index = 0
+    # skip to the actual test list
+    while current_index < len(gtest_output_split):
+        current_string = gtest_output_split[current_index]
+        test_matches = re.findall("^[a-zA-Z]*\.$", current_string)
+        if len(test_matches) != 0:
+            break
+        current_index += 1
     while current_index < len(gtest_output_split):
         current_string = gtest_output_split[current_index]
         if len(current_string) == 0:
@@ -38,6 +45,7 @@ if __name__ == "__main__":
     test_list_raw_output = get_gtest_executable_output(sys.argv[1])
     test_list_parsed = parse_gtest_all_tests(test_list_raw_output)
     test_dict = {
-        "test": test_list_parsed
+        "executable": sys.argv[1],
+        "tests": test_list_parsed
     }
     print(json.dumps(test_dict, indent=4))

@@ -11,7 +11,7 @@ perf_counters = [
 def load_tests_file(test_file_name):
     with open(test_file_name) as test_file:
         test_file_dict = json.load(test_file)
-        return test_file_dict["test"]
+        return test_file_dict["tests"]
 
 def run_test(test_executable, test_name):
     command_vector = ["perf", "stat"]
@@ -35,7 +35,7 @@ def parse_perf_stat_output(perf_stat_output):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("usage is run_gtest_executable.py [command] [tests json file]")
+        print("usage is run_gtest_executable.py [gtest executable] [tests json file]", file=sys.stderr)
         sys.exit(1)
     
     tests_list = load_tests_file(sys.argv[2])
