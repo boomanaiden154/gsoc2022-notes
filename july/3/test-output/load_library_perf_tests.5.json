@@ -1,0 +1,6 @@
+{
+    "LoadCDMPerfTest.ExternalClearKey": {
+        "mem_uops_retired.all_loads": 1511886,
+        "mem_uops_retired.all_stores": 879222
+    }
+}

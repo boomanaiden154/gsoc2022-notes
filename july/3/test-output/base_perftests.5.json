@@ -1,0 +1,1058 @@
+{
+    "HashPerfTest.Speed": {
+        "mem_uops_retired.all_loads": 53954168,
+        "mem_uops_retired.all_stores": 3861240
+    },
+    "ScheduleWorkTest.ThreadTimeToIOFromOneThread": {
+        "mem_uops_retired.all_loads": 11361687252,
+        "mem_uops_retired.all_stores": 5761724635
+    },
+    "ScheduleWorkTest.ThreadTimeToIOFromTwoThreads": {
+        "mem_uops_retired.all_loads": 10410641798,
+        "mem_uops_retired.all_stores": 5279682093
+    },
+    "ScheduleWorkTest.ThreadTimeToIOFromFourThreads": {
+        "mem_uops_retired.all_loads": 20506136670,
+        "mem_uops_retired.all_stores": 10398928036
+    },
+    "ScheduleWorkTest.ThreadTimeToUIFromOneThread": {
+        "mem_uops_retired.all_loads": 11340286855,
+        "mem_uops_retired.all_stores": 5750872916
+    },
+    "ScheduleWorkTest.ThreadTimeToUIFromTwoThreads": {
+        "mem_uops_retired.all_loads": 9736860478,
+        "mem_uops_retired.all_stores": 4937997253
+    },
+    "ScheduleWorkTest.ThreadTimeToUIFromFourThreads": {
+        "mem_uops_retired.all_loads": 20870962302,
+        "mem_uops_retired.all_stores": 10583848650
+    },
+    "ScheduleWorkTest.ThreadTimeToDefaultFromOneThread": {
+        "mem_uops_retired.all_loads": 10525599202,
+        "mem_uops_retired.all_stores": 5337767980
+    },
+    "ScheduleWorkTest.ThreadTimeToDefaultFromTwoThreads": {
+        "mem_uops_retired.all_loads": 11454949447,
+        "mem_uops_retired.all_stores": 5809301988
+    },
+    "ScheduleWorkTest.ThreadTimeToDefaultFromFourThreads": {
+        "mem_uops_retired.all_loads": 29171769919,
+        "mem_uops_retired.all_stores": 14792726124
+    },
+    "ObserverListPerfTest/0.NotifyPerformance": {
+        "mem_uops_retired.all_loads": 22851694640,
+        "mem_uops_retired.all_stores": 10528486506
+    },
+    "ObserverListPerfTest/1.NotifyPerformance": {
+        "mem_uops_retired.all_loads": 40621830144,
+        "mem_uops_retired.all_stores": 19684746485
+    },
+    "RandUtilPerfTest.RandUint64": {
+        "mem_uops_retired.all_loads": 4165337166,
+        "mem_uops_retired.all_stores": 3533470241
+    },
+    "RandUtilPerfTest.InsecureRandomRandUint64": {
+        "mem_uops_retired.all_loads": 42929242,
+        "mem_uops_retired.all_stores": 51988097
+    },
+    "StringUtilTest.DISABLED_IsStringASCIIPerf": {
+        "mem_uops_retired.all_loads": 2899771,
+        "mem_uops_retired.all_stores": 1967405
+    },
+    "SubstringSetMatcherPerfTest.RandomKeys": {
+        "mem_uops_retired.all_loads": 345460453,
+        "mem_uops_retired.all_stores": 254336568
+    },
+    "JobPerfTest.NoOpWorkNaiveAssignment": {
+        "mem_uops_retired.all_loads": 3257037686,
+        "mem_uops_retired.all_stores": 2131311736
+    },
+    "JobPerfTest.BusyWaitNaiveAssignment": {
+        "mem_uops_retired.all_loads": 2665969848,
+        "mem_uops_retired.all_stores": 1498544929
+    },
+    "JobPerfTest.NoOpWorkAtomicAssignment": {
+        "mem_uops_retired.all_loads": 875093944,
+        "mem_uops_retired.all_stores": 585153397
+    },
+    "JobPerfTest.NoOpDisruptedWorkAtomicAssignment": {
+        "mem_uops_retired.all_loads": 1015164957,
+        "mem_uops_retired.all_stores": 687944220
+    },
+    "JobPerfTest.BusyWaitAtomicAssignment": {
+        "mem_uops_retired.all_loads": 2687084948,
+        "mem_uops_retired.all_stores": 1498315678
+    },
+    "JobPerfTest.BusyWaitDisruptedWorkAtomicAssignment": {
+        "mem_uops_retired.all_loads": 2565545136,
+        "mem_uops_retired.all_stores": 1437338973
+    },
+    "JobPerfTest.NoOpWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 886147394,
+        "mem_uops_retired.all_stores": 585851402
+    },
+    "JobPerfTest.NoOpDisruptedWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 1002512664,
+        "mem_uops_retired.all_stores": 671639494
+    },
+    "JobPerfTest.BusyWaitWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 2689612047,
+        "mem_uops_retired.all_stores": 1499439405
+    },
+    "JobPerfTest.BusyWaitDisruptedWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 2523989251,
+        "mem_uops_retired.all_stores": 1414239453
+    },
+    "JobPerfTest.NoOpWorkLoopAround": {
+        "mem_uops_retired.all_loads": 1386483491,
+        "mem_uops_retired.all_stores": 925075782
+    },
+    "JobPerfTest.NoOpDisruptedWorkLoopAround": {
+        "mem_uops_retired.all_loads": 1022517624,
+        "mem_uops_retired.all_stores": 685520115
+    },
+    "JobPerfTest.BusyWaitWorkLoopAround": {
+        "mem_uops_retired.all_loads": 2683610335,
+        "mem_uops_retired.all_stores": 1496168930
+    },
+    "JobPerfTest.BusyWaitDisruptedWorkLoopAround": {
+        "mem_uops_retired.all_loads": 2655327128,
+        "mem_uops_retired.all_stores": 1486651828
+    },
+    "ThreadPoolPerfTest.BindPostThenRunNoOpTasks": {
+        "mem_uops_retired.all_loads": 55125036,
+        "mem_uops_retired.all_stores": 48008996
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasks": {
+        "mem_uops_retired.all_loads": 54325715,
+        "mem_uops_retired.all_stores": 47390208
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasksManyThreads": {
+        "mem_uops_retired.all_loads": 295272512,
+        "mem_uops_retired.all_stores": 237099067
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasksMorePostingThanRunningThreads": {
+        "mem_uops_retired.all_loads": 232189335,
+        "mem_uops_retired.all_stores": 198545373
+    },
+    "ThreadPoolPerfTest.PostRunNoOpTasks": {
+        "mem_uops_retired.all_loads": 28158625,
+        "mem_uops_retired.all_stores": 22068419
+    },
+    "ThreadPoolPerfTest.PostRunNoOpTasksManyThreads": {
+        "mem_uops_retired.all_loads": 290580156,
+        "mem_uops_retired.all_stores": 211061483
+    },
+    "ThreadPoolPerfTest.PostRunBusyTasksManyThreads": {
+        "mem_uops_retired.all_loads": 8622068127,
+        "mem_uops_retired.all_stores": 4859471599
+    },
+    "CounterPerfTest.Uint64_NoLock_1Thread": {
+        "mem_uops_retired.all_loads": 203105389,
+        "mem_uops_retired.all_stores": 102099943
+    },
+    "CounterPerfTest.Uint64_Lock_1Thread": {
+        "mem_uops_retired.all_loads": 2104313422,
+        "mem_uops_retired.all_stores": 1403063390
+    },
+    "CounterPerfTest.Uint64_Lock_4Threads": {
+        "mem_uops_retired.all_loads": 37587609450,
+        "mem_uops_retired.all_stores": 27038447256
+    },
+    "CounterPerfTest.AtomicUint64_NoBarrier_1Thread": {
+        "mem_uops_retired.all_loads": 203311458,
+        "mem_uops_retired.all_stores": 102220678
+    },
+    "CounterPerfTest.AtomicUint64_NoBarrier_4Threads": {
+        "mem_uops_retired.all_loads": 814924994,
+        "mem_uops_retired.all_stores": 409237813
+    },
+    "CounterPerfTest.AtomicUint64_Barrier_1Thread": {
+        "mem_uops_retired.all_loads": 203315890,
+        "mem_uops_retired.all_stores": 102223199
+    },
+    "CounterPerfTest.AtomicUint64_Barrier_4Threads": {
+        "mem_uops_retired.all_loads": 814991239,
+        "mem_uops_retired.all_stores": 410316160
+    },
+    "ThreadLocalStoragePerfTest.ThreadLocalStorage": {
+        "mem_uops_retired.all_loads": 2133753726,
+        "mem_uops_retired.all_stores": 752570924
+    },
+    "ThreadLocalStoragePerfTest.PlatformTls": {
+        "mem_uops_retired.all_loads": 1353680913,
+        "mem_uops_retired.all_stores": 572527928
+    },
+    "ThreadLocalStoragePerfTest.Cpp11Tls": {
+        "mem_uops_retired.all_loads": 93491517,
+        "mem_uops_retired.all_stores": 92422160
+    },
+    "JSONPerfTest.StressTest": {
+        "mem_uops_retired.all_loads": 4462155480,
+        "mem_uops_retired.all_stores": 3670069169
+    },
+    "LockPerfTest.Simple": {
+        "mem_uops_retired.all_loads": 1246510831,
+        "mem_uops_retired.all_stores": 844372590
+    },
+    "LockPerfTest.WithCompetingThread": {
+        "mem_uops_retired.all_loads": 876442637,
+        "mem_uops_retired.all_stores": 642453489
+    },
+    "WaitableEventPerfTest.SingleThread": {
+        "mem_uops_retired.all_loads": 3267194,
+        "mem_uops_retired.all_stores": 2228602
+    },
+    "WaitableEventPerfTest.MultipleThreads": {
+        "mem_uops_retired.all_loads": 8960326,
+        "mem_uops_retired.all_stores": 5877651
+    },
+    "WaitableEventPerfTest.Throughput": {
+        "mem_uops_retired.all_loads": 1082672435,
+        "mem_uops_retired.all_stores": 777150014
+    },
+    "TaskPerfTest.TaskPingPong": {
+        "mem_uops_retired.all_loads": 612721466,
+        "mem_uops_retired.all_stores": 459879909
+    },
+    "TaskObserverPerfTest.TaskPingPong": {
+        "mem_uops_retired.all_loads": 625469573,
+        "mem_uops_retired.all_stores": 462941216
+    },
+    "WaitableEventThreadPerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 290218270,
+        "mem_uops_retired.all_stores": 186170674
+    },
+    "ConditionVariablePerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 251638862,
+        "mem_uops_retired.all_stores": 156377217
+    },
+    "PthreadEventPerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 236393842,
+        "mem_uops_retired.all_stores": 144787560
+    },
+    "PartitionLockPerfTest.Simple": {
+        "mem_uops_retired.all_loads": 672387645,
+        "mem_uops_retired.all_stores": 448261756
+    },
+    "PartitionLockPerfTest.WithCompetingThreads": {
+        "mem_uops_retired.all_loads": 404807594,
+        "mem_uops_retired.all_stores": 272685348
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/0": {
+        "mem_uops_retired.all_loads": 2597625302,
+        "mem_uops_retired.all_stores": 2374540729
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/1": {
+        "mem_uops_retired.all_loads": 3034238952,
+        "mem_uops_retired.all_stores": 2725346330
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/2": {
+        "mem_uops_retired.all_loads": 2905088872,
+        "mem_uops_retired.all_stores": 2593626566
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/3": {
+        "mem_uops_retired.all_loads": 3088015,
+        "mem_uops_retired.all_stores": 2094194
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/4": {
+        "mem_uops_retired.all_loads": 2597687511,
+        "mem_uops_retired.all_stores": 2374570825
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2939578,
+        "mem_uops_retired.all_stores": 1989803
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/1": {
+        "mem_uops_retired.all_loads": 2948145278,
+        "mem_uops_retired.all_stores": 2634662065
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2944155,
+        "mem_uops_retired.all_stores": 1995315
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/3": {
+        "mem_uops_retired.all_loads": 3081161,
+        "mem_uops_retired.all_stores": 2090777
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2943794,
+        "mem_uops_retired.all_stores": 1991815
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2940789,
+        "mem_uops_retired.all_stores": 1990419
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/1": {
+        "mem_uops_retired.all_loads": 2990321839,
+        "mem_uops_retired.all_stores": 2671513362
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2944544,
+        "mem_uops_retired.all_stores": 1995034
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/3": {
+        "mem_uops_retired.all_loads": 3090720,
+        "mem_uops_retired.all_stores": 2094927
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2948461,
+        "mem_uops_retired.all_stores": 1994949
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2940193,
+        "mem_uops_retired.all_stores": 1989573
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/1": {
+        "mem_uops_retired.all_loads": 3057118591,
+        "mem_uops_retired.all_stores": 2693587921
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2961220,
+        "mem_uops_retired.all_stores": 2004533
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/3": {
+        "mem_uops_retired.all_loads": 3077363,
+        "mem_uops_retired.all_stores": 2088469
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2961143,
+        "mem_uops_retired.all_stores": 2001272
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/0": {
+        "mem_uops_retired.all_loads": 1339240230,
+        "mem_uops_retired.all_stores": 1188756852
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/1": {
+        "mem_uops_retired.all_loads": 1670457251,
+        "mem_uops_retired.all_stores": 1462885373
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/2": {
+        "mem_uops_retired.all_loads": 1591411635,
+        "mem_uops_retired.all_stores": 1372860943
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/3": {
+        "mem_uops_retired.all_loads": 1417360698,
+        "mem_uops_retired.all_stores": 1149829995
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/4": {
+        "mem_uops_retired.all_loads": 1339267849,
+        "mem_uops_retired.all_stores": 1188779133
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2938236,
+        "mem_uops_retired.all_stores": 1989207
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/1": {
+        "mem_uops_retired.all_loads": 1703468009,
+        "mem_uops_retired.all_stores": 1480489043
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2947702,
+        "mem_uops_retired.all_stores": 1996849
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/3": {
+        "mem_uops_retired.all_loads": 3097059,
+        "mem_uops_retired.all_stores": 2098120
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2943133,
+        "mem_uops_retired.all_stores": 1991755
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2941073,
+        "mem_uops_retired.all_stores": 1990735
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/1": {
+        "mem_uops_retired.all_loads": 1725676013,
+        "mem_uops_retired.all_stores": 1492137946
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2950907,
+        "mem_uops_retired.all_stores": 1998630
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/3": {
+        "mem_uops_retired.all_loads": 3083616,
+        "mem_uops_retired.all_stores": 2093436
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2941460,
+        "mem_uops_retired.all_stores": 1990169
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2933833,
+        "mem_uops_retired.all_stores": 1987362
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/1": {
+        "mem_uops_retired.all_loads": 1792819910,
+        "mem_uops_retired.all_stores": 1524153489
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2960338,
+        "mem_uops_retired.all_stores": 2002614
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/3": {
+        "mem_uops_retired.all_loads": 3100763,
+        "mem_uops_retired.all_stores": 2099436
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2938206,
+        "mem_uops_retired.all_stores": 1989524
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/0": {
+        "mem_uops_retired.all_loads": 1616502237,
+        "mem_uops_retired.all_stores": 1356192987
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/1": {
+        "mem_uops_retired.all_loads": 2296824806,
+        "mem_uops_retired.all_stores": 1842357218
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/2": {
+        "mem_uops_retired.all_loads": 2169450127,
+        "mem_uops_retired.all_stores": 1719360632
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/3": {
+        "mem_uops_retired.all_loads": 1729460745,
+        "mem_uops_retired.all_stores": 1331993778
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/4": {
+        "mem_uops_retired.all_loads": 1603557130,
+        "mem_uops_retired.all_stores": 1348357575
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2925518,
+        "mem_uops_retired.all_stores": 1982316
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/1": {
+        "mem_uops_retired.all_loads": 2366743180,
+        "mem_uops_retired.all_stores": 1882344308
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2957358,
+        "mem_uops_retired.all_stores": 2001864
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/3": {
+        "mem_uops_retired.all_loads": 3095889,
+        "mem_uops_retired.all_stores": 2098522
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2938024,
+        "mem_uops_retired.all_stores": 1988904
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2938416,
+        "mem_uops_retired.all_stores": 1988092
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/1": {
+        "mem_uops_retired.all_loads": 2401748065,
+        "mem_uops_retired.all_stores": 1898004265
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2956937,
+        "mem_uops_retired.all_stores": 2001464
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/3": {
+        "mem_uops_retired.all_loads": 3089776,
+        "mem_uops_retired.all_stores": 2094828
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2930636,
+        "mem_uops_retired.all_stores": 1984398
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2942146,
+        "mem_uops_retired.all_stores": 1990461
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/1": {
+        "mem_uops_retired.all_loads": 2537872525,
+        "mem_uops_retired.all_stores": 1976159586
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2957177,
+        "mem_uops_retired.all_stores": 2001369
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/3": {
+        "mem_uops_retired.all_loads": 3084186,
+        "mem_uops_retired.all_stores": 2092371
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2944949,
+        "mem_uops_retired.all_stores": 1992066
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/0": {
+        "mem_uops_retired.all_loads": 2506624331,
+        "mem_uops_retired.all_stores": 1768330235
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/1": {
+        "mem_uops_retired.all_loads": 2207394503,
+        "mem_uops_retired.all_stores": 1643460890
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/2": {
+        "mem_uops_retired.all_loads": 3012623925,
+        "mem_uops_retired.all_stores": 1865658988
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/3": {
+        "mem_uops_retired.all_loads": 2505875766,
+        "mem_uops_retired.all_stores": 1767823112
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/4": {
+        "mem_uops_retired.all_loads": 2207168475,
+        "mem_uops_retired.all_stores": 1643251052
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/5": {
+        "mem_uops_retired.all_loads": 2998924131,
+        "mem_uops_retired.all_stores": 1857161374
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/6": {
+        "mem_uops_retired.all_loads": 1990136485,
+        "mem_uops_retired.all_stores": 1372306540
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/7": {
+        "mem_uops_retired.all_loads": 2087293733,
+        "mem_uops_retired.all_stores": 1501728932
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/8": {
+        "mem_uops_retired.all_loads": 3100054701,
+        "mem_uops_retired.all_stores": 1908685236
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/9": {
+        "mem_uops_retired.all_loads": 2249733247,
+        "mem_uops_retired.all_stores": 1553062393
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/10": {
+        "mem_uops_retired.all_loads": 1731618416,
+        "mem_uops_retired.all_stores": 1247599355
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/11": {
+        "mem_uops_retired.all_loads": 3127051405,
+        "mem_uops_retired.all_stores": 1930190374
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/12": {
+        "mem_uops_retired.all_loads": 2155593090,
+        "mem_uops_retired.all_stores": 1490404451
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/13": {
+        "mem_uops_retired.all_loads": 2103316246,
+        "mem_uops_retired.all_stores": 1483690588
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/14": {
+        "mem_uops_retired.all_loads": 2990804400,
+        "mem_uops_retired.all_stores": 1821231349
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/15": {
+        "mem_uops_retired.all_loads": 2273108348,
+        "mem_uops_retired.all_stores": 1546051100
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/16": {
+        "mem_uops_retired.all_loads": 2100718958,
+        "mem_uops_retired.all_stores": 1473435403
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/17": {
+        "mem_uops_retired.all_loads": 3340304329,
+        "mem_uops_retired.all_stores": 2038640742
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/18": {
+        "mem_uops_retired.all_loads": 1826242382,
+        "mem_uops_retired.all_stores": 1256242988
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/19": {
+        "mem_uops_retired.all_loads": 2516959628,
+        "mem_uops_retired.all_stores": 1771012640
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/20": {
+        "mem_uops_retired.all_loads": 3141030902,
+        "mem_uops_retired.all_stores": 1928705593
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/21": {
+        "mem_uops_retired.all_loads": 2301269637,
+        "mem_uops_retired.all_stores": 1578043535
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/22": {
+        "mem_uops_retired.all_loads": 2627613496,
+        "mem_uops_retired.all_stores": 1846719874
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/23": {
+        "mem_uops_retired.all_loads": 2789855522,
+        "mem_uops_retired.all_stores": 1717271621
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/0": {
+        "mem_uops_retired.all_loads": 3178401837,
+        "mem_uops_retired.all_stores": 2093067121
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/1": {
+        "mem_uops_retired.all_loads": 2965632042,
+        "mem_uops_retired.all_stores": 2075776540
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/2": {
+        "mem_uops_retired.all_loads": 4902743244,
+        "mem_uops_retired.all_stores": 2855053549
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/3": {
+        "mem_uops_retired.all_loads": 3497946062,
+        "mem_uops_retired.all_stores": 2303521929
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/4": {
+        "mem_uops_retired.all_loads": 2965653842,
+        "mem_uops_retired.all_stores": 2075787685
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/5": {
+        "mem_uops_retired.all_loads": 4728980494,
+        "mem_uops_retired.all_stores": 2753880334
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/6": {
+        "mem_uops_retired.all_loads": 1479107662,
+        "mem_uops_retired.all_stores": 1019967412
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/7": {
+        "mem_uops_retired.all_loads": 1452200021,
+        "mem_uops_retired.all_stores": 1047737871
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/8": {
+        "mem_uops_retired.all_loads": 9731411208,
+        "mem_uops_retired.all_stores": 5666662583
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/9": {
+        "mem_uops_retired.all_loads": 1495339339,
+        "mem_uops_retired.all_stores": 1027607159
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/10": {
+        "mem_uops_retired.all_loads": 1486609113,
+        "mem_uops_retired.all_stores": 1072813071
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/11": {
+        "mem_uops_retired.all_loads": 9660167149,
+        "mem_uops_retired.all_stores": 5625176273
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/12": {
+        "mem_uops_retired.all_loads": 1331776495,
+        "mem_uops_retired.all_stores": 936900270
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/13": {
+        "mem_uops_retired.all_loads": 1363261135,
+        "mem_uops_retired.all_stores": 990615626
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/14": {
+        "mem_uops_retired.all_loads": 14536092561,
+        "mem_uops_retired.all_stores": 8340291897
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/15": {
+        "mem_uops_retired.all_loads": 1622902636,
+        "mem_uops_retired.all_stores": 1148060345
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/16": {
+        "mem_uops_retired.all_loads": 1170611667,
+        "mem_uops_retired.all_stores": 838302485
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/17": {
+        "mem_uops_retired.all_loads": 14314927916,
+        "mem_uops_retired.all_stores": 8335528250
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/18": {
+        "mem_uops_retired.all_loads": 1398938209,
+        "mem_uops_retired.all_stores": 949830201
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/19": {
+        "mem_uops_retired.all_loads": 1362677254,
+        "mem_uops_retired.all_stores": 951707424
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/20": {
+        "mem_uops_retired.all_loads": 19854514456,
+        "mem_uops_retired.all_stores": 11561050188
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/21": {
+        "mem_uops_retired.all_loads": 1219880737,
+        "mem_uops_retired.all_stores": 844656835
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/22": {
+        "mem_uops_retired.all_loads": 1479152254,
+        "mem_uops_retired.all_stores": 1037743988
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/23": {
+        "mem_uops_retired.all_loads": 19182898307,
+        "mem_uops_retired.all_stores": 11047397880
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/0": {
+        "mem_uops_retired.all_loads": 1446766207,
+        "mem_uops_retired.all_stores": 1070966281
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/1": {
+        "mem_uops_retired.all_loads": 1317255229,
+        "mem_uops_retired.all_stores": 1017516823
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/2": {
+        "mem_uops_retired.all_loads": 1497837185,
+        "mem_uops_retired.all_stores": 1009081852
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/3": {
+        "mem_uops_retired.all_loads": 1446119464,
+        "mem_uops_retired.all_stores": 1070490027
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/4": {
+        "mem_uops_retired.all_loads": 1316195710,
+        "mem_uops_retired.all_stores": 1016892555
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/5": {
+        "mem_uops_retired.all_loads": 1498042109,
+        "mem_uops_retired.all_stores": 1009224575
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/6": {
+        "mem_uops_retired.all_loads": 1624014134,
+        "mem_uops_retired.all_stores": 1136873577
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/7": {
+        "mem_uops_retired.all_loads": 1811854844,
+        "mem_uops_retired.all_stores": 1299484540
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/8": {
+        "mem_uops_retired.all_loads": 2587961897,
+        "mem_uops_retired.all_stores": 1673836733
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/9": {
+        "mem_uops_retired.all_loads": 1560435137,
+        "mem_uops_retired.all_stores": 1091548499
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/10": {
+        "mem_uops_retired.all_loads": 1564110404,
+        "mem_uops_retired.all_stores": 1131474525
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/11": {
+        "mem_uops_retired.all_loads": 1889194429,
+        "mem_uops_retired.all_stores": 1231307327
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/12": {
+        "mem_uops_retired.all_loads": 2607893157,
+        "mem_uops_retired.all_stores": 1810321556
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/13": {
+        "mem_uops_retired.all_loads": 1843643278,
+        "mem_uops_retired.all_stores": 1285191475
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/14": {
+        "mem_uops_retired.all_loads": 2849044754,
+        "mem_uops_retired.all_stores": 1834595301
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/15": {
+        "mem_uops_retired.all_loads": 1748506679,
+        "mem_uops_retired.all_stores": 1210648655
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/16": {
+        "mem_uops_retired.all_loads": 1672870081,
+        "mem_uops_retired.all_stores": 1182655057
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/17": {
+        "mem_uops_retired.all_loads": 1844026073,
+        "mem_uops_retired.all_stores": 1196068022
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/18": {
+        "mem_uops_retired.all_loads": 3475523508,
+        "mem_uops_retired.all_stores": 2387145927
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/19": {
+        "mem_uops_retired.all_loads": 3268666230,
+        "mem_uops_retired.all_stores": 2270425463
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/20": {
+        "mem_uops_retired.all_loads": 2952028877,
+        "mem_uops_retired.all_stores": 1903195678
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/21": {
+        "mem_uops_retired.all_loads": 2976980770,
+        "mem_uops_retired.all_stores": 2036813070
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/22": {
+        "mem_uops_retired.all_loads": 3306221650,
+        "mem_uops_retired.all_stores": 2305860888
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/23": {
+        "mem_uops_retired.all_loads": 2912167433,
+        "mem_uops_retired.all_stores": 1875369674
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/0": {
+        "mem_uops_retired.all_loads": 2968269619,
+        "mem_uops_retired.all_stores": 1950797219
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/1": {
+        "mem_uops_retired.all_loads": 2721687991,
+        "mem_uops_retired.all_stores": 1922732034
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/2": {
+        "mem_uops_retired.all_loads": 4600570809,
+        "mem_uops_retired.all_stores": 2674111015
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/3": {
+        "mem_uops_retired.all_loads": 3278881003,
+        "mem_uops_retired.all_stores": 2154914595
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/4": {
+        "mem_uops_retired.all_loads": 2721678612,
+        "mem_uops_retired.all_stores": 1922727785
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/5": {
+        "mem_uops_retired.all_loads": 4452759024,
+        "mem_uops_retired.all_stores": 2588207607
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/6": {
+        "mem_uops_retired.all_loads": 1482148026,
+        "mem_uops_retired.all_stores": 1032503970
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/7": {
+        "mem_uops_retired.all_loads": 1415595113,
+        "mem_uops_retired.all_stores": 1025847545
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/8": {
+        "mem_uops_retired.all_loads": 9371559776,
+        "mem_uops_retired.all_stores": 5406337100
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/9": {
+        "mem_uops_retired.all_loads": 1347830543,
+        "mem_uops_retired.all_stores": 924394775
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/10": {
+        "mem_uops_retired.all_loads": 1395387550,
+        "mem_uops_retired.all_stores": 1008766945
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/11": {
+        "mem_uops_retired.all_loads": 9075551413,
+        "mem_uops_retired.all_stores": 5235566258
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/12": {
+        "mem_uops_retired.all_loads": 2071160215,
+        "mem_uops_retired.all_stores": 1484544133
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/13": {
+        "mem_uops_retired.all_loads": 1837119387,
+        "mem_uops_retired.all_stores": 1365684111
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/14": {
+        "mem_uops_retired.all_loads": 13845198897,
+        "mem_uops_retired.all_stores": 7968307354
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/15": {
+        "mem_uops_retired.all_loads": 2101383885,
+        "mem_uops_retired.all_stores": 1515005377
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/16": {
+        "mem_uops_retired.all_loads": 1870676145,
+        "mem_uops_retired.all_stores": 1389178725
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/17": {
+        "mem_uops_retired.all_loads": 13252369158,
+        "mem_uops_retired.all_stores": 7626284005
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/18": {
+        "mem_uops_retired.all_loads": 2535969793,
+        "mem_uops_retired.all_stores": 1790923155
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/19": {
+        "mem_uops_retired.all_loads": 2083957428,
+        "mem_uops_retired.all_stores": 1518343142
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/20": {
+        "mem_uops_retired.all_loads": 18616583735,
+        "mem_uops_retired.all_stores": 10700744021
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/21": {
+        "mem_uops_retired.all_loads": 2552445170,
+        "mem_uops_retired.all_stores": 1794440689
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/22": {
+        "mem_uops_retired.all_loads": 2410196430,
+        "mem_uops_retired.all_stores": 1724931936
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/23": {
+        "mem_uops_retired.all_loads": 17726141908,
+        "mem_uops_retired.all_stores": 10188280305
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/0": {
+        "mem_uops_retired.all_loads": 2507270971,
+        "mem_uops_retired.all_stores": 1373665609
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/1": {
+        "mem_uops_retired.all_loads": 2504645816,
+        "mem_uops_retired.all_stores": 1372321679
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/2": {
+        "mem_uops_retired.all_loads": 2534471855,
+        "mem_uops_retired.all_stores": 1392496294
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/3": {
+        "mem_uops_retired.all_loads": 2502135139,
+        "mem_uops_retired.all_stores": 1368125483
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/4": {
+        "mem_uops_retired.all_loads": 2495125280,
+        "mem_uops_retired.all_stores": 1367067271
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/5": {
+        "mem_uops_retired.all_loads": 2534560783,
+        "mem_uops_retired.all_stores": 1387792262
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/6": {
+        "mem_uops_retired.all_loads": 4021408001,
+        "mem_uops_retired.all_stores": 1842838141
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/7": {
+        "mem_uops_retired.all_loads": 4028179709,
+        "mem_uops_retired.all_stores": 1829452714
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/8": {
+        "mem_uops_retired.all_loads": 4049114618,
+        "mem_uops_retired.all_stores": 1845503863
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/9": {
+        "mem_uops_retired.all_loads": 3995731484,
+        "mem_uops_retired.all_stores": 1832643642
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/10": {
+        "mem_uops_retired.all_loads": 4022931793,
+        "mem_uops_retired.all_stores": 1832983121
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/11": {
+        "mem_uops_retired.all_loads": 4002738578,
+        "mem_uops_retired.all_stores": 1825796013
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/12": {
+        "mem_uops_retired.all_loads": 7651795652,
+        "mem_uops_retired.all_stores": 2866093433
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/13": {
+        "mem_uops_retired.all_loads": 7763931337,
+        "mem_uops_retired.all_stores": 2847896433
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/14": {
+        "mem_uops_retired.all_loads": 7584303994,
+        "mem_uops_retired.all_stores": 2856956903
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/15": {
+        "mem_uops_retired.all_loads": 7683147734,
+        "mem_uops_retired.all_stores": 2877979741
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/16": {
+        "mem_uops_retired.all_loads": 7427608176,
+        "mem_uops_retired.all_stores": 2846147484
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/17": {
+        "mem_uops_retired.all_loads": 7444147552,
+        "mem_uops_retired.all_stores": 2855673019
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/18": {
+        "mem_uops_retired.all_loads": 12426587363,
+        "mem_uops_retired.all_stores": 3928430571
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/19": {
+        "mem_uops_retired.all_loads": 8080351105,
+        "mem_uops_retired.all_stores": 3896029822
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/20": {
+        "mem_uops_retired.all_loads": 8086267650,
+        "mem_uops_retired.all_stores": 3847353756
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/21": {
+        "mem_uops_retired.all_loads": 7926469045,
+        "mem_uops_retired.all_stores": 3866180331
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/22": {
+        "mem_uops_retired.all_loads": 7911065486,
+        "mem_uops_retired.all_stores": 3833944150
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/23": {
+        "mem_uops_retired.all_loads": 8966902907,
+        "mem_uops_retired.all_stores": 3964426418
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/0": {
+        "mem_uops_retired.all_loads": 2906127,
+        "mem_uops_retired.all_stores": 1966493
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/1": {
+        "mem_uops_retired.all_loads": 2894525,
+        "mem_uops_retired.all_stores": 1959924
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/2": {
+        "mem_uops_retired.all_loads": 2932617,
+        "mem_uops_retired.all_stores": 1980866
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/3": {
+        "mem_uops_retired.all_loads": 2912631,
+        "mem_uops_retired.all_stores": 1968577
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/4": {
+        "mem_uops_retired.all_loads": 2903095,
+        "mem_uops_retired.all_stores": 1964772
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/5": {
+        "mem_uops_retired.all_loads": 2908512,
+        "mem_uops_retired.all_stores": 1966528
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/6": {
+        "mem_uops_retired.all_loads": 2895955,
+        "mem_uops_retired.all_stores": 1960528
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/7": {
+        "mem_uops_retired.all_loads": 2898321,
+        "mem_uops_retired.all_stores": 1962357
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/8": {
+        "mem_uops_retired.all_loads": 2899947,
+        "mem_uops_retired.all_stores": 1962818
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/9": {
+        "mem_uops_retired.all_loads": 2907768,
+        "mem_uops_retired.all_stores": 1967459
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/10": {
+        "mem_uops_retired.all_loads": 2897772,
+        "mem_uops_retired.all_stores": 1962828
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/11": {
+        "mem_uops_retired.all_loads": 2920319,
+        "mem_uops_retired.all_stores": 1974241
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/12": {
+        "mem_uops_retired.all_loads": 2913729,
+        "mem_uops_retired.all_stores": 1970303
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/13": {
+        "mem_uops_retired.all_loads": 2910187,
+        "mem_uops_retired.all_stores": 1967748
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/14": {
+        "mem_uops_retired.all_loads": 2911948,
+        "mem_uops_retired.all_stores": 1968842
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/15": {
+        "mem_uops_retired.all_loads": 2899975,
+        "mem_uops_retired.all_stores": 1964554
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/16": {
+        "mem_uops_retired.all_loads": 2916071,
+        "mem_uops_retired.all_stores": 1971125
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/17": {
+        "mem_uops_retired.all_loads": 2911940,
+        "mem_uops_retired.all_stores": 1969406
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/18": {
+        "mem_uops_retired.all_loads": 2916843,
+        "mem_uops_retired.all_stores": 1972002
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/19": {
+        "mem_uops_retired.all_loads": 2913479,
+        "mem_uops_retired.all_stores": 1970850
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/20": {
+        "mem_uops_retired.all_loads": 2899156,
+        "mem_uops_retired.all_stores": 1962417
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/21": {
+        "mem_uops_retired.all_loads": 2900053,
+        "mem_uops_retired.all_stores": 1962469
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/22": {
+        "mem_uops_retired.all_loads": 2896567,
+        "mem_uops_retired.all_stores": 1961242
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/23": {
+        "mem_uops_retired.all_loads": 2909221,
+        "mem_uops_retired.all_stores": 1967352
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "MimeSnifferTest.PlainTextPerfTest": {
+        "mem_uops_retired.all_loads": 9003965811,
+        "mem_uops_retired.all_stores": 4070443
+    },
+    "ParsedCookieTest.TestParseCookies": {
+        "mem_uops_retired.all_loads": 30556615,
+        "mem_uops_retired.all_stores": 18619236
+    },
+    "ParsedCookieTest.TestParseBigCookies": {
+        "mem_uops_retired.all_loads": 342334223,
+        "mem_uops_retired.all_stores": 101574273
+    },
+    "CookieMonsterTest.TestAddCookiesOnSingleHost": {
+        "mem_uops_retired.all_loads": 4118778400,
+        "mem_uops_retired.all_stores": 2614055665
+    },
+    "CookieMonsterTest.TestAddCookieOnManyHosts": {
+        "mem_uops_retired.all_loads": 372955347,
+        "mem_uops_retired.all_stores": 250142320
+    },
+    "CookieMonsterTest.TestDomainTree": {
+        "mem_uops_retired.all_loads": 552041840,
+        "mem_uops_retired.all_stores": 309340657
+    },
+    "CookieMonsterTest.TestDomainLine": {
+        "mem_uops_retired.all_loads": 925121220,
+        "mem_uops_retired.all_stores": 593336492
+    },
+    "CookieMonsterTest.TestImport": {
+        "mem_uops_retired.all_loads": 49193846,
+        "mem_uops_retired.all_stores": 30400372
+    },
+    "CookieMonsterTest.TestGetKey": {
+        "mem_uops_retired.all_loads": 10979846,
+        "mem_uops_retired.all_stores": 4665561
+    },
+    "CookieMonsterTest.TestGCTimes": {
+        "mem_uops_retired.all_loads": 1106094845,
+        "mem_uops_retired.all_stores": 716789234
+    },
+    "DiskCachePerfTest.BlockfileHashes": {
+        "mem_uops_retired.all_loads": 1226677488,
+        "mem_uops_retired.all_stores": 631195768
+    },
+    "DiskCachePerfTest.CacheBackendPerformance": {
+        "mem_uops_retired.all_loads": 5503883616,
+        "mem_uops_retired.all_stores": 3913965932
+    },
+    "DiskCachePerfTest.SimpleCacheBackendPerformance": {
+        "mem_uops_retired.all_loads": 4496787472,
+        "mem_uops_retired.all_stores": 3156329671
+    },
+    "DiskCachePerfTest.BlockFilesPerformance": {
+        "mem_uops_retired.all_loads": 467668098,
+        "mem_uops_retired.all_stores": 236308104
+    },
+    "DiskCachePerfTest.SimpleCacheInitialReadPortion": {
+        "mem_uops_retired.all_loads": 1803066466,
+        "mem_uops_retired.all_stores": 1427716171
+    },
+    "SimpleIndexPerfTest.EvictionPerformance": {
+        "mem_uops_retired.all_loads": 73271471435,
+        "mem_uops_retired.all_stores": 55842070177
+    },
+    "SQLitePersistentCookieStorePerfTest.TestLoadForKeyPerformance": {
+        "mem_uops_retired.all_loads": 147226665,
+        "mem_uops_retired.all_stores": 88509142
+    },
+    "SQLitePersistentCookieStorePerfTest.TestLoadPerformance": {
+        "mem_uops_retired.all_loads": 211676413,
+        "mem_uops_retired.all_stores": 124325046
+    },
+    "SQLitePersistentCookieStorePerfTest.TestDeletePerformance": {
+        "mem_uops_retired.all_loads": 174876431,
+        "mem_uops_retired.all_stores": 110345250
+    },
+    "SQLitePersistentCookieStorePerfTest.TestUpdatePerformance": {
+        "mem_uops_retired.all_loads": 158433460,
+        "mem_uops_retired.all_stores": 98084505
+    },
+    "UDPSocketPerfTest.Write": {
+        "mem_uops_retired.all_loads": 208926940,
+        "mem_uops_retired.all_stores": 159982106
+    },
+    "UDPSocketPerfTest.WriteNonBlocking": {
+        "mem_uops_retired.all_loads": 203522508,
+        "mem_uops_retired.all_stores": 154879451
+    },
+    "URLRequestQuicPerfTest.TestGetRequest": {
+        "mem_uops_retired.all_loads": 10690017,
+        "mem_uops_retired.all_stores": 3312389
+    },
+    "WebSocketFrameTestMaskBenchmark.BenchmarkMaskShortPayload": {
+        "mem_uops_retired.all_loads": 5378569,
+        "mem_uops_retired.all_stores": 2929166
+    },
+    "WebSocketFrameTestMaskBenchmark.BenchmarkMaskLongPayload": {
+        "mem_uops_retired.all_loads": 412983092,
+        "mem_uops_retired.all_stores": 412065313
+    },
+    "WebSocketFrameTestMaskBenchmark.Benchmark31BytePayload": {
+        "mem_uops_retired.all_loads": 8778778,
+        "mem_uops_retired.all_stores": 4630137
+    }
+}

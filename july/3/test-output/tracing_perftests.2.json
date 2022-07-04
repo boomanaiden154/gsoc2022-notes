@@ -1,0 +1,30 @@
+{
+    "TraceEventPerfTest.Submit_10000_TRACE_EVENT0": {
+        "mem_uops_retired.all_loads": 207353776,
+        "mem_uops_retired.all_stores": 170660220
+    },
+    "TraceEventPerfTest.Long_TRACE_EVENT0": {
+        "mem_uops_retired.all_loads": 207348056,
+        "mem_uops_retired.all_stores": 170663478
+    },
+    "TraceEventPerfTest.Create_10000_TracedValue": {
+        "mem_uops_retired.all_loads": 37078400,
+        "mem_uops_retired.all_stores": 29766788
+    },
+    "TraceEventPerfTest.Submit_10000_TRACE_EVENT_with_TracedValue": {
+        "mem_uops_retired.all_loads": 1415208795,
+        "mem_uops_retired.all_stores": 1234818813
+    },
+    "TraceEventPerfTest.Submit_10000_TRACE_EVENT0_multithreaded": {
+        "mem_uops_retired.all_loads": 106589736,
+        "mem_uops_retired.all_stores": 92786528
+    },
+    "TraceEventPerfTest.DISABLED_Submit_10000_TRACE_EVENT0_in_traceable_tasks": {
+        "mem_uops_retired.all_loads": 1186881,
+        "mem_uops_retired.all_stores": 698742
+    },
+    "TraceEventPerfTest.Submit_10000_TRACE_EVENT0_with_tracing_disabled": {
+        "mem_uops_retired.all_loads": 1245045,
+        "mem_uops_retired.all_stores": 723899
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "AllocationPerfTest.Allocate10MTiny": {
+        "mem_uops_retired.all_loads": 325952489,
+        "mem_uops_retired.all_stores": 199774910
+    },
+    "AllocationPerfTest.Allocate10MLarge": {
+        "mem_uops_retired.all_loads": 6394293,
+        "mem_uops_retired.all_stores": 5126195
+    },
+    "WriteBarrierPerfTest.MemberWritePerformance": {
+        "mem_uops_retired.all_loads": 36430837,
+        "mem_uops_retired.all_stores": 21097389
+    }
+}

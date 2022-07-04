@@ -1,0 +1,230 @@
+{
+    "AnimationHostPerfTest.Push1000AnimationsPropertiesTo": {
+        "mem_uops_retired.all_loads": 7130431792,
+        "mem_uops_retired.all_stores": 3045842888
+    },
+    "AnimationHostPerfTest.Push10TimelinesPropertiesTo": {
+        "mem_uops_retired.all_loads": 8931517522,
+        "mem_uops_retired.all_stores": 4283042173
+    },
+    "AnimationHostPerfTest.Push1000TimelinesPropertiesTo": {
+        "mem_uops_retired.all_loads": 9395672545,
+        "mem_uops_retired.all_stores": 4470124015
+    },
+    "RTreePerfTest.Construct": {
+        "mem_uops_retired.all_loads": 10125588807,
+        "mem_uops_retired.all_stores": 6781441607
+    },
+    "RTreePerfTest.Search": {
+        "mem_uops_retired.all_loads": 22987995196,
+        "mem_uops_retired.all_stores": 7915413312
+    },
+    "LayerPerfTest.PushPropertiesTo": {
+        "mem_uops_retired.all_loads": 18148511810,
+        "mem_uops_retired.all_stores": 10650445573
+    },
+    "LayerPerfTest.ImplPushPropertiesTo": {
+        "mem_uops_retired.all_loads": 15757700513,
+        "mem_uops_retired.all_stores": 12012549084
+    },
+    "PictureLayerImplPerfTest.TilingSetRasterQueueConstructAndIterate": {
+        "mem_uops_retired.all_loads": 21044716,
+        "mem_uops_retired.all_stores": 10712385
+    },
+    "PictureLayerImplPerfTest.TilingSetRasterQueueConstruct": {
+        "mem_uops_retired.all_loads": 7227553211,
+        "mem_uops_retired.all_stores": 10149538834
+    },
+    "PictureLayerImplPerfTest.TilingSetEvictionQueueConstructAndIterate": {
+        "mem_uops_retired.all_loads": 906099032,
+        "mem_uops_retired.all_stores": 913093794
+    },
+    "PictureLayerImplPerfTest.TilingSetEvictionQueueConstruct": {
+        "mem_uops_retired.all_loads": 4079398372,
+        "mem_uops_retired.all_stores": 4230990815
+    },
+    "PaintOpPerfTest.SimpleOps": {
+        "mem_uops_retired.all_loads": 9223142565,
+        "mem_uops_retired.all_stores": 7786105230
+    },
+    "PaintOpPerfTest.DrawOps": {
+        "mem_uops_retired.all_loads": 8989111366,
+        "mem_uops_retired.all_stores": 7599738066
+    },
+    "PaintOpPerfTest.ManyFlagsOps": {
+        "mem_uops_retired.all_loads": 6863161221,
+        "mem_uops_retired.all_stores": 4931554157
+    },
+    "PaintOpPerfTest.TextOps": {
+        "mem_uops_retired.all_loads": 6246229107,
+        "mem_uops_retired.all_stores": 4270689784
+    },
+    "RasterBufferProviderCommonPerfTest.BuildTileTaskGraph": {
+        "mem_uops_retired.all_loads": 12035846957,
+        "mem_uops_retired.all_stores": 9222771680
+    },
+    "TaskGraphRunnerPerfTest.BuildTaskGraph": {
+        "mem_uops_retired.all_loads": 22140109033,
+        "mem_uops_retired.all_stores": 17419442536
+    },
+    "TaskGraphRunnerPerfTest.ScheduleTasks": {
+        "mem_uops_retired.all_loads": 27075122031,
+        "mem_uops_retired.all_stores": 18493398085
+    },
+    "TaskGraphRunnerPerfTest.ScheduleAlternateTasks": {
+        "mem_uops_retired.all_loads": 22602949954,
+        "mem_uops_retired.all_stores": 12848464989
+    },
+    "TaskGraphRunnerPerfTest.ScheduleAndExecuteTasks": {
+        "mem_uops_retired.all_loads": 21633095390,
+        "mem_uops_retired.all_stores": 14004150792
+    },
+    "SoftwareImageDecodeCachePerfTest.FromDrawImage": {
+        "mem_uops_retired.all_loads": 3901704820,
+        "mem_uops_retired.all_stores": 3065968794
+    },
+    "TileManagerPerfTest.DISABLED_PrepareTiles": {
+        "mem_uops_retired.all_loads": 3847138,
+        "mem_uops_retired.all_stores": 2193906
+    },
+    "TileManagerPerfTest.RasterTileQueueConstruct": {
+        "mem_uops_retired.all_loads": 7753617402,
+        "mem_uops_retired.all_stores": 8190035508
+    },
+    "TileManagerPerfTest.RasterTileQueueConstructAndIterate": {
+        "mem_uops_retired.all_loads": 38497497545,
+        "mem_uops_retired.all_stores": 27134112756
+    },
+    "TileManagerPerfTest.EvictionTileQueueConstruct": {
+        "mem_uops_retired.all_loads": 9374104860,
+        "mem_uops_retired.all_stores": 7311392818
+    },
+    "TileManagerPerfTest.EvictionTileQueueConstructAndIterate": {
+        "mem_uops_retired.all_loads": 42550046970,
+        "mem_uops_retired.all_stores": 29190730145
+    },
+    "CalcDrawPropsTest.TenTen": {
+        "mem_uops_retired.all_loads": 3896675708,
+        "mem_uops_retired.all_stores": 1784538472
+    },
+    "CalcDrawPropsTest.HeavyPage": {
+        "mem_uops_retired.all_loads": 4111973701,
+        "mem_uops_retired.all_stores": 2012181241
+    },
+    "CalcDrawPropsTest.TouchRegionLight": {
+        "mem_uops_retired.all_loads": 4163730853,
+        "mem_uops_retired.all_stores": 2146164673
+    },
+    "CalcDrawPropsTest.TouchRegionHeavy": {
+        "mem_uops_retired.all_loads": 4191470463,
+        "mem_uops_retired.all_stores": 1990508909
+    },
+    "LayerTreeHostPerfTestJsonReader.TenTenSingleThread": {
+        "mem_uops_retired.all_loads": 2277570006,
+        "mem_uops_retired.all_stores": 1433922185
+    },
+    "LayerTreeHostPerfTestJsonReader.TenTenThreaded": {
+        "mem_uops_retired.all_loads": 2192094682,
+        "mem_uops_retired.all_stores": 1369956384
+    },
+    "LayerTreeHostPerfTestJsonReader.TenTenSingleThread_FullDamageEachFrame": {
+        "mem_uops_retired.all_loads": 1883297267,
+        "mem_uops_retired.all_stores": 1312430755
+    },
+    "LayerTreeHostPerfTestJsonReader.TenTenThreaded_FullDamageEachFrame": {
+        "mem_uops_retired.all_loads": 1793850143,
+        "mem_uops_retired.all_stores": 1240672589
+    },
+    "LayerTreeHostPerfTestJsonReader.HeavyPageThreaded": {
+        "mem_uops_retired.all_loads": 22930029,
+        "mem_uops_retired.all_stores": 11907530
+    },
+    "LayerTreeHostPerfTestLeafInvalidates.TenTenSingleThread": {
+        "mem_uops_retired.all_loads": 2626808429,
+        "mem_uops_retired.all_stores": 1633846292
+    },
+    "LayerTreeHostPerfTestLeafInvalidates.TenTenThreaded": {
+        "mem_uops_retired.all_loads": 1398730681,
+        "mem_uops_retired.all_stores": 850004603
+    },
+    "ScrollingLayerTreePerfTest.LongScrollablePageSingleThread": {
+        "mem_uops_retired.all_loads": 1756090519,
+        "mem_uops_retired.all_stores": 1384226659
+    },
+    "ScrollingLayerTreePerfTest.LongScrollablePageThreaded": {
+        "mem_uops_retired.all_loads": 1822126032,
+        "mem_uops_retired.all_stores": 1427284990
+    },
+    "BrowserCompositorInvalidateLayerTreePerfTest.DenseBrowserUIThreaded": {
+        "mem_uops_retired.all_loads": 1660382414,
+        "mem_uops_retired.all_stores": 1149722670
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleTasks/0": {
+        "mem_uops_retired.all_loads": 29524816775,
+        "mem_uops_retired.all_stores": 20094294590
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleTasks/1": {
+        "mem_uops_retired.all_loads": 29991376724,
+        "mem_uops_retired.all_stores": 20426066456
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleTasks/2": {
+        "mem_uops_retired.all_loads": 29317774572,
+        "mem_uops_retired.all_stores": 19985963504
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleTasks/3": {
+        "mem_uops_retired.all_loads": 30107224238,
+        "mem_uops_retired.all_stores": 20565918177
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAlternateTasks/0": {
+        "mem_uops_retired.all_loads": 45037969536,
+        "mem_uops_retired.all_stores": 30633142142
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAlternateTasks/1": {
+        "mem_uops_retired.all_loads": 45864896430,
+        "mem_uops_retired.all_stores": 31254035269
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAlternateTasks/2": {
+        "mem_uops_retired.all_loads": 45748384974,
+        "mem_uops_retired.all_stores": 31159253133
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAlternateTasks/3": {
+        "mem_uops_retired.all_loads": 45939276313,
+        "mem_uops_retired.all_stores": 31314483132
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAndExecuteTasks/0": {
+        "mem_uops_retired.all_loads": 17791936276,
+        "mem_uops_retired.all_stores": 8674745503
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAndExecuteTasks/1": {
+        "mem_uops_retired.all_loads": 17865831871,
+        "mem_uops_retired.all_stores": 8731251145
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAndExecuteTasks/2": {
+        "mem_uops_retired.all_loads": 18022698699,
+        "mem_uops_retired.all_stores": 8834582624
+    },
+    "RasterBufferProviderPerfTests/RasterBufferProviderPerfTest.ScheduleAndExecuteTasks/3": {
+        "mem_uops_retired.all_loads": 17614822901,
+        "mem_uops_retired.all_stores": 8589456367
+    },
+    "P/GpuImageDecodeCachePerfTest.DecodeWithColorConversion/0": {
+        "mem_uops_retired.all_loads": 1285441081,
+        "mem_uops_retired.all_stores": 1871601097
+    },
+    "P/GpuImageDecodeCachePerfTest.DecodeWithColorConversion/1": {
+        "mem_uops_retired.all_loads": 728472884,
+        "mem_uops_retired.all_stores": 1324670959
+    },
+    "P/GpuImageDecodeCachePerfTest.AcquireExistingImages/0": {
+        "mem_uops_retired.all_loads": 2474303511,
+        "mem_uops_retired.all_stores": 1705592287
+    },
+    "P/GpuImageDecodeCachePerfTest.AcquireExistingImages/1": {
+        "mem_uops_retired.all_loads": 2447429538,
+        "mem_uops_retired.all_stores": 1579788388
+    },
+    "P/GpuImageDecodeCachePerfTestNoSw.DecodeWithMips/0": {
+        "mem_uops_retired.all_loads": 2468810631,
+        "mem_uops_retired.all_stores": 2164466464
+    }
+}

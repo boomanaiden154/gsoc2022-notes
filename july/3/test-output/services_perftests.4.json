@@ -1,0 +1,26 @@
+{
+    "PositionCacheImplPerfTest.Adding": {
+        "mem_uops_retired.all_loads": 199196420,
+        "mem_uops_retired.all_stores": 161501300
+    },
+    "PositionCacheImplPerfTest.Finding": {
+        "mem_uops_retired.all_loads": 204806954,
+        "mem_uops_retired.all_stores": 164979226
+    },
+    "VizSerializationPerfTest.DelegatedFrame_Complex": {
+        "mem_uops_retired.all_loads": 5655357277,
+        "mem_uops_retired.all_stores": 4317581388
+    },
+    "VizSerializationPerfTest.DelegatedFrame_ManyQuads_1_4000": {
+        "mem_uops_retired.all_loads": 10925409607,
+        "mem_uops_retired.all_stores": 8545538892
+    },
+    "VizSerializationPerfTest.DelegatedFrame_ManyRenderPasses_5_100": {
+        "mem_uops_retired.all_loads": 10661421336,
+        "mem_uops_retired.all_stores": 8320750365
+    },
+    "VizSerializationPerfTest.DelegatedFrame_ManyRenderPasses_10_500": {
+        "mem_uops_retired.all_loads": 10429269928,
+        "mem_uops_retired.all_stores": 8154406475
+    }
+}

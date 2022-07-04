@@ -1,0 +1,286 @@
+{
+    "DrawQuadPerfTest.IterateResources": {
+        "mem_uops_retired.all_loads": 11586300511,
+        "mem_uops_retired.all_stores": 4323396119
+    },
+    "BspTreePerfTest.LayerSorterCubes": {
+        "mem_uops_retired.all_loads": 4817039408,
+        "mem_uops_retired.all_stores": 3777195728
+    },
+    "BspTreePerfTest.LayerSorterRubik": {
+        "mem_uops_retired.all_loads": 4537029360,
+        "mem_uops_retired.all_stores": 3557732331
+    },
+    "BspTreePerfTest.BspTreeCubes": {
+        "mem_uops_retired.all_loads": 4849633622,
+        "mem_uops_retired.all_stores": 3802827235
+    },
+    "BspTreePerfTest.BspTreeRubik": {
+        "mem_uops_retired.all_loads": 4522601411,
+        "mem_uops_retired.all_stores": 3546190888
+    },
+    "BspTreePerfTest.BspTreeCubes_2": {
+        "mem_uops_retired.all_loads": 4719704044,
+        "mem_uops_retired.all_stores": 3700741031
+    },
+    "BspTreePerfTest.BspTreeCubes_4": {
+        "mem_uops_retired.all_loads": 4260183736,
+        "mem_uops_retired.all_stores": 3339545916
+    },
+    "RemoveOverdrawQuadPerfTest.IterateOverlapShareQuadStates": {
+        "mem_uops_retired.all_loads": 34652720468,
+        "mem_uops_retired.all_stores": 15690353669
+    },
+    "RemoveOverdrawQuadPerfTest.IterateIsolatedSharedQuadStates": {
+        "mem_uops_retired.all_loads": 34507773001,
+        "mem_uops_retired.all_stores": 15629787325
+    },
+    "RemoveOverdrawQuadPerfTest.IteratePartiallyOverlapSharedQuadStates": {
+        "mem_uops_retired.all_loads": 34389458618,
+        "mem_uops_retired.all_stores": 16528481583
+    },
+    "RemoveOverdrawQuadPerfTest.IterateAdjacentSharedQuadStates": {
+        "mem_uops_retired.all_loads": 34689987636,
+        "mem_uops_retired.all_stores": 15707063664
+    },
+    "RendererPerfTest.SingleTextureQuad": {
+        "mem_uops_retired.all_loads": 780176494745,
+        "mem_uops_retired.all_stores": 173997787035
+    },
+    "RendererPerfTest.TextureQuads5x5": {
+        "mem_uops_retired.all_loads": 470303244385,
+        "mem_uops_retired.all_stores": 107710212592
+    },
+    "RendererPerfTest.TextureQuads5x5SameTex": {
+        "mem_uops_retired.all_loads": 722765930846,
+        "mem_uops_retired.all_stores": 161768084031
+    },
+    "RendererPerfTest.RotatedTileQuadsShared": {
+        "mem_uops_retired.all_loads": 1148311410598,
+        "mem_uops_retired.all_stores": 265082196015
+    },
+    "RendererPerfTest.RotatedTileQuads": {
+        "mem_uops_retired.all_loads": 408993992099,
+        "mem_uops_retired.all_stores": 98752240029
+    },
+    "RendererPerfTest.accu_weather": {
+        "mem_uops_retired.all_loads": 24504153,
+        "mem_uops_retired.all_stores": 12902630
+    },
+    "RendererPerfTest.amazon": {
+        "mem_uops_retired.all_loads": 24369625,
+        "mem_uops_retired.all_stores": 12861599
+    },
+    "RendererPerfTest.blogspot": {
+        "mem_uops_retired.all_loads": 24251347,
+        "mem_uops_retired.all_stores": 12769710
+    },
+    "RendererPerfTest.ebay": {
+        "mem_uops_retired.all_loads": 25720940,
+        "mem_uops_retired.all_stores": 13857915
+    },
+    "RendererPerfTest.espn": {
+        "mem_uops_retired.all_loads": 395898341278,
+        "mem_uops_retired.all_stores": 95473587412
+    },
+    "RendererPerfTest.facebook": {
+        "mem_uops_retired.all_loads": 24378785,
+        "mem_uops_retired.all_stores": 12946944
+    },
+    "RendererPerfTest.gmail": {
+        "mem_uops_retired.all_loads": 24772248,
+        "mem_uops_retired.all_stores": 13286967
+    },
+    "RendererPerfTest.google_calendar": {
+        "mem_uops_retired.all_loads": 23973388,
+        "mem_uops_retired.all_stores": 12704471
+    },
+    "RendererPerfTest.google_docs": {
+        "mem_uops_retired.all_loads": 23998720,
+        "mem_uops_retired.all_stores": 12700730
+    },
+    "RendererPerfTest.google_image_search": {
+        "mem_uops_retired.all_loads": 24015722,
+        "mem_uops_retired.all_stores": 12731649
+    },
+    "RendererPerfTest.google_plus": {
+        "mem_uops_retired.all_loads": 24388586,
+        "mem_uops_retired.all_stores": 12992742
+    },
+    "RendererPerfTest.google_web_search": {
+        "mem_uops_retired.all_loads": 24157397,
+        "mem_uops_retired.all_stores": 12822051
+    },
+    "RendererPerfTest.linkedin": {
+        "mem_uops_retired.all_loads": 24358971,
+        "mem_uops_retired.all_stores": 12976896
+    },
+    "RendererPerfTest.pinterest": {
+        "mem_uops_retired.all_loads": 24140664,
+        "mem_uops_retired.all_stores": 12778979
+    },
+    "RendererPerfTest.techcrunch": {
+        "mem_uops_retired.all_loads": 24248814,
+        "mem_uops_retired.all_stores": 12882590
+    },
+    "RendererPerfTest.twitch": {
+        "mem_uops_retired.all_loads": 26131059,
+        "mem_uops_retired.all_stores": 14297382
+    },
+    "RendererPerfTest.wikipedia": {
+        "mem_uops_retired.all_loads": 24028339,
+        "mem_uops_retired.all_stores": 12726299
+    },
+    "RendererPerfTest.wordpress": {
+        "mem_uops_retired.all_loads": 24425032,
+        "mem_uops_retired.all_stores": 12835164
+    },
+    "RendererPerfTest.yahoo_answers": {
+        "mem_uops_retired.all_loads": 24158743,
+        "mem_uops_retired.all_stores": 12834092
+    },
+    "RendererPerfTest.yahoo_sports": {
+        "mem_uops_retired.all_loads": 25646181,
+        "mem_uops_retired.all_stores": 13931791
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesOpaque": {
+        "mem_uops_retired.all_loads": 5566731029,
+        "mem_uops_retired.all_stores": 4155986003
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesOpaque_100": {
+        "mem_uops_retired.all_loads": 4457832578,
+        "mem_uops_retired.all_stores": 3261969308
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesOpaque_300": {
+        "mem_uops_retired.all_loads": 4646078571,
+        "mem_uops_retired.all_stores": 3826824873
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesManyQuadsOpaque_100": {
+        "mem_uops_retired.all_loads": 5115327696,
+        "mem_uops_retired.all_stores": 3575134365
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesManyQuadsOpaque_300": {
+        "mem_uops_retired.all_loads": 5260778862,
+        "mem_uops_retired.all_stores": 3935727924
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesTransparent": {
+        "mem_uops_retired.all_loads": 4542084387,
+        "mem_uops_retired.all_stores": 3451448066
+    },
+    "SurfaceAggregatorPerfTest.FewSurfaces": {
+        "mem_uops_retired.all_loads": 4513531923,
+        "mem_uops_retired.all_stores": 3345758332
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesOpaqueDamageCalc": {
+        "mem_uops_retired.all_loads": 5733083377,
+        "mem_uops_retired.all_stores": 4144600100
+    },
+    "SurfaceAggregatorPerfTest.ManySurfacesTransparentDamageCalc": {
+        "mem_uops_retired.all_loads": 4849194619,
+        "mem_uops_retired.all_stores": 3580748875
+    },
+    "SurfaceAggregatorPerfTest.FewSurfacesDamageCalc": {
+        "mem_uops_retired.all_loads": 6209735795,
+        "mem_uops_retired.all_stores": 4538991608
+    },
+    "SurfaceAggregatorPerfTest.FewSurfacesAggregateDamaged": {
+        "mem_uops_retired.all_loads": 6245265568,
+        "mem_uops_retired.all_stores": 4259839956
+    },
+    "SurfaceAggregatorPerfTest.accu_weather_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21731213,
+        "mem_uops_retired.all_stores": 11269182
+    },
+    "SurfaceAggregatorPerfTest.amazon_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21616477,
+        "mem_uops_retired.all_stores": 11206374
+    },
+    "SurfaceAggregatorPerfTest.blogspot_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21596962,
+        "mem_uops_retired.all_stores": 11166674
+    },
+    "SurfaceAggregatorPerfTest.ebay_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 23007651,
+        "mem_uops_retired.all_stores": 12243549
+    },
+    "SurfaceAggregatorPerfTest.espn_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 3945665988,
+        "mem_uops_retired.all_stores": 3091043727
+    },
+    "SurfaceAggregatorPerfTest.facebook_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21951178,
+        "mem_uops_retired.all_stores": 11291258
+    },
+    "SurfaceAggregatorPerfTest.gmail_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 22351219,
+        "mem_uops_retired.all_stores": 11734428
+    },
+    "SurfaceAggregatorPerfTest.google_calendar_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21546266,
+        "mem_uops_retired.all_stores": 11157656
+    },
+    "SurfaceAggregatorPerfTest.google_docs_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21585007,
+        "mem_uops_retired.all_stores": 11152685
+    },
+    "SurfaceAggregatorPerfTest.google_image_search_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21589738,
+        "mem_uops_retired.all_stores": 11181682
+    },
+    "SurfaceAggregatorPerfTest.google_plus_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21757819,
+        "mem_uops_retired.all_stores": 11305469
+    },
+    "SurfaceAggregatorPerfTest.google_web_search_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21586503,
+        "mem_uops_retired.all_stores": 11178116
+    },
+    "SurfaceAggregatorPerfTest.linkedin_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21835252,
+        "mem_uops_retired.all_stores": 11373183
+    },
+    "SurfaceAggregatorPerfTest.pinterest_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21629982,
+        "mem_uops_retired.all_stores": 11209904
+    },
+    "SurfaceAggregatorPerfTest.techcrunch_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21675938,
+        "mem_uops_retired.all_stores": 11256461
+    },
+    "SurfaceAggregatorPerfTest.twitch_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 23545767,
+        "mem_uops_retired.all_stores": 12676986
+    },
+    "SurfaceAggregatorPerfTest.wikipedia_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21667972,
+        "mem_uops_retired.all_stores": 11170458
+    },
+    "SurfaceAggregatorPerfTest.wordpress_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21609538,
+        "mem_uops_retired.all_stores": 11189633
+    },
+    "SurfaceAggregatorPerfTest.yahoo_answers_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 21735845,
+        "mem_uops_retired.all_stores": 11270648
+    },
+    "SurfaceAggregatorPerfTest.yahoo_sports_SingleSurfaceTest": {
+        "mem_uops_retired.all_loads": 23131997,
+        "mem_uops_retired.all_stores": 12324746
+    },
+    "SurfaceAggregatorPerfTest.youtube_single_frame_MultiSurfaceTest": {
+        "mem_uops_retired.all_loads": 20714887,
+        "mem_uops_retired.all_stores": 10490617
+    },
+    "SurfaceAggregatorPerfTest.youtube_5_frames_MultiSurfaceTest": {
+        "mem_uops_retired.all_loads": 20670921,
+        "mem_uops_retired.all_stores": 10466806
+    },
+    "SurfaceAggregatorPerfTest.amazon_mobile_2018_MultiSurfaceTest": {
+        "mem_uops_retired.all_loads": 20786731,
+        "mem_uops_retired.all_stores": 10515771
+    },
+    "SurfaceAggregatorPerfTest.youtube_mobile_2018_MultiSurfaceTest": {
+        "mem_uops_retired.all_loads": 20920417,
+        "mem_uops_retired.all_stores": 10586458
+    }
+}

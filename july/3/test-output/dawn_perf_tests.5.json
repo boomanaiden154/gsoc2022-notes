@@ -1,0 +1,514 @@
+{
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_WriteBuffer_BufferSize_1KB": {
+        "mem_uops_retired.all_loads": 76238244,
+        "mem_uops_retired.all_stores": 43649945
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_WriteBuffer_BufferSize_64KB": {
+        "mem_uops_retired.all_loads": 76281630,
+        "mem_uops_retired.all_stores": 43685889
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_WriteBuffer_BufferSize_1MB": {
+        "mem_uops_retired.all_loads": 76598481,
+        "mem_uops_retired.all_stores": 43987826
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_WriteBuffer_BufferSize_4MB": {
+        "mem_uops_retired.all_loads": 76940409,
+        "mem_uops_retired.all_stores": 44771817
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_WriteBuffer_BufferSize_16MB": {
+        "mem_uops_retired.all_loads": 76951671,
+        "mem_uops_retired.all_stores": 47181224
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MappedAtCreation_BufferSize_1KB": {
+        "mem_uops_retired.all_loads": 76557874,
+        "mem_uops_retired.all_stores": 43694711
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MappedAtCreation_BufferSize_64KB": {
+        "mem_uops_retired.all_loads": 76284177,
+        "mem_uops_retired.all_stores": 43681088
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MappedAtCreation_BufferSize_1MB": {
+        "mem_uops_retired.all_loads": 76475034,
+        "mem_uops_retired.all_stores": 43919843
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MappedAtCreation_BufferSize_4MB": {
+        "mem_uops_retired.all_loads": 76910333,
+        "mem_uops_retired.all_stores": 44759727
+    },
+    "BufferUploadPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MappedAtCreation_BufferSize_16MB": {
+        "mem_uops_retired.all_loads": 76961949,
+        "mem_uops_retired.all_stores": 47190068
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_WriteBuffer_BufferSize_1KB": {
+        "mem_uops_retired.all_loads": 74825894,
+        "mem_uops_retired.all_stores": 45178867
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_WriteBuffer_BufferSize_64KB": {
+        "mem_uops_retired.all_loads": 74909932,
+        "mem_uops_retired.all_stores": 45223392
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_WriteBuffer_BufferSize_1MB": {
+        "mem_uops_retired.all_loads": 75135672,
+        "mem_uops_retired.all_stores": 45476267
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_WriteBuffer_BufferSize_4MB": {
+        "mem_uops_retired.all_loads": 75510717,
+        "mem_uops_retired.all_stores": 46217432
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_WriteBuffer_BufferSize_16MB": {
+        "mem_uops_retired.all_loads": 75699725,
+        "mem_uops_retired.all_stores": 48740646
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_MappedAtCreation_BufferSize_1KB": {
+        "mem_uops_retired.all_loads": 74958588,
+        "mem_uops_retired.all_stores": 45253014
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_MappedAtCreation_BufferSize_64KB": {
+        "mem_uops_retired.all_loads": 74936043,
+        "mem_uops_retired.all_stores": 45235000
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_MappedAtCreation_BufferSize_1MB": {
+        "mem_uops_retired.all_loads": 75170730,
+        "mem_uops_retired.all_stores": 45506712
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_MappedAtCreation_BufferSize_4MB": {
+        "mem_uops_retired.all_loads": 75414317,
+        "mem_uops_retired.all_stores": 46168338
+    },
+    "BufferUploadPerf.Run/Vulkan_SwiftShader_Device_Subzero_MappedAtCreation_BufferSize_16MB": {
+        "mem_uops_retired.all_loads": 75576710,
+        "mem_uops_retired.all_stores": 48679172
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits": {
+        "mem_uops_retired.all_loads": 78693772,
+        "mem_uops_retired.all_stores": 45407293
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MultipleVertexBuffers": {
+        "mem_uops_retired.all_loads": 84831989,
+        "mem_uops_retired.all_stores": 50482179
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicVertexBuffer": {
+        "mem_uops_retired.all_loads": 78601550,
+        "mem_uops_retired.all_stores": 45390002
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 87987963,
+        "mem_uops_retired.all_stores": 53509315
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 78801433,
+        "mem_uops_retired.all_stores": 45523156
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_NoReuseBindGroups": {
+        "mem_uops_retired.all_loads": 84510333,
+        "mem_uops_retired.all_stores": 50025951
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_RedundantPipeline_RedundantBindGroups": {
+        "mem_uops_retired.all_loads": 78633599,
+        "mem_uops_retired.all_stores": 45380392
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicPipeline_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 90146880,
+        "mem_uops_retired.all_stores": 54936307
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicPipeline_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 80978026,
+        "mem_uops_retired.all_stores": 47097545
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MultipleVertexBuffers_RenderBundle": {
+        "mem_uops_retired.all_loads": 86011046,
+        "mem_uops_retired.all_stores": 51258115
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicVertexBuffer_RenderBundle": {
+        "mem_uops_retired.all_loads": 79713241,
+        "mem_uops_retired.all_stores": 46078150
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 89230826,
+        "mem_uops_retired.all_stores": 54504969
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 80120656,
+        "mem_uops_retired.all_stores": 46435960
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicPipeline_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 91634425,
+        "mem_uops_retired.all_stores": 56301723
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicPipeline_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 82476959,
+        "mem_uops_retired.all_stores": 48354990
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MultipleBindGroups_DynamicData": {
+        "mem_uops_retired.all_loads": 87839565,
+        "mem_uops_retired.all_stores": 53428636
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_DynamicBindGroup_DynamicData": {
+        "mem_uops_retired.all_loads": 79042960,
+        "mem_uops_retired.all_stores": 45527173
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero": {
+        "mem_uops_retired.all_loads": 78405736,
+        "mem_uops_retired.all_stores": 47680286
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_MultipleVertexBuffers": {
+        "mem_uops_retired.all_loads": 86099076,
+        "mem_uops_retired.all_stores": 54089584
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicVertexBuffer": {
+        "mem_uops_retired.all_loads": 78364302,
+        "mem_uops_retired.all_stores": 47695746
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 89643313,
+        "mem_uops_retired.all_stores": 57325401
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 78639184,
+        "mem_uops_retired.all_stores": 47858897
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_NoReuseBindGroups": {
+        "mem_uops_retired.all_loads": 85797106,
+        "mem_uops_retired.all_stores": 53770801
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_RedundantPipeline_RedundantBindGroups": {
+        "mem_uops_retired.all_loads": 78371469,
+        "mem_uops_retired.all_stores": 47660668
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicPipeline_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 93199275,
+        "mem_uops_retired.all_stores": 60331551
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicPipeline_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 82128670,
+        "mem_uops_retired.all_stores": 50351360
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_MultipleVertexBuffers_RenderBundle": {
+        "mem_uops_retired.all_loads": 86975989,
+        "mem_uops_retired.all_stores": 54820486
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicVertexBuffer_RenderBundle": {
+        "mem_uops_retired.all_loads": 79035169,
+        "mem_uops_retired.all_stores": 48287648
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 90762977,
+        "mem_uops_retired.all_stores": 58262104
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 79549885,
+        "mem_uops_retired.all_stores": 48677426
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicPipeline_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 94714982,
+        "mem_uops_retired.all_stores": 61079458
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicPipeline_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 83678855,
+        "mem_uops_retired.all_stores": 51617596
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_MultipleBindGroups_DynamicData": {
+        "mem_uops_retired.all_loads": 89860073,
+        "mem_uops_retired.all_stores": 57964819
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_DynamicBindGroup_DynamicData": {
+        "mem_uops_retired.all_loads": 78564031,
+        "mem_uops_retired.all_stores": 47823359
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation": {
+        "mem_uops_retired.all_loads": 78601374,
+        "mem_uops_retired.all_stores": 45361409
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_MultipleVertexBuffers": {
+        "mem_uops_retired.all_loads": 84792186,
+        "mem_uops_retired.all_stores": 50450651
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicVertexBuffer": {
+        "mem_uops_retired.all_loads": 78674710,
+        "mem_uops_retired.all_stores": 45433940
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 87594948,
+        "mem_uops_retired.all_stores": 53258887
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 78733716,
+        "mem_uops_retired.all_stores": 45479498
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_NoReuseBindGroups": {
+        "mem_uops_retired.all_loads": 84351321,
+        "mem_uops_retired.all_stores": 50064992
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_RedundantPipeline_RedundantBindGroups": {
+        "mem_uops_retired.all_loads": 78691352,
+        "mem_uops_retired.all_stores": 45418249
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicPipeline_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 89750833,
+        "mem_uops_retired.all_stores": 54804566
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicPipeline_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 81017448,
+        "mem_uops_retired.all_stores": 47119140
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_MultipleVertexBuffers_RenderBundle": {
+        "mem_uops_retired.all_loads": 85341600,
+        "mem_uops_retired.all_stores": 50886476
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicVertexBuffer_RenderBundle": {
+        "mem_uops_retired.all_loads": 79136642,
+        "mem_uops_retired.all_stores": 45819907
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 88456034,
+        "mem_uops_retired.all_stores": 53891275
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 79351494,
+        "mem_uops_retired.all_stores": 45968975
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicPipeline_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 90853896,
+        "mem_uops_retired.all_stores": 55662838
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicPipeline_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 81784323,
+        "mem_uops_retired.all_stores": 47770459
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_MultipleBindGroups_DynamicData": {
+        "mem_uops_retired.all_loads": 87665575,
+        "mem_uops_retired.all_stores": 53292413
+    },
+    "DrawCallPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_skip_validation_DynamicBindGroup_DynamicData": {
+        "mem_uops_retired.all_loads": 78762339,
+        "mem_uops_retired.all_stores": 45500290
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation": {
+        "mem_uops_retired.all_loads": 78322569,
+        "mem_uops_retired.all_stores": 47641898
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_MultipleVertexBuffers": {
+        "mem_uops_retired.all_loads": 86077921,
+        "mem_uops_retired.all_stores": 54063442
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicVertexBuffer": {
+        "mem_uops_retired.all_loads": 78366740,
+        "mem_uops_retired.all_stores": 47686602
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 89590542,
+        "mem_uops_retired.all_stores": 57770464
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 78481027,
+        "mem_uops_retired.all_stores": 47765650
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_NoReuseBindGroups": {
+        "mem_uops_retired.all_loads": 85985840,
+        "mem_uops_retired.all_stores": 53845617
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_RedundantPipeline_RedundantBindGroups": {
+        "mem_uops_retired.all_loads": 78463794,
+        "mem_uops_retired.all_stores": 47715026
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicPipeline_MultipleBindGroups": {
+        "mem_uops_retired.all_loads": 92880800,
+        "mem_uops_retired.all_stores": 59609333
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicPipeline_DynamicBindGroup": {
+        "mem_uops_retired.all_loads": 82220108,
+        "mem_uops_retired.all_stores": 50399214
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_MultipleVertexBuffers_RenderBundle": {
+        "mem_uops_retired.all_loads": 86672606,
+        "mem_uops_retired.all_stores": 54527327
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicVertexBuffer_RenderBundle": {
+        "mem_uops_retired.all_loads": 78867092,
+        "mem_uops_retired.all_stores": 48094443
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 90147035,
+        "mem_uops_retired.all_stores": 57715667
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 79136673,
+        "mem_uops_retired.all_stores": 48297484
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicPipeline_MultipleBindGroups_RenderBundle": {
+        "mem_uops_retired.all_loads": 93946250,
+        "mem_uops_retired.all_stores": 60428076
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicPipeline_DynamicBindGroup_RenderBundle": {
+        "mem_uops_retired.all_loads": 82903464,
+        "mem_uops_retired.all_stores": 51019460
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_MultipleBindGroups_DynamicData": {
+        "mem_uops_retired.all_loads": 89447404,
+        "mem_uops_retired.all_stores": 57166781
+    },
+    "DrawCallPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_skip_validation_DynamicBindGroup_DynamicData": {
+        "mem_uops_retired.all_loads": 78607658,
+        "mem_uops_retired.all_stores": 47842622
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MatMulMethod_MatMulFloatOneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 100117239,
+        "mem_uops_retired.all_stores": 60632084
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MatMulMethod_MatMulFloatTwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 99735972,
+        "mem_uops_retired.all_stores": 60471165
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MatMulMethod_MatMulVec4OneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 102992441,
+        "mem_uops_retired.all_stores": 62733078
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_MatMulMethod_MatMulVec4TwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 101577698,
+        "mem_uops_retired.all_stores": 61832708
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_MatMulMethod_MatMulFloatOneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 695569868,
+        "mem_uops_retired.all_stores": 368070231
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_MatMulMethod_MatMulFloatTwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 703070581,
+        "mem_uops_retired.all_stores": 371130894
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_MatMulMethod_MatMulVec4OneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 747320887,
+        "mem_uops_retired.all_stores": 394544940
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_MatMulMethod_MatMulVec4TwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 746042105,
+        "mem_uops_retired.all_stores": 393550049
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_disable_robustness_MatMulMethod_MatMulFloatOneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 97251648,
+        "mem_uops_retired.all_stores": 58725852
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_disable_robustness_MatMulMethod_MatMulFloatTwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 96622918,
+        "mem_uops_retired.all_stores": 58287712
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_disable_robustness_MatMulMethod_MatMulVec4OneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 99537301,
+        "mem_uops_retired.all_stores": 60325955
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_e_disable_robustness_MatMulMethod_MatMulVec4TwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 97620113,
+        "mem_uops_retired.all_stores": 59053205
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_disable_robustness_MatMulMethod_MatMulFloatOneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 688959793,
+        "mem_uops_retired.all_stores": 364113695
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_disable_robustness_MatMulMethod_MatMulFloatTwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 695931419,
+        "mem_uops_retired.all_stores": 367059024
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_disable_robustness_MatMulMethod_MatMulVec4OneDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 738266873,
+        "mem_uops_retired.all_stores": 389194790
+    },
+    "ShaderRobustnessPerf.Run/Vulkan_SwiftShader_Device_Subzero_e_disable_robustness_MatMulMethod_MatMulVec4TwoDimSharedArray_DimAOuter_512_DimInner_512_DimBOuter_512": {
+        "mem_uops_retired.all_loads": 735986429,
+        "mem_uops_retired.all_stores": 388180691
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_1_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78376191,
+        "mem_uops_retired.all_stores": 45153434
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_1_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78370138,
+        "mem_uops_retired.all_stores": 45162936
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_1_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78562854,
+        "mem_uops_retired.all_stores": 45281189
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_4_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78578585,
+        "mem_uops_retired.all_stores": 45798370
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_4_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78407048,
+        "mem_uops_retired.all_stores": 45175727
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_4_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78484471,
+        "mem_uops_retired.all_stores": 45227885
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_16_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78437943,
+        "mem_uops_retired.all_stores": 45202779
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_16_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78379007,
+        "mem_uops_retired.all_stores": 45176382
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_16_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78415512,
+        "mem_uops_retired.all_stores": 45168209
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_256_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78687957,
+        "mem_uops_retired.all_stores": 45866317
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_256_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78332283,
+        "mem_uops_retired.all_stores": 45132297
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_llvmpipe_LLVM_12_0_0_256_bits_arrayLayer_256_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78518113,
+        "mem_uops_retired.all_stores": 45758744
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_1_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78103841,
+        "mem_uops_retired.all_stores": 47451186
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_1_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78148818,
+        "mem_uops_retired.all_stores": 47477301
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_1_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78123777,
+        "mem_uops_retired.all_stores": 47474243
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_4_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78172371,
+        "mem_uops_retired.all_stores": 47499518
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_4_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78075369,
+        "mem_uops_retired.all_stores": 47437051
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_4_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78062886,
+        "mem_uops_retired.all_stores": 47429544
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_16_mipLevel_2": {
+        "mem_uops_retired.all_loads": 77988210,
+        "mem_uops_retired.all_stores": 47473609
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_16_mipLevel_3": {
+        "mem_uops_retired.all_loads": 78053379,
+        "mem_uops_retired.all_stores": 47431748
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_16_mipLevel_8": {
+        "mem_uops_retired.all_loads": 77979912,
+        "mem_uops_retired.all_stores": 47398234
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_256_mipLevel_2": {
+        "mem_uops_retired.all_loads": 78052767,
+        "mem_uops_retired.all_stores": 47440553
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_256_mipLevel_3": {
+        "mem_uops_retired.all_loads": 77991395,
+        "mem_uops_retired.all_stores": 47395967
+    },
+    "SubresourceTrackingPerf.Run/Vulkan_SwiftShader_Device_Subzero_arrayLayer_256_mipLevel_8": {
+        "mem_uops_retired.all_loads": 78023533,
+        "mem_uops_retired.all_stores": 47419082
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "LabelPerfTest.GetPreferredSize": {
+        "mem_uops_retired.all_loads": 171229296,
+        "mem_uops_retired.all_stores": 42194926
+    }
+}

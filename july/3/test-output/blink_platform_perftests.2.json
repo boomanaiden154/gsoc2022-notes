@@ -1,0 +1,286 @@
+{
+    "ShapingLineBreakerPerfTest.ShapeLatinText": {
+        "mem_uops_retired.all_loads": 3142023937,
+        "mem_uops_retired.all_stores": 1120844904
+    },
+    "WTFHashTest.NestedStruct": {
+        "mem_uops_retired.all_loads": 2841649,
+        "mem_uops_retired.all_stores": 1661101
+    },
+    "WTFHashTest.Enum": {
+        "mem_uops_retired.all_loads": 2832563,
+        "mem_uops_retired.all_stores": 1657157
+    },
+    "WTFMapTest.StructKey": {
+        "mem_uops_retired.all_loads": 2829408,
+        "mem_uops_retired.all_stores": 1656620
+    },
+    "WTFMapTest.TypemappedStructKey": {
+        "mem_uops_retired.all_loads": 2846678,
+        "mem_uops_retired.all_stores": 1667020
+    },
+    "WTFTypesTest.Serialization_WTFVectorToWTFVector": {
+        "mem_uops_retired.all_loads": 2815118,
+        "mem_uops_retired.all_stores": 1645589
+    },
+    "WTFTypesTest.Serialization_WTFVectorInlineCapacity": {
+        "mem_uops_retired.all_loads": 2807438,
+        "mem_uops_retired.all_stores": 1643166
+    },
+    "WTFTypesTest.Serialization_WTFVectorToStlVector": {
+        "mem_uops_retired.all_loads": 2806399,
+        "mem_uops_retired.all_stores": 1642777
+    },
+    "WTFTypesTest.Serialization_PublicAPI": {
+        "mem_uops_retired.all_loads": 2834602,
+        "mem_uops_retired.all_stores": 1654334
+    },
+    "WTFTypesTest.SendString": {
+        "mem_uops_retired.all_loads": 2839158,
+        "mem_uops_retired.all_stores": 1659474
+    },
+    "WTFTypesTest.SendStringArray": {
+        "mem_uops_retired.all_loads": 2808129,
+        "mem_uops_retired.all_stores": 1642039
+    },
+    "WTFTypesTest.SendStringMap": {
+        "mem_uops_retired.all_loads": 2808849,
+        "mem_uops_retired.all_stores": 1642693
+    },
+    "WTFTypesTest.NestedStruct_CloneAndEquals": {
+        "mem_uops_retired.all_loads": 2871136,
+        "mem_uops_retired.all_stores": 1682722
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/0": {
+        "mem_uops_retired.all_loads": 6703296464,
+        "mem_uops_retired.all_stores": 5258676767
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/1": {
+        "mem_uops_retired.all_loads": 6735659937,
+        "mem_uops_retired.all_stores": 5215909355
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/2": {
+        "mem_uops_retired.all_loads": 6735706686,
+        "mem_uops_retired.all_stores": 5215935574
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/3": {
+        "mem_uops_retired.all_loads": 6780754535,
+        "mem_uops_retired.all_stores": 5245964735
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/4": {
+        "mem_uops_retired.all_loads": 6371671596,
+        "mem_uops_retired.all_stores": 4924923638
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullBreak/5": {
+        "mem_uops_retired.all_loads": 6413662058,
+        "mem_uops_retired.all_stores": 5008962024
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/0": {
+        "mem_uops_retired.all_loads": 6626881308,
+        "mem_uops_retired.all_stores": 5245589073
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/1": {
+        "mem_uops_retired.all_loads": 6559095280,
+        "mem_uops_retired.all_stores": 5098707701
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/2": {
+        "mem_uops_retired.all_loads": 6559093561,
+        "mem_uops_retired.all_stores": 5098695573
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/3": {
+        "mem_uops_retired.all_loads": 6604164752,
+        "mem_uops_retired.all_stores": 5128752388
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/4": {
+        "mem_uops_retired.all_loads": 6649149838,
+        "mem_uops_retired.all_stores": 5158739313
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionFullDontBreak/5": {
+        "mem_uops_retired.all_loads": 6221090954,
+        "mem_uops_retired.all_stores": 4843721420
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/0": {
+        "mem_uops_retired.all_loads": 6735297217,
+        "mem_uops_retired.all_stores": 5258670492
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/1": {
+        "mem_uops_retired.all_loads": 6315617630,
+        "mem_uops_retired.all_stores": 4868865665
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/2": {
+        "mem_uops_retired.all_loads": 6765640596,
+        "mem_uops_retired.all_stores": 5215883745
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/3": {
+        "mem_uops_retired.all_loads": 6810678126,
+        "mem_uops_retired.all_stores": 5245903818
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/4": {
+        "mem_uops_retired.all_loads": 6855786332,
+        "mem_uops_retired.all_stores": 5275973831
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialBreak/5": {
+        "mem_uops_retired.all_loads": 6441679152,
+        "mem_uops_retired.all_stores": 4952915693
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/0": {
+        "mem_uops_retired.all_loads": 6658892257,
+        "mem_uops_retired.all_stores": 5197559913
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/1": {
+        "mem_uops_retired.all_loads": 6589186773,
+        "mem_uops_retired.all_stores": 5113753137
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/2": {
+        "mem_uops_retired.all_loads": 6589140086,
+        "mem_uops_retired.all_stores": 5113720381
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/3": {
+        "mem_uops_retired.all_loads": 6634141244,
+        "mem_uops_retired.all_stores": 5143739951
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/4": {
+        "mem_uops_retired.all_loads": 6679219719,
+        "mem_uops_retired.all_stores": 5173777205
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.LTROffsetForPositionIncludePartialDontBreak/5": {
+        "mem_uops_retired.all_loads": 6249176120,
+        "mem_uops_retired.all_stores": 4857776967
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/0": {
+        "mem_uops_retired.all_loads": 6703438723,
+        "mem_uops_retired.all_stores": 5210708170
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/1": {
+        "mem_uops_retired.all_loads": 6780780641,
+        "mem_uops_retired.all_stores": 5155895988
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/2": {
+        "mem_uops_retired.all_loads": 6780783469,
+        "mem_uops_retired.all_stores": 5155902862
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/3": {
+        "mem_uops_retired.all_loads": 6371716858,
+        "mem_uops_retired.all_stores": 4896903134
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/4": {
+        "mem_uops_retired.all_loads": 6413838993,
+        "mem_uops_retired.all_stores": 4868933735
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullBreak/5": {
+        "mem_uops_retired.all_loads": 6455784024,
+        "mem_uops_retired.all_stores": 4896908039
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/0": {
+        "mem_uops_retired.all_loads": 6627091086,
+        "mem_uops_retired.all_stores": 5133598048
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/1": {
+        "mem_uops_retired.all_loads": 6604361209,
+        "mem_uops_retired.all_stores": 5038753008
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/2": {
+        "mem_uops_retired.all_loads": 6604379858,
+        "mem_uops_retired.all_stores": 5038763413
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/3": {
+        "mem_uops_retired.all_loads": 6207367090,
+        "mem_uops_retired.all_stores": 4731754392
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/4": {
+        "mem_uops_retired.all_loads": 6249350338,
+        "mem_uops_retired.all_stores": 4759749937
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionFullDontBreak/5": {
+        "mem_uops_retired.all_loads": 6263356892,
+        "mem_uops_retired.all_stores": 4787769314
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/0": {
+        "mem_uops_retired.all_loads": 6735443619,
+        "mem_uops_retired.all_stores": 5274741873
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/1": {
+        "mem_uops_retired.all_loads": 6810792790,
+        "mem_uops_retired.all_stores": 5155891300
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/2": {
+        "mem_uops_retired.all_loads": 6810825283,
+        "mem_uops_retired.all_stores": 5155906004
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/3": {
+        "mem_uops_retired.all_loads": 6855865583,
+        "mem_uops_retired.all_stores": 5185933209
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/4": {
+        "mem_uops_retired.all_loads": 6441768191,
+        "mem_uops_retired.all_stores": 4868887462
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialBreak/5": {
+        "mem_uops_retired.all_loads": 6484231684,
+        "mem_uops_retired.all_stores": 4953227116
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/0": {
+        "mem_uops_retired.all_loads": 6244189398,
+        "mem_uops_retired.all_stores": 4888690288
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/1": {
+        "mem_uops_retired.all_loads": 6634413315,
+        "mem_uops_retired.all_stores": 5113824377
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/2": {
+        "mem_uops_retired.all_loads": 6634475102,
+        "mem_uops_retired.all_stores": 5113856572
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/3": {
+        "mem_uops_retired.all_loads": 6235372083,
+        "mem_uops_retired.all_stores": 4745754608
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/4": {
+        "mem_uops_retired.all_loads": 6277569377,
+        "mem_uops_retired.all_stores": 4773913744
+    },
+    "OffsetForPosition/OffsetForPositionPerfTest.RTLOffsetForPositionIncludePartialDontBreak/5": {
+        "mem_uops_retired.all_loads": 5843380773,
+        "mem_uops_retired.all_stores": 4459795367
+    },
+    "CharacterRange/CharacterRangePerfTest.LTRCharacterForPosition/0": {
+        "mem_uops_retired.all_loads": 6763347665,
+        "mem_uops_retired.all_stores": 4990250909
+    },
+    "CharacterRange/CharacterRangePerfTest.LTRCharacterForPosition/1": {
+        "mem_uops_retired.all_loads": 6268509140,
+        "mem_uops_retired.all_stores": 4607374594
+    },
+    "CharacterRange/CharacterRangePerfTest.LTRCharacterForPosition/2": {
+        "mem_uops_retired.all_loads": 6292363859,
+        "mem_uops_retired.all_stores": 4607245200
+    },
+    "CharacterRange/CharacterRangePerfTest.LTRCharacterForPosition/3": {
+        "mem_uops_retired.all_loads": 6867495279,
+        "mem_uops_retired.all_stores": 4990297418
+    },
+    "CharacterRange/CharacterRangePerfTest.LTRCharacterForPosition/4": {
+        "mem_uops_retired.all_loads": 6890120322,
+        "mem_uops_retired.all_stores": 5191162342
+    },
+    "CharacterRange/CharacterRangePerfTest.RTLCharacterForPosition/0": {
+        "mem_uops_retired.all_loads": 6616784958,
+        "mem_uops_retired.all_stores": 4619314553
+    },
+    "CharacterRange/CharacterRangePerfTest.RTLCharacterForPosition/1": {
+        "mem_uops_retired.all_loads": 6605593230,
+        "mem_uops_retired.all_stores": 4619785602
+    },
+    "CharacterRange/CharacterRangePerfTest.RTLCharacterForPosition/2": {
+        "mem_uops_retired.all_loads": 6580734140,
+        "mem_uops_retired.all_stores": 4619306695
+    },
+    "CharacterRange/CharacterRangePerfTest.RTLCharacterForPosition/3": {
+        "mem_uops_retired.all_loads": 6532661251,
+        "mem_uops_retired.all_stores": 4619280264
+    },
+    "CharacterRange/CharacterRangePerfTest.RTLCharacterForPosition/4": {
+        "mem_uops_retired.all_loads": 6633392855,
+        "mem_uops_retired.all_stores": 4834196165
+    }
+}
