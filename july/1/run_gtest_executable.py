@@ -3,6 +3,8 @@ import sys
 import subprocess
 import re
 
+from joblib import Parallel, delayed
+
 perf_counters = [
     "mem_uops_retired.all_loads",
     "mem_uops_retired.all_stores"
@@ -11,7 +13,7 @@ perf_counters = [
 def load_tests_file(test_file_name):
     with open(test_file_name) as test_file:
         test_file_dict = json.load(test_file)
-        return test_file_dict["tests"]
+        return test_file_dict
 
 def run_test(test_executable, test_name):
     command_vector = ["perf", "stat"]
@@ -33,17 +35,26 @@ def parse_perf_stat_output(perf_stat_output):
                 counters_dict[perf_counter] = count
     return counters_dict
 
+def run_and_parse(test_description):
+    test_executable, test_name = test_description
+    test_output = run_test(test_executable, test_name)
+    print("Finished running test {test}".format(test=test_name))
+    return parse_perf_stat_output(test_output)
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("usage is run_gtest_executable.py [gtest executable] [tests json file]", file=sys.stderr)
+        print("usage is run_gtest_executable.py [tests json file] [num threads]", file=sys.stderr)
         sys.exit(1)
     
-    tests_list = load_tests_file(sys.argv[2])
+    tests_list = load_tests_file(sys.argv[1])
+    test_executable = tests_list["executable"]
+
+    num_threads = int(sys.argv[2])
+    
     # run benchmarks
-    test_data_output = {}
-    for test in tests_list:
-        test_output = run_test(sys.argv[1], test)
-        test_data_output[test] = parse_perf_stat_output(test_output)
-        print("Finished running:{test}".format(test=test), file=sys.stderr)
+    test_descriptions = []
+    for test in tests_list["tests"]:
+        test_descriptions.append((test_executable, test))
+    test_data_output = Parallel(n_jobs=num_threads)(delayed(run_and_parse)(test_description) for test_description in test_descriptions)
     # output data
     print(json.dumps(test_data_output, indent=4))
