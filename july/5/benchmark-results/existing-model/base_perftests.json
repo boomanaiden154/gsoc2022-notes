@@ -1,0 +1,634 @@
+{
+    "ThreadPoolPerfTest.PostRunNoOpTasksManyThreads": {
+        "mem_uops_retired.all_loads": 201469762,
+        "mem_uops_retired.all_stores": 171074887
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/21": {
+        "mem_uops_retired.all_loads": 1495659052,
+        "mem_uops_retired.all_stores": 982561687
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/14": {
+        "mem_uops_retired.all_loads": 4340010031,
+        "mem_uops_retired.all_stores": 2364598406
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/16": {
+        "mem_uops_retired.all_loads": 4329758505,
+        "mem_uops_retired.all_stores": 2344999674
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/23": {
+        "mem_uops_retired.all_loads": 5481417696,
+        "mem_uops_retired.all_stores": 3173754528
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/2": {
+        "mem_uops_retired.all_loads": 1113826994,
+        "mem_uops_retired.all_stores": 645097969
+    },
+    "JobPerfTest.NoOpDisruptedWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 903804807,
+        "mem_uops_retired.all_stores": 602506888
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/20": {
+        "mem_uops_retired.all_loads": 4882121151,
+        "mem_uops_retired.all_stores": 2790146960
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/23": {
+        "mem_uops_retired.all_loads": 4316315648,
+        "mem_uops_retired.all_stores": 2462605558
+    },
+    "JobPerfTest.BusyWaitWorkLoopAround": {
+        "mem_uops_retired.all_loads": 1865006016,
+        "mem_uops_retired.all_stores": 1058012269
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/3": {
+        "mem_uops_retired.all_loads": 2082996821,
+        "mem_uops_retired.all_stores": 1562870414
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/0": {
+        "mem_uops_retired.all_loads": 522324817,
+        "mem_uops_retired.all_stores": 360928341
+    },
+    "ThreadPoolPerfTest.PostRunBusyTasksManyThreads": {
+        "mem_uops_retired.all_loads": 5809628233,
+        "mem_uops_retired.all_stores": 3301058961
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/8": {
+        "mem_uops_retired.all_loads": 2636777003,
+        "mem_uops_retired.all_stores": 1526841445
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/2": {
+        "mem_uops_retired.all_loads": 2972854,
+        "mem_uops_retired.all_stores": 1968461
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/6": {
+        "mem_uops_retired.all_loads": 2660042277,
+        "mem_uops_retired.all_stores": 1482848436
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/11": {
+        "mem_uops_retired.all_loads": 3229155301,
+        "mem_uops_retired.all_stores": 1869830276
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/1": {
+        "mem_uops_retired.all_loads": 2751086173,
+        "mem_uops_retired.all_stores": 2105397936
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/0": {
+        "mem_uops_retired.all_loads": 1312349438,
+        "mem_uops_retired.all_stores": 728934778
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/11": {
+        "mem_uops_retired.all_loads": 1332431565,
+        "mem_uops_retired.all_stores": 825923401
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/7": {
+        "mem_uops_retired.all_loads": 2686484721,
+        "mem_uops_retired.all_stores": 1488339082
+    },
+    "JobPerfTest.BusyWaitWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 1659927924,
+        "mem_uops_retired.all_stores": 928217791
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/17": {
+        "mem_uops_retired.all_loads": 3454218387,
+        "mem_uops_retired.all_stores": 1975032309
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/14": {
+        "mem_uops_retired.all_loads": 4240355116,
+        "mem_uops_retired.all_stores": 2455290850
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/5": {
+        "mem_uops_retired.all_loads": 1309264081,
+        "mem_uops_retired.all_stores": 729826372
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/1": {
+        "mem_uops_retired.all_loads": 2724588789,
+        "mem_uops_retired.all_stores": 2086656179
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/8": {
+        "mem_uops_retired.all_loads": 2730467308,
+        "mem_uops_retired.all_stores": 1502831044
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/2": {
+        "mem_uops_retired.all_loads": 2351611364,
+        "mem_uops_retired.all_stores": 1829724049
+    },
+    "JobPerfTest.BusyWaitAtomicAssignment": {
+        "mem_uops_retired.all_loads": 1699537709,
+        "mem_uops_retired.all_stores": 950374140
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/0": {
+        "mem_uops_retired.all_loads": 1782675410,
+        "mem_uops_retired.all_stores": 1448890503
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/11": {
+        "mem_uops_retired.all_loads": 2738404296,
+        "mem_uops_retired.all_stores": 1495051511
+    },
+    "TaskObserverPerfTest.TaskPingPong": {
+        "mem_uops_retired.all_loads": 658625322,
+        "mem_uops_retired.all_stores": 489838579
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2826142,
+        "mem_uops_retired.all_stores": 1951623
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/4": {
+        "mem_uops_retired.all_loads": 1722050841,
+        "mem_uops_retired.all_stores": 1417571318
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasksMorePostingThanRunningThreads": {
+        "mem_uops_retired.all_loads": 211520988,
+        "mem_uops_retired.all_stores": 189508206
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2835484,
+        "mem_uops_retired.all_stores": 1950280
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/6": {
+        "mem_uops_retired.all_loads": 2797919,
+        "mem_uops_retired.all_stores": 1929094
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/1": {
+        "mem_uops_retired.all_loads": 2782282,
+        "mem_uops_retired.all_stores": 1920808
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/3": {
+        "mem_uops_retired.all_loads": 2963940,
+        "mem_uops_retired.all_stores": 2053417
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/3": {
+        "mem_uops_retired.all_loads": 2975498,
+        "mem_uops_retired.all_stores": 2055875
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/2": {
+        "mem_uops_retired.all_loads": 764768303,
+        "mem_uops_retired.all_stores": 518615054
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/9": {
+        "mem_uops_retired.all_loads": 2689412133,
+        "mem_uops_retired.all_stores": 1483018178
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/7": {
+        "mem_uops_retired.all_loads": 2792797,
+        "mem_uops_retired.all_stores": 1925707
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2845230,
+        "mem_uops_retired.all_stores": 1962363
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/11": {
+        "mem_uops_retired.all_loads": 2807378,
+        "mem_uops_retired.all_stores": 1930692
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2813448,
+        "mem_uops_retired.all_stores": 1949355
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/15": {
+        "mem_uops_retired.all_loads": 2783857,
+        "mem_uops_retired.all_stores": 1928231
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/3": {
+        "mem_uops_retired.all_loads": 2798330,
+        "mem_uops_retired.all_stores": 1928125
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/15": {
+        "mem_uops_retired.all_loads": 1547561376,
+        "mem_uops_retired.all_stores": 1058905049
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/22": {
+        "mem_uops_retired.all_loads": 2802648,
+        "mem_uops_retired.all_stores": 1932225
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/0": {
+        "mem_uops_retired.all_loads": 888440890,
+        "mem_uops_retired.all_stores": 653128735
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2848172,
+        "mem_uops_retired.all_stores": 1961754
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2820086,
+        "mem_uops_retired.all_stores": 1954383
+    },
+    "ScheduleWorkTest.ThreadTimeToUIFromOneThread": {
+        "mem_uops_retired.all_loads": 3762736825,
+        "mem_uops_retired.all_stores": 1908708288
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/3": {
+        "mem_uops_retired.all_loads": 3001415,
+        "mem_uops_retired.all_stores": 2068546
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/23": {
+        "mem_uops_retired.all_loads": 2804770,
+        "mem_uops_retired.all_stores": 1926061
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2852134,
+        "mem_uops_retired.all_stores": 1965436
+    },
+    "ScheduleWorkTest.ThreadTimeToDefaultFromOneThread": {
+        "mem_uops_retired.all_loads": 4144623911,
+        "mem_uops_retired.all_stores": 2102557236
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/16": {
+        "mem_uops_retired.all_loads": 2795834,
+        "mem_uops_retired.all_stores": 1926069
+    },
+    "PthreadEventPerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 240094278,
+        "mem_uops_retired.all_stores": 149981177
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/4": {
+        "mem_uops_retired.all_loads": 785617057,
+        "mem_uops_retired.all_stores": 599409000
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/10": {
+        "mem_uops_retired.all_loads": 2804057,
+        "mem_uops_retired.all_stores": 1930324
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/12": {
+        "mem_uops_retired.all_loads": 2797076,
+        "mem_uops_retired.all_stores": 1925241
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2846347,
+        "mem_uops_retired.all_stores": 1965591
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2829593,
+        "mem_uops_retired.all_stores": 1952392
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_OneQueue/1": {
+        "mem_uops_retired.all_loads": 2564805435,
+        "mem_uops_retired.all_stores": 1995517851
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/18": {
+        "mem_uops_retired.all_loads": 2788170,
+        "mem_uops_retired.all_stores": 1926704
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/20": {
+        "mem_uops_retired.all_loads": 2802704,
+        "mem_uops_retired.all_stores": 1930707
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2834734,
+        "mem_uops_retired.all_stores": 1955219
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/3": {
+        "mem_uops_retired.all_loads": 1324410817,
+        "mem_uops_retired.all_stores": 732775013
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2867045,
+        "mem_uops_retired.all_stores": 1963979
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2828985,
+        "mem_uops_retired.all_stores": 1951391
+    },
+    "CounterPerfTest.AtomicUint64_NoBarrier_4Threads": {
+        "mem_uops_retired.all_loads": 684431342,
+        "mem_uops_retired.all_stores": 431566178
+    },
+    "WaitableEventPerfTest.MultipleThreads": {
+        "mem_uops_retired.all_loads": 9426667,
+        "mem_uops_retired.all_stores": 6210723
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/3": {
+        "mem_uops_retired.all_loads": 2985795,
+        "mem_uops_retired.all_stores": 2061035
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/3": {
+        "mem_uops_retired.all_loads": 2979961,
+        "mem_uops_retired.all_stores": 2054224
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/3": {
+        "mem_uops_retired.all_loads": 2978549,
+        "mem_uops_retired.all_stores": 2056168
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/3": {
+        "mem_uops_retired.all_loads": 3001783,
+        "mem_uops_retired.all_stores": 2073446
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/0": {
+        "mem_uops_retired.all_loads": 2797093,
+        "mem_uops_retired.all_stores": 1928456
+    },
+    "ThreadPoolPerfTest.BindPostThenRunNoOpTasks": {
+        "mem_uops_retired.all_loads": 53564463,
+        "mem_uops_retired.all_stores": 48021518
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2836606,
+        "mem_uops_retired.all_stores": 1958746
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/3": {
+        "mem_uops_retired.all_loads": 882947755,
+        "mem_uops_retired.all_stores": 649731477
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2847235,
+        "mem_uops_retired.all_stores": 1961920
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2841886,
+        "mem_uops_retired.all_stores": 1956294
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2872590,
+        "mem_uops_retired.all_stores": 1966367
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/14": {
+        "mem_uops_retired.all_loads": 2809529,
+        "mem_uops_retired.all_stores": 1928867
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/17": {
+        "mem_uops_retired.all_loads": 2817050,
+        "mem_uops_retired.all_stores": 1928689
+    },
+    "JobPerfTest.BusyWaitNaiveAssignment": {
+        "mem_uops_retired.all_loads": 1745901499,
+        "mem_uops_retired.all_stores": 988497983
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucket/3": {
+        "mem_uops_retired.all_loads": 1028110787,
+        "mem_uops_retired.all_stores": 708936046
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/4": {
+        "mem_uops_retired.all_loads": 2791745,
+        "mem_uops_retired.all_stores": 1923730
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/8": {
+        "mem_uops_retired.all_loads": 2808726,
+        "mem_uops_retired.all_stores": 1927305
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/21": {
+        "mem_uops_retired.all_loads": 2801351,
+        "mem_uops_retired.all_stores": 1930675
+    },
+    "PartitionAllocMemoryAllocationPerfTest.SingleBucketWithFree/17": {
+        "mem_uops_retired.all_loads": 5800554108,
+        "mem_uops_retired.all_stores": 3358536956
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/3": {
+        "mem_uops_retired.all_loads": 2977748,
+        "mem_uops_retired.all_stores": 2062004
+    },
+    "StringUtilTest.DISABLED_IsStringASCIIPerf": {
+        "mem_uops_retired.all_loads": 2897357,
+        "mem_uops_retired.all_stores": 1987242
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/0": {
+        "mem_uops_retired.all_loads": 2834632,
+        "mem_uops_retired.all_stores": 1953903
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DirectMapped/10": {
+        "mem_uops_retired.all_loads": 2935172970,
+        "mem_uops_retired.all_stores": 1548947594
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/13": {
+        "mem_uops_retired.all_loads": 2802957,
+        "mem_uops_retired.all_stores": 1926720
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/19": {
+        "mem_uops_retired.all_loads": 2805801,
+        "mem_uops_retired.all_stores": 1926856
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/2": {
+        "mem_uops_retired.all_loads": 2846960,
+        "mem_uops_retired.all_stores": 1963726
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/0": {
+        "mem_uops_retired.all_loads": 2833542,
+        "mem_uops_retired.all_stores": 1954267
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2829696,
+        "mem_uops_retired.all_stores": 1954222
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/4": {
+        "mem_uops_retired.all_loads": 2824155,
+        "mem_uops_retired.all_stores": 1950832
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/5": {
+        "mem_uops_retired.all_loads": 2801935,
+        "mem_uops_retired.all_stores": 1924223
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2837144,
+        "mem_uops_retired.all_stores": 1956094
+    },
+    "PartitionAllocMemoryAllocationPerfTest.DISABLED_MultiBucketWithNoisyNeighbor/9": {
+        "mem_uops_retired.all_loads": 2818689,
+        "mem_uops_retired.all_stores": 1933129
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/1": {
+        "mem_uops_retired.all_loads": 541675785,
+        "mem_uops_retired.all_stores": 412668664
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_ThirtyTwoQueues/2": {
+        "mem_uops_retired.all_loads": 2846129,
+        "mem_uops_retired.all_stores": 1963603
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasksManyThreads": {
+        "mem_uops_retired.all_loads": 208531896,
+        "mem_uops_retired.all_stores": 188770063
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucket/5": {
+        "mem_uops_retired.all_loads": 761326961,
+        "mem_uops_retired.all_stores": 517479615
+    },
+    "CounterPerfTest.AtomicUint64_Barrier_4Threads": {
+        "mem_uops_retired.all_loads": 711068720,
+        "mem_uops_retired.all_stores": 414455291
+    },
+    "ConditionVariablePerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 283625216,
+        "mem_uops_retired.all_stores": 178517521
+    },
+    "WaitableEventPerfTest.SingleThread": {
+        "mem_uops_retired.all_loads": 3187204,
+        "mem_uops_retired.all_stores": 2198840
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasksFromTwoThreads_EightQueues/2": {
+        "mem_uops_retired.all_loads": 2880841,
+        "mem_uops_retired.all_stores": 1963917
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/0": {
+        "mem_uops_retired.all_loads": 2847755,
+        "mem_uops_retired.all_stores": 1961484
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/3": {
+        "mem_uops_retired.all_loads": 2976722,
+        "mem_uops_retired.all_stores": 2061917
+    },
+    "WaitableEventThreadPerfTest.EventPingPong": {
+        "mem_uops_retired.all_loads": 347042241,
+        "mem_uops_retired.all_stores": 224512345
+    },
+    "TaskPerfTest.TaskPingPong": {
+        "mem_uops_retired.all_loads": 761911384,
+        "mem_uops_retired.all_stores": 556705917
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/4": {
+        "mem_uops_retired.all_loads": 2827554,
+        "mem_uops_retired.all_stores": 1950412
+    },
+    "ThreadPoolPerfTest.PostThenRunNoOpTasks": {
+        "mem_uops_retired.all_loads": 52766396,
+        "mem_uops_retired.all_stores": 47416687
+    },
+    "SubstringSetMatcherPerfTest.RandomKeys": {
+        "mem_uops_retired.all_loads": 341142801,
+        "mem_uops_retired.all_stores": 254217372
+    },
+    "HashPerfTest.Speed": {
+        "mem_uops_retired.all_loads": 53874164,
+        "mem_uops_retired.all_stores": 3859882
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/4": {
+        "mem_uops_retired.all_loads": 2849395,
+        "mem_uops_retired.all_stores": 1955605
+    },
+    "JobPerfTest.NoOpWorkAtomicAssignment": {
+        "mem_uops_retired.all_loads": 864645039,
+        "mem_uops_retired.all_stores": 585032187
+    },
+    "RandUtilPerfTest.InsecureRandomRandUint64": {
+        "mem_uops_retired.all_loads": 42873596,
+        "mem_uops_retired.all_stores": 51960927
+    },
+    "CounterPerfTest.AtomicUint64_NoBarrier_1Thread": {
+        "mem_uops_retired.all_loads": 203510407,
+        "mem_uops_retired.all_stores": 102360387
+    },
+    "JSONPerfTest.StressTest": {
+        "mem_uops_retired.all_loads": 4445231925,
+        "mem_uops_retired.all_stores": 3656300318
+    },
+    "JobPerfTest.NoOpWorkDynamicAssignment": {
+        "mem_uops_retired.all_loads": 871052113,
+        "mem_uops_retired.all_stores": 587861868
+    },
+    "CounterPerfTest.Uint64_NoLock_1Thread": {
+        "mem_uops_retired.all_loads": 202970273,
+        "mem_uops_retired.all_stores": 102047140
+    },
+    "ThreadLocalStoragePerfTest.Cpp11Tls": {
+        "mem_uops_retired.all_loads": 93466051,
+        "mem_uops_retired.all_stores": 92447955
+    },
+    "CounterPerfTest.Uint64_Lock_1Thread": {
+        "mem_uops_retired.all_loads": 2106143701,
+        "mem_uops_retired.all_stores": 1403859919
+    },
+    "RandUtilPerfTest.RandUint64": {
+        "mem_uops_retired.all_loads": 4160518424,
+        "mem_uops_retired.all_stores": 3534928078
+    },
+    "ObserverListPerfTest/1.NotifyPerformance": {
+        "mem_uops_retired.all_loads": 40848225424,
+        "mem_uops_retired.all_stores": 19685023347
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_FourQueues/1": {
+        "mem_uops_retired.all_loads": 1686072627,
+        "mem_uops_retired.all_stores": 1475726186
+    },
+    "CounterPerfTest.AtomicUint64_Barrier_1Thread": {
+        "mem_uops_retired.all_loads": 203861802,
+        "mem_uops_retired.all_stores": 102555266
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/4": {
+        "mem_uops_retired.all_loads": 1331082920,
+        "mem_uops_retired.all_stores": 1188934837
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/3": {
+        "mem_uops_retired.all_loads": 1406617856,
+        "mem_uops_retired.all_stores": 1145142539
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/11": {
+        "mem_uops_retired.all_loads": 4430276363,
+        "mem_uops_retired.all_stores": 2537177273
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_EightQueues/1": {
+        "mem_uops_retired.all_loads": 1707993340,
+        "mem_uops_retired.all_stores": 1487424892
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/14": {
+        "mem_uops_retired.all_loads": 6428529780,
+        "mem_uops_retired.all_stores": 3674072090
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/1": {
+        "mem_uops_retired.all_loads": 3016081867,
+        "mem_uops_retired.all_stores": 2733137387
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/4": {
+        "mem_uops_retired.all_loads": 2586277482,
+        "mem_uops_retired.all_stores": 2379253736
+    },
+    "ThreadLocalStoragePerfTest.PlatformTls": {
+        "mem_uops_retired.all_loads": 1353730674,
+        "mem_uops_retired.all_stores": 572605908
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/0": {
+        "mem_uops_retired.all_loads": 1331154230,
+        "mem_uops_retired.all_stores": 1184889158
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_ThirtyTwoQueues/1": {
+        "mem_uops_retired.all_loads": 1763918733,
+        "mem_uops_retired.all_stores": 1517165810
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_FourQueues/1": {
+        "mem_uops_retired.all_loads": 2930156383,
+        "mem_uops_retired.all_stores": 2646242471
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/2": {
+        "mem_uops_retired.all_loads": 1578303844,
+        "mem_uops_retired.all_stores": 1365073127
+    },
+    "ThreadLocalStoragePerfTest.ThreadLocalStorage": {
+        "mem_uops_retired.all_loads": 2133917334,
+        "mem_uops_retired.all_stores": 752712221
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/8": {
+        "mem_uops_retired.all_loads": 5271977579,
+        "mem_uops_retired.all_stores": 3020466217
+    },
+    "All/SequenceManagerPerfTest.PostImmediateTasks_OneQueue/1": {
+        "mem_uops_retired.all_loads": 1660246531,
+        "mem_uops_retired.all_stores": 1455352016
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_ThirtyTwoQueues/1": {
+        "mem_uops_retired.all_loads": 3022139849,
+        "mem_uops_retired.all_stores": 2691401413
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/0": {
+        "mem_uops_retired.all_loads": 2592078796,
+        "mem_uops_retired.all_stores": 2366699953
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/1": {
+        "mem_uops_retired.all_loads": 1660987661,
+        "mem_uops_retired.all_stores": 1108126069
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/4": {
+        "mem_uops_retired.all_loads": 649545020,
+        "mem_uops_retired.all_stores": 433166355
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_EightQueues/1": {
+        "mem_uops_retired.all_loads": 2975577644,
+        "mem_uops_retired.all_stores": 2665836147
+    },
+    "All/SequenceManagerPerfTest.PostDelayedTasks_OneQueue/2": {
+        "mem_uops_retired.all_loads": 2891276035,
+        "mem_uops_retired.all_stores": 2585586438
+    },
+    "PartitionAllocMemoryAllocationPerfTest.MultiBucketWithFree/5": {
+        "mem_uops_retired.all_loads": 2700736141,
+        "mem_uops_retired.all_stores": 1559219701
+    },
+    "ObserverListPerfTest/0.NotifyPerformance": {
+        "mem_uops_retired.all_loads": 23077615953,
+        "mem_uops_retired.all_stores": 10528593184
+    }
+}
