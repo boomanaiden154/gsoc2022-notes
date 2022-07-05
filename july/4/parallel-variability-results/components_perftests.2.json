@@ -1,0 +1,110 @@
+{
+    "ProtoDBPerfTest.LoadEntriesSingle_OnePrefix_DifferingNumDBs_Medium": {
+        "mem_uops_retired.all_loads": 43960102,
+        "mem_uops_retired.all_stores": 25706534
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_OnePrefix_DifferingNumDBs_Medium": {
+        "mem_uops_retired.all_loads": 46836114,
+        "mem_uops_retired.all_stores": 28103425
+    },
+    "HQPPerfTestOnePopularURL.Backspacing": {
+        "mem_uops_retired.all_loads": 749581692,
+        "mem_uops_retired.all_stores": 543103976
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_SkipReadCache_Medium": {
+        "mem_uops_retired.all_loads": 93947067,
+        "mem_uops_retired.all_stores": 59247359
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_DifferingNumDBs_Small": {
+        "mem_uops_retired.all_loads": 44575857,
+        "mem_uops_retired.all_stores": 26107784
+    },
+    "HQPPerfTestOnePopularURL.Typing": {
+        "mem_uops_retired.all_loads": 748746620,
+        "mem_uops_retired.all_stores": 542501773
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_OnePrefix_DifferingNumDBs_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 51256907,
+        "mem_uops_retired.all_stores": 31571299
+    },
+    "ProtoDBPerfTest.DistributionTestSmall_ManyEntries_Multi": {
+        "mem_uops_retired.all_loads": 54827770,
+        "mem_uops_retired.all_stores": 33864630
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_DifferingNumDBs_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 58412142,
+        "mem_uops_retired.all_stores": 35767840
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_Medium": {
+        "mem_uops_retired.all_loads": 96340882,
+        "mem_uops_retired.all_stores": 62127402
+    },
+    "ProtoDBPerfTest.DistributionTestSmall_FewEntries_Single": {
+        "mem_uops_retired.all_loads": 36435375,
+        "mem_uops_retired.all_stores": 20339725
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_DifferingNumDBs_Large": {
+        "mem_uops_retired.all_loads": 58704060,
+        "mem_uops_retired.all_stores": 36339020
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 107551415,
+        "mem_uops_retired.all_stores": 70834478
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_OnePrefix_Large": {
+        "mem_uops_retired.all_loads": 84534731,
+        "mem_uops_retired.all_stores": 55753418
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_OnePrefix_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 78043693,
+        "mem_uops_retired.all_stores": 52166434
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_SkipReadCache_Medium": {
+        "mem_uops_retired.all_loads": 96333938,
+        "mem_uops_retired.all_stores": 62241185
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_Large": {
+        "mem_uops_retired.all_loads": 107070580,
+        "mem_uops_retired.all_stores": 70759089
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_OnePrefix_DifferingNumDBs_SkipReadCache_Medium": {
+        "mem_uops_retired.all_loads": 43790357,
+        "mem_uops_retired.all_stores": 25578699
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_DifferingNumDBs_Small": {
+        "mem_uops_retired.all_loads": 41462733,
+        "mem_uops_retired.all_stores": 23567666
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_DifferingNumDBs_Medium": {
+        "mem_uops_retired.all_loads": 46740332,
+        "mem_uops_retired.all_stores": 27559064
+    },
+    "ProtoDBPerfTest.LoadEntriesSingle_OnePrefix_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 84199574,
+        "mem_uops_retired.all_stores": 55581358
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_OnePrefix_Large": {
+        "mem_uops_retired.all_loads": 78293876,
+        "mem_uops_retired.all_stores": 52163399
+    },
+    "ProtoDBPerfTest.LoadEntriesMulti_DifferingNumDBs_SkipReadCache_Large": {
+        "mem_uops_retired.all_loads": 74804569,
+        "mem_uops_retired.all_stores": 47414163
+    },
+    "ProtoDBPerfTest.DistributionTestSmall_ManyEntries_Batch_Multi": {
+        "mem_uops_retired.all_loads": 55046418,
+        "mem_uops_retired.all_stores": 33106645
+    },
+    "IndexedRulesetPerftest.IndexRuleset": {
+        "mem_uops_retired.all_loads": 45241023,
+        "mem_uops_retired.all_stores": 25451931
+    },
+    "IndexedRulesetPerftest.MatchAll": {
+        "mem_uops_retired.all_loads": 536644118,
+        "mem_uops_retired.all_stores": 295642038
+    },
+    "V4StorePerftest.StressTest": {
+        "mem_uops_retired.all_loads": 2485954987,
+        "mem_uops_retired.all_stores": 1713772984
+    }
+}

@@ -1,4 +1,3 @@
-from hmac import compare_digest
 import json
 import sys
 import statistics
@@ -33,6 +32,13 @@ def get_average_speedup(benchmark_comparisons):
     for perf_counter in overall_comparisons:
         comparison_means[perf_counter] = statistics.geometric_mean(overall_comparisons[perf_counter])
     return comparison_means
+
+def combine_benchmarks(benchmark_set_array):
+    combined_benchmarks = {}
+    for benchmark_set in benchmark_set_array:
+        for benchmark in benchmark_set:
+            combined_benchmarks[benchmark] = benchmark_set[benchmark]
+    return combined_benchmarks
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

@@ -38,8 +38,8 @@ def parse_perf_stat_output(perf_stat_output):
 def run_and_parse(test_description):
     test_executable, test_name = test_description
     test_output = run_test(test_executable, test_name)
-    print("Finished running test {test}".format(test=test_name))
-    return parse_perf_stat_output(test_output)
+    print("Finished running test {test}".format(test=test_name), file=sys.stderr)
+    return (test_name, parse_perf_stat_output(test_output))
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
@@ -56,5 +56,9 @@ if __name__ == "__main__":
     for test in tests_list["tests"]:
         test_descriptions.append((test_executable, test))
     test_data_output = Parallel(n_jobs=num_threads)(delayed(run_and_parse)(test_description) for test_description in test_descriptions)
+
+    formattedTestData = {}
+    for testInstance in test_data_output:
+        formattedTestData[testInstance[0]] = testInstance[1]
     # output data
-    print(json.dumps(test_data_output, indent=4))
+    print(json.dumps(formattedTestData, indent=4))
