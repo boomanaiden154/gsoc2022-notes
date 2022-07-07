@@ -5,6 +5,18 @@ import tensorflow
 import json
 
 from absl import flags
+from absl import app
+
+FLAGS = flags.FLAGS
+
+flags.DEFINE_enum("advisor", "release", ["default", "release"], "The regalloc advisor to be used for compiling the test suite")
+flags.DEFINE_string("model_path", "", "The path to the regalloc model for testing")
+flags.DEFINE_boolean("compile_llvm", True, "compiles llvm using the specified model path")
+flags.DEFINE_boolean("llvm_use_incremental", True, "recompile LLVM incrementally rather than doing a whole build")
+flags.DEFINE_boolean("compile_testsuite", True, "compiles the test suite using the specified advisor and model path")
+flags.DEFINE_string("output_path", "output.json", "The output JSON file containing the test results")
+
+flags.mark_flag_as_required("advisor")
 
 llvm_test_suite_path = "/llvm-test-suite"
 llvm_build_path="/llvm-project/build"
@@ -137,9 +149,22 @@ def run_tests(run_name):
         test_runner_process = subprocess.Popen(test_runner_command)
         test_runner_process.wait()
 
-        completed_benchmark_files.append(loadFileGrabBenchmarks(output_file))
+        completed_benchmark_files.extend(loadFileGrabBenchmarks(output_file))
     
-    writeBenchmarks(completed_benchmark_files, "{run_name}.json".format(run_name=run_name))
+    writeBenchmarks(completed_benchmark_files, "{run_name}".format(run_name=run_name))
+
+def main(argv):
+    # compile llvm
+    if FLAGS.compile_llvm:
+        model_path = "autogenerate"
+        if FLAGS.model_path is not None:
+            model_path = FLAGS.model_path
+        build_llvm(model_path, FLAGS.llvm_use_incremental)
+    # compile test suite
+    if FLAGS.compile_testsuite:
+        build_test_suite(FLAGS.advisor)
+    # run test suite
+    run_tests(FLAGS.output_path)
 
 if __name__ == "__main__":
-    print("hello world")
+    app.run(main)
