@@ -65,7 +65,7 @@ a release mode build as the default chromium build includes all debug
 symbols, and that PGO is enabled/ThinLTO is disabled. To set all the args,
 run the following command:
 ```bash
-gn args ./out/default
+gn args ./out/Relase
 ```
 Which will open up a CLI text editor. Inside the text editor, paste the
 following flags:
@@ -76,7 +76,9 @@ is_cfi=false
 use_cfi_icall=false
 use_cfi_cast=false
 clang_use_chrome_plugins=false
-enable_bitcode=true
+enable_bitcode=true (should be changed soon to clang_embed_bitcode)
+is_debug=false
+symbol_level=0
 custom_toolchain="//build/toolchain/linux/unbundle:default"
 host_toolchain="//build/toolchain/linux/unbundle:default"
 ```
