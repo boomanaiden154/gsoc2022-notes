@@ -40,14 +40,13 @@ def build_chromium_tests(regalloc_advisor):
         "is_official_build=true",
         "use_thin_lto=false",
         "is_cfi=false",
-        "use_cfi=false",
         "use_cfi_icall=false",
         "use_cfi_cast=false",
         "clang_use_chrome_plugins=false",
         "is_debug=false",
         "symbol_level=0",
-        "custom_toolchain=\"//build/toolchain/linux/unbundle:default\"",
-        "host_toolchain=\"//build/toolchain/linux/unbundle:default\""
+        "custom_toolchain=\\\"//build/toolchain/linux/unbundle:default\\\"",
+        "host_toolchain=\\\"//build/toolchain/linux/unbundle:default\\\""
     ]
 
     gn_args_string = '--args="'
@@ -55,17 +54,17 @@ def build_chromium_tests(regalloc_advisor):
         gn_args_string += arg + " "
     gn_args_string += '"'
 
-    gn_config_command = ["gn", "gen", chromium_build_path, gn_args_string]
+    gn_config_command = "gn gen " + chromium_build_path + " " + gn_args_string
 
     print(gn_config_command)
 
-    gn_config_process = subprocess.Popen(gn_config_command, env=new_environment, cwd=chromium_source_path)
+    gn_config_process = subprocess.Popen(gn_config_command, env=new_environment, cwd=chromium_source_path, shell=True)
     gn_config_process.wait()
 
-    #ninja_compile_command = ["autoninja", "-C", chromium_build_path]
-    #ninja_compile_command.extend(tests_to_build)
-    #ninja_compile_process = subprocess.Popen(ninja_compile_command, env=new_environment)
-    #ninja_compile_process.wait()
+    ninja_compile_command = ["autoninja", "-C", chromium_build_path]
+    ninja_compile_command.extend(tests_to_build)
+    ninja_compile_process = subprocess.Popen(ninja_compile_command, env=new_environment, cwd=chromium_source_path)
+    ninja_compile_process.wait()
 
 def run_tests(run_name):
     for test in tests_to_build:
