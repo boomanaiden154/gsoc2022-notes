@@ -12,6 +12,8 @@ sys.path.append("../1")
 import run_llvm_test_suite
 import run_gtest_executable
 
+from absl import app
+
 depot_tools_path = "/depot_tools"
 
 chromium_source_path = "/chromium/src"
@@ -66,19 +68,26 @@ def build_chromium_tests(regalloc_advisor):
     ninja_compile_process = subprocess.Popen(ninja_compile_command, env=new_environment, cwd=chromium_source_path)
     ninja_compile_process.wait()
 
-def run_tests(run_name):
+def run_tests(output_file_name):
+    formatted_test_data = {}
     for test in tests_to_build:
-        tests_list = run_gtest_executable.load_tests_file(test + ".json")
+        tests_list = run_gtest_executable.load_tests_file("../4/tests_to_run/" + test + ".json")
         test_descriptions = []
         executable = os.path.join(chromium_absolute_build_path, test)
         for test in tests_list["tests"]:
-            test_descriptions.append(())
+            test_descriptions.append((executable, test))
         test_data_output = Parallel(n_jobs=num_threads)(delayed(run_gtest_executable.run_and_parse)(test_description) for test_description in test_descriptions)
 
-        formattedTestData = {}
         for testInstance in test_data_output:
-            formattedTestData[testInstance[0]] = testInstance[1]
+            formatted_test_data[testInstance[0]] = testInstance[1]
         
-        # probably should refactor this to an output file
-        with open(run_name + ".json") as output_file:
-            output_file
+    # probably should refactor this to an output file
+    with open(output_file_name, "w") as output_file:
+        output_file.write(json.dumps(formatted_test_data, indent=4))
+
+def main(argv):
+    # compile llvm
+    run_tests("output")
+
+if __name__ == "__main__":
+    app.run(main)
