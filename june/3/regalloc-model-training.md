@@ -108,7 +108,6 @@ PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/rl/train_locally.py \
     --root_dir=/output_model \
     --data_path=/corpus \
     --gin_bindings=clang_path="'/llvm-project/build/bin/clang'" \
-    --num_modules=100 \
     --gin_files=compiler_opt/rl/regalloc/gin_configs/ppo_nn_agent.gin \
     --gin_bindings=train_eval.warmstart_policy_dir=\"/warmstart/saved_policy\"
 ```
