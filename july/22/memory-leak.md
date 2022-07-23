@@ -29,6 +29,13 @@ with all of the fields set equal to `None` results in no net memory increase whi
 leaving the code in but only returning a `CompilationResult` object set to none
 still results in the same massive memory increase.
 
+The actual source seems to be stemming from the sequence example parsing in the
+regalloc compilation runner. Commenting out just this one specific line gets rid
+of essentially all of the memory allocation. Still needs more investigation
+before we find a resolution though, and the training data is expected to be quite
+large, so we might just have to come up with some different strategies for working
+with the training data.
+
 ### Resolution?
 
 More updates still to come.
