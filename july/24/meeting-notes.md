@@ -23,3 +23,7 @@
     * Probably scale the current instance? Unless we make some memory
     improvements we'll probably need at least 8gb/core.
 * TFLite patch?
+* Regalloc encoding network patch
+    * Working on my current tests and should be compatible with the current
+    model while allowing for multiple inputs to go to the same layer.
+    * Interested in upstreaming this (to ml-compiler-opt)?
