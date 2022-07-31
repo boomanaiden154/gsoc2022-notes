@@ -21,3 +21,7 @@ Currently in `CompilerInvocation::CreateFromArgs`, the generate function that is
 `RoundTrip` calls `CompilerInvocation::generateCC1CommandLine`. This function has documentation
 stating "Note that the caller is responsible for inserting the path to the clang executable 
 and "-cc1" if desired". However, the "-cc1" flag is never passed.
+
+### Resolution
+
+Fixed by me in [this](https://reviews.llvm.org/D130620) LLVM differential revision.
