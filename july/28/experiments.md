@@ -36,11 +36,17 @@
     * The models from this experiment did outperform the models from experiment 5, but again we sort of
     have limited data here on what is actually helping. It could just be (and probably is) that the
     model with the instruction features takes considerably more data to train.
-* Experiment 8 (in progress)
+* Experiment 8 (done, https://drive.google.com/file/d/1VQN2MTJLuw3VQcciASGBu7PpP3269qfX/view?usp=sharing)
     * Baseline comparison for experiment 6. Using the same training hyperparameters as that experiment,
     but instead of using the new model with instruction based features, we're using the existing model.
     Behavioral cloning training hyperparameters are also set to their defaults.
-* Experiment 9 (planned)
+    * Comparing the results from experiment 6 with the results from this experiment shows that a lot of
+    the variation in terms of performance could probably be explained by the changed training
+    hyperparameters. Doesn't mean there necessarily isn't a performance improvement though as these
+    tests are limited to 20k iterations and the differences could become larger as time goes on, or
+    there could just not be enough processing in terms of layers/nodes to go through all the new
+    data.
+* Experiment 9 (in progress)
     * Training a model with instruction based features, but swapping the default `tf.reduce_sum` to
     combine all the instructions for each individual register to `tf.reduce_mean`. Using the same
     training hyperparameters as experiment 6.
