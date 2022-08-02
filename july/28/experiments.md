@@ -46,13 +46,29 @@
     tests are limited to 20k iterations and the differences could become larger as time goes on, or
     there could just not be enough processing in terms of layers/nodes to go through all the new
     data.
-* Experiment 9 (in progress)
+* Experiment 9 (partially completed, https://drive.google.com/file/d/13-7P7Cqi8BL_6SMQZevYG32gx3o5C54Q/view?usp=sharing)
     * Training a model with instruction based features, but swapping the default `tf.reduce_sum` to
     combine all the instructions for each individual register to `tf.reduce_mean`. Using the same
     training hyperparameters as experiment 6.
     * Current problems with this: need to process the input mapping array for each individual opcode
     so that we exclude a lot of the zeroes at the end that will otherwise probably skew the results
     quite a bit.
+    * Used quite a poor implementation of calculating the mean that didn't really resolve the problem
+    listed above. Also had problems with loss values after so many training iterations (usually around
+    10k) going to NaN, which meant that the model didn't improve any further. Only two replicates
+    completed due to the machine shutting down, but there were definitely issues with this approach
+    and I don't need any more replicates to confirm that.
+* Experiment 9.1 (planned)
+    * Behavioral cloning baseline with the current BC settings settled on in experiment 4. Using a mean of
+    the instruction embeddings rather than a sum of the embeddings, but this a slightly less naive approach
+    than compared to experiment 9.
+    * Using a significantly less naive version for calculating the mean that rectifies the problem outlined
+    in experiment 9. Might have some interesting issues calculating gradients though with how the zeroes used
+    for padding are processed though.
+* Experiment 9.2 (planned)
+    * Behvaioral cloning with the same protocol as experiment 9.1 except doubling the batch size from 256 to 512,
+    halving the learning rate from 0.0005 to 0.00025, and doubling the number of training iterations (moving from
+    10k to 20k).
 * Experiment 10 (potentially planned)
     * Current regalloc instructions model (with `tf.reduce_sum` or `tf.reduce_mean` depending upon the
     results of experiment 9) but with an increased number of nodes in the hidden layer. Perhaps experimenting
@@ -71,3 +87,7 @@
     in terms of number of hidden nodes.
 * Experiment 14 (potentially planned)
     * Baseline control for experiment 13
+* Experiment 15 (potentially planned)
+    * Try training for more iterations per policy iteration (eg 400 instead of 200) with instruction features
+* Experiment 16 (potentially planned)
+    * Baseline control for experiment 15
