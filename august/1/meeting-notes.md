@@ -44,3 +44,6 @@ bunch of different features branches
     * Machine block frequency information
     * Mappings between instructions and basic blocks
     * To be continued flag when the number of instructions per live range exceeds 100
+    * Number of LRs per instruction
+* Development docker file
+    * Make sure to have disclaimer that it isn't really officially supported.

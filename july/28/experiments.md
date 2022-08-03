@@ -58,17 +58,23 @@
     10k) going to NaN, which meant that the model didn't improve any further. Only two replicates
     completed due to the machine shutting down, but there were definitely issues with this approach
     and I don't need any more replicates to confirm that.
-* Experiment 9.1 (planned)
+* Experiment 9.1 (done, https://drive.google.com/file/d/1NZTshvdXsA7xGaTBBCUMsIPZsHauU9Tl/view?usp=sharing)
     * Behavioral cloning baseline with the current BC settings settled on in experiment 4. Using a mean of
     the instruction embeddings rather than a sum of the embeddings, but this a slightly less naive approach
     than compared to experiment 9.
     * Using a significantly less naive version for calculating the mean that rectifies the problem outlined
     in experiment 9. Might have some interesting issues calculating gradients though with how the zeroes used
     for padding are processed though.
-* Experiment 9.2 (planned)
+* Experiment 9.2 (done, https://drive.google.com/file/d/1SMLaFc8aiU25kMBQeJ-arP5_X7ufxISc/view?usp=sharing)
     * Behvaioral cloning with the same protocol as experiment 9.1 except doubling the batch size from 256 to 512,
     halving the learning rate from 0.0005 to 0.00025, and doubling the number of training iterations (moving from
     10k to 20k).
+    * Went pretty well. Seeing loss values slightly better than what I'm seeing in other experiments. Probably due
+    to the changed training hyperparameters and the increased number of iterations, but I'll take it.
+* Experiment 9.3 (planned)
+    * Training on the new mean based instruction embedding pooling with the same local training hyperparameters
+    from experiment 6 and the behavioral cloning hyperparameters from experiment 9.2. Trained again for 20k
+    iterations in triplicate.
 * Experiment 10 (potentially planned)
     * Current regalloc instructions model (with `tf.reduce_sum` or `tf.reduce_mean` depending upon the
     results of experiment 9) but with an increased number of nodes in the hidden layer. Perhaps experimenting
