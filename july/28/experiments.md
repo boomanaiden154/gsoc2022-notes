@@ -71,10 +71,13 @@
     10k to 20k).
     * Went pretty well. Seeing loss values slightly better than what I'm seeing in other experiments. Probably due
     to the changed training hyperparameters and the increased number of iterations, but I'll take it.
-* Experiment 9.3 (planned)
+* Experiment 9.3 (partially completed, https://drive.google.com/file/d/1ruLabA74i2U2NLy9UE-cNbnZztx2h9O3/view?usp=sharing)
     * Training on the new mean based instruction embedding pooling with the same local training hyperparameters
     from experiment 6 and the behavioral cloning hyperparameters from experiment 9.2. Trained again for 20k
     iterations in triplicate.
+    * Only ended up training in duplicate due to a server restart and seeming to have decent results. Didn't
+    really improve upon the performance at all over the baseline. An average reward of about 0.008 which is
+    pretty consistant after 20k iterations with the current shipped model.
 * Experiment 10 (potentially planned)
     * Current regalloc instructions model (with `tf.reduce_sum` or `tf.reduce_mean` depending upon the
     results of experiment 9) but with an increased number of nodes in the hidden layer. Perhaps experimenting
