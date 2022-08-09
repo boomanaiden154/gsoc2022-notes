@@ -60,9 +60,9 @@ cd $ML_COMPILER_OPT_DIR
 mkdir /corpus
 # Assuming $CLANG_LLVM_CORPUS_DIR is set to /llvm_corpus
 # Assuming $LLVM_SOURCE_DIR is set to /llvm-project
-python3 compiler_opt/tools/extract_ir.py \
+PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/tools/extract_ir.py \
     --cmd_filter="^-O2|-O3$" \
-    --input=/llvm_corpus/build/compile_commands.json \
+    --input=/llvm-corpus/compile_commands.json \
     --input_type=json \
     --llvm_objcopy_path=/llvm-project/build/bin/llvm-objcopy \
     --output_dir=/corpus
