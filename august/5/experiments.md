@@ -38,3 +38,5 @@
 * Experiment 26 (planned)
     * Same protocl as experiment 23, but this time only looking at use-def instructions
     instead of all the instructions that the LR covers.
+* Experiment 27 (planned)
+    * Doubling the learning rate, same setup as experiment 26
