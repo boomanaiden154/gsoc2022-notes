@@ -15,5 +15,6 @@ PYTHONPATH=$PYTHONPATH:. python3 compiler_opt/tools/feature_importance.py \
     --gin_bindings=config_registry.get_configuration.implementation=@configs.RegallocEvictionConfig \
     --data_path=/default_trace \
     --model_path=/warmstart/saved_policy \
-    --output_file=./output_stuff
+    --num_examples=5 \
+    --output_file=./explanation_data.json
 ```
