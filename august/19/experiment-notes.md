@@ -11,3 +11,9 @@
     the chromium corpus (although I could probably just add additional profile flags after the
     fact). For some reason the chromium clang refuses to use that flag. More testing needed in
     that area. Everything works with an external toolchain.
+* Experiment 31
+    * Same experiment as above, except this time testing on a chromium corpus and testing against
+    one of the replicates from experiment 7 rather than running the test twice and changing some
+    variables. Seems like the two techniques on the chromium corpus are pretty comparable, or the
+    non-pgo settings even slightly outperform the pgo settings (assuming I have everything setup
+    correctly).
