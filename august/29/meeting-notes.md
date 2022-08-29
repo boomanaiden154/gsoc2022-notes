@@ -18,3 +18,18 @@
   and a 0.02% improvement in loads on the chromium benchmarks). Currently breaks
   about 400 codegen tests.
 * Maybe look at using the register allocator in Chromium?
+
+### Meeting Notes
+
+* Clang should be throwing an error when it can't find PGO data.
+  * Write a patch, ping Mircea on it.
+* SlotIndex thing
+  * Open an discussion on discourse
+  * Don't frame it as a RFC (might just be misunderstanding the point of the code)
+* Green light on testing out Chromium patch using their perfbots
+  * Still some weird behavior with the tensorflow tree on the chromium side (https://chromium-review.googlesource.com/c/chromium/src/+/3852308)
+* Discuss current model implementation with Yundi
+* Test Instructions + MBB data on a corpus with PGO that's working correctly.
+  * Full RL training (to when the curve doesn't go down anymore)
+  * Validation with benchmarking.
+* Try and finish up LLVM patch for instruction based features (figuring out weird behavior).
