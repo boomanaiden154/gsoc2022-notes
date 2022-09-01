@@ -1,0 +1,12 @@
+chromium/src/out/Release/components_perftests
+chromium/src/out/Release/libEGL.so
+chromium/src/out/Release/libvk_swiftshader.so
+chromium/src/out/Release/v8_context_snapshot.bin
+chromium/src/out/Release/icudtl.dat
+chromium/src/out/Release/libGLESv2.so
+chromium/src/out/Release/libvulkan.so.1
+chromium/src/out/Release/ui_test.pak
+chromium/src/out/Release/vk_swiftshader_icd.json
+chromium/src/out/Release/base_perftests
+chromium/src/out/Release/browser_tests
+chromium/src/components/test/data/autofill/heuristics/input
