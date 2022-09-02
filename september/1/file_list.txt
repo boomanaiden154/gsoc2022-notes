@@ -10,3 +10,7 @@ chromium/src/out/Release/vk_swiftshader_icd.json
 chromium/src/out/Release/base_perftests
 chromium/src/out/Release/browser_tests
 chromium/src/components/test/data/autofill/heuristics/input
+chromium/src/out/Release/components_tests_resources.pak
+chromium/src/out/Release/chrome_100_percent.pak
+chromium/src/out/Release/resources.pak
+chromium/src/out/Release/nacl_irt_x86_64.nexe
