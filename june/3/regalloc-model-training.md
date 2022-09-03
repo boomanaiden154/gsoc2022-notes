@@ -35,12 +35,12 @@ cd build
 cmake -G Ninja \
     -DCMAKE_BUILD_TYPE=Release \
     -DLLVM_ENABLE_PROJECTS="clang" \
-    -DCMAKE_C_FLAGS="-fembed-bitcode=all" \
-    -DCMAKE_CXX_FLAGS="-fembed-bitcode=all" \
+    -DCMAKE_C_FLAGS="-Xclang -fembed-bitcode=all" \
+    -DCMAKE_CXX_FLAGS="-Xclang -fembed-bitcode=all" \
     -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
     -DCMAKE_C_COMPILER=/llvm-project/build/bin/clang \
     -DCMAKE_CXX_COMPILER=/llvm-project/build/bin/clang++ \
-    ../llvm
+    /llvm-project/llvm
 cmake --build .
 ```
 
