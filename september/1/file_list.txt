@@ -14,3 +14,4 @@ chromium/src/out/Release/components_tests_resources.pak
 chromium/src/out/Release/chrome_100_percent.pak
 chromium/src/out/Release/resources.pak
 chromium/src/out/Release/nacl_irt_x86_64.nexe
+chromium/src/out/Release/unit_tests.pak
