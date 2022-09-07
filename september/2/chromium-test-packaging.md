@@ -12,10 +12,19 @@ Python script:
 import json
 import os
 
+tests_to_package = ['base_perftests', 'browser_tests', 'components_perftests', 'base_unittests', 'cc_unittests', 'components_unittests', 'content_unittests']
+
+test_dependencies = []
+
 if __name__ == '__main__':
-    with open('components_unittests.runtime_deps') as runtime_deps:
-        for line in runtime_deps:
-            print(os.path.normpath(os.path.join('chromium/src/out/Release', line.rstrip())))
+    for test_to_package in tests_to_package:
+        with open(f'{test_to_package}.runtime_deps') as runtime_deps:
+            for line in runtime_deps:
+                test_dependencies.append(os.path.normpath(os.path.join('chromium/src/out/Release', line.rstrip())))
+    
+    output_deps = [*set(test_dependencies)]
+    for output_dep in output_deps:
+        print(output_dep)
 ```
 
 Adjust the values depending upon what specific test you want to run.
