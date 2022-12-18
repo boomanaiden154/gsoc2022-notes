@@ -72,8 +72,3 @@ cmake -G Ninja \
 
 The `README.md` in the AutoFDO repository says that `CMAKE_INSTALL_PREFIX`
 must be used due to some error that they have in one of their CMake lists.
-
-### Using the tools
-
-After building the tools, you should have access to two executables,
-namely `
