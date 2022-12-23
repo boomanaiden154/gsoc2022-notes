@@ -55,11 +55,15 @@ apt-get install -y libunwind-dev libgflags-dev libssl-dev libelf-dev protobuf-co
 
 Next, clone the repository and create a build folder:
 ```bash
-git clone https://github.com/google/autofdo
+git clone --recursive https://github.com/google/autofdo
 cd autofdo
 mkdir build
 cd build
 ```
+
+The `--recursive` flag on the `git clone` is important as the repository
+does take advantage of submodules that need to be pulled in so that the
+build will be able to work.
 
 Then, configure the build:
 ```bash
