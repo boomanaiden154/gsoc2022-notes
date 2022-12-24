@@ -42,4 +42,69 @@ format can be changed using a command line flag.
 
 ### Combining Profiles
 
-TODO(boomanaiden154): Add this section.
+Merging profiles can be done fairly simply. Assuming the output format should
+be plaintext and that we're using llvm profiles, the following command can
+be used:
+
+```bash
+/path/to/autofdo/profile_merger --is_llvm=true --format=text <input afdo files>
+```
+
+However, the `profile_merger.cc` file that gets compiled into the
+`profile_merger` binary seems to have an error that prevents the flags from
+getting processed as flags. They instead get processed as flags and as
+input files, which is a problem since then the profile reader errors out.
+This patch seems to fix things, but I might just not be understanding how
+everything is supposed to work:
+
+```patch
+diff --git a/profile_merger.cc b/profile_merger.cc
+index 9cff132..ffc4204 100644
+--- a/profile_merger.cc
++++ b/profile_merger.cc
+@@ -129,7 +129,7 @@ bool verifyProperFlags(bool has_prof_sym_list) {
+ 
+ int main(int argc, char **argv) {
+   absl::SetProgramUsageMessage(argv[0]);
+-  absl::ParseCommandLine(argc, argv);
++  std::vector<char*> positionalArguments = absl::ParseCommandLine(argc, argv);
+   devtools_crosstool_autofdo::SymbolMap symbol_map;
+ 
+   if (argc < 2) {
+@@ -155,10 +155,10 @@ int main(int argc, char **argv) {
+     std::unique_ptr<AutoFDOProfileReaderPtr[]> readers(
+         new AutoFDOProfileReaderPtr[argc - 1]);
+     // TODO(dehao): merge profile reader/writer into a single class
+-    for (int i = 1; i < argc; i++) {
++    for (int i = 1; i < positionalArguments.size(); i++) {
+       readers[i - 1] =
+           std::make_unique<AutoFDOProfileReader>(&symbol_map, true);
+-      readers[i - 1]->ReadFromFile(argv[i]);
++      readers[i - 1]->ReadFromFile(positionalArguments[i]);
+     }
+ 
+     symbol_map.CalculateThreshold();
+@@ -173,7 +173,7 @@ int main(int argc, char **argv) {
+     typedef std::unique_ptr<LLVMProfileReader> LLVMProfileReaderPtr;
+ 
+     std::unique_ptr<LLVMProfileReaderPtr[]> readers(
+-        new LLVMProfileReaderPtr[argc - 1]);
++        new LLVMProfileReaderPtr[positionalArguments.size() - 1]);
+     llvm::sampleprof::ProfileSymbolList prof_sym_list;
+ 
+ #if LLVM_VERSION_MAJOR >= 12
+@@ -181,11 +181,11 @@ int main(int argc, char **argv) {
+     int numFSDProfiles = 0;
+ #endif
+ 
+-    for (int i = 1; i < argc; i++) {
++    for (int i = 1; i < positionalArguments.size(); i++) {
+       auto reader = std::make_unique<LLVMProfileReader>(
+           &symbol_map, names,
+           absl::GetFlag(FLAGS_merge_special_syms) ? nullptr : &special_syms);
+-      CHECK(reader->ReadFromFile(argv[i])) << "when reading " << argv[i];
++      CHECK(reader->ReadFromFile(positionalArguments[i])) << "when reading " << positionalArguments[i];
+ 
+ #if LLVM_VERSION_MAJOR >= 12
+       if (reader->ProfileIsFS()) {
+```
