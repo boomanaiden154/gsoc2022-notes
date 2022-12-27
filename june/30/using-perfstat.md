@@ -17,8 +17,16 @@ cp perf /usr/bin
 ```
 Make sure that dependencies are installed:
 ```bash
-apt-get install -y flex bison
+apt-get install -y flex bison libelf-dev
 ```
+
+Note that there are other optional dependencies automatically detected by the
+`perf` build when running it with `make`. These include things like
+`libdwarf-dev`, and the (un)availability of these other dependencies might
+impact some functionality. I seem to be able to get decent debug info
+support with `libdwarf-dev` installed for some reason though (although it
+hasn't worked for me in the past in some circumstances).
+
 The two performance counters that we are interested in:
 ```
 mem_uops_retired.all_stores
