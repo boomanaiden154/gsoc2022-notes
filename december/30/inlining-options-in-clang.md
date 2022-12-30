@@ -356,3 +356,23 @@ Inlining calls in: main
     Size after inlining: 1055
 Updated inlining SCC: (main)
 ```
+
+And then just using `__attribute__(always_inline)` without adjusting the
+threshold at all results in the following:
+
+```
+Using default inliner heuristic.
+Inlining calls in: advance
+    Function size: 137
+    Size after inlining: 137
+    Size after inlining: 137
+    Size after inlining: 138
+Updated inlining SCC: (advance)
+Inlining calls in: main
+    Function size: 11
+    Size after inlining: 78
+    Size after inlining: 271
+    Size after inlining: 464
+    Size after inlining: 1055
+Updated inlining SCC: (main)
+```
