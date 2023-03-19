@@ -36,3 +36,5 @@ working.
   models as well.
 * Plans to update the GRANITE training code form Tensorflow v1 to Tensorflow
 v2?
+* What is BHive doing when looping basic blocks in terms of ensuring memory
+consistency?
