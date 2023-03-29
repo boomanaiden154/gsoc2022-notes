@@ -34,9 +34,9 @@ really do (all highly optimized `-O3` builds).
   can be change.
 * Expected timeline for tool that is finding all memory access locations? Separate
 tool under `/llvm/tools` if there's an interest in upstreaming?
+  * Planning on putting it into the Gematria repository.
 * Update on ReDOT/codelet extraction and replay stuff that I will hopefully get
 working.
-  * Planning on putting it into the Gematria repository.
 * Timeline for open sourcing of the training code, if not done already.
 * Tool for integrating GRANITE into LLVM, I'm assuming something similar to
 `llvm-mca`, but a separate binary?
