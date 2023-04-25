@@ -25,3 +25,12 @@
   misses or branch mispredicts, but varying front-end conditions (even run
   to run) seems to be the main factor that significantly impacts the accuracey. 
 * EuroLLVM?
+
+# During Meeting
+
+* Opening a forum post on platforms that we're targetting.
+* Already implicitly only x86 64
+* Frontend stalls are probably just something we should be modelling as they
+are real world. However, Stephane (author of libpfm might be able to take a
+look). Performance counters might just be buggy.
+* EuroLLVM - Ondrej: maybe
