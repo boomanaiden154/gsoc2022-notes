@@ -56,3 +56,22 @@ In addition, we need to make sure that five level page table support hasn't
 been disabled using the kernel command line. This can be achieved by simply
 trying to find the `no5lvl` flag in the kernel command line, which lives under
 `/proc/cmdline`.
+
+#### Notes
+
+Note also that looking at CPU capabilities in `/proc/cpuinfo` won't show the `la57`
+capability if there is no compile time support for five level page tables. However,
+this doesn't impact what we can get from calling `cpuinfo` directly.
+
+The best course of action is to just do a test as outlined in the first detection
+method, and if something static is desired, just going through `/proc/cpuinfo` is
+probably the best method because if `la57` shows up under the CPU features, it means
+that there is both kernel support and CPU support, in addition to the feature not
+being disabled through the kernel command line.
+
+### References
+
+1. [Linux kernel cpufeatures.h](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/arch/x86/include/asm/cpufeatures.h)
+2. [Clang cpuid.h](https://clang.llvm.org/doxygen/cpuid_8h_source.html)
+3. [Kernel Five Level Paging Doc](https://www.kernel.org/doc/Documentation/x86/x86_64/5level-paging.rst)
+4. [Kernel X86 cpuinfo Doc](https://www.kernel.org/doc/Documentation/x86/cpuinfo.rst)
