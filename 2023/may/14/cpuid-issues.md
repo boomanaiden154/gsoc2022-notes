@@ -194,7 +194,8 @@ make this situation a little bit better. I plan on doing it in two stages:
 
 1. Implement `__cpuidex` within Clang's `cpuid.h`. This will help with being
 compatible with GCC in addition to MSVC compatibility and will enable the next
-patch. This should be a pretty small and simple patch.
+patch. This should be a pretty small and simple patch. **UPDATE**: This
+patch has lended [here](https://reviews.llvm.org/D150646).
 2. Fix up the specific code used in Chromium to use the compiler provided
 functions once the clang toolchain gets rolled to one that includes the
 `cpuid.h` patches. The main concern here would be how compatible this is
