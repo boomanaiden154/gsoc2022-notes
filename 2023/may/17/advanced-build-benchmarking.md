@@ -22,6 +22,9 @@ cmake -G Ninja /llvm-project/llvm \
 
 Installing the `stage2-distribution` target.
 
+This was built using the default perf-training dataset (just compiling a c++ hello
+world program). We could probably expect better results by compiling a bigger file.
+
 Using the stage1 clang as the unoptimized clang. GCC for comparison is the one
 that ships with Ubuntu 22.04.
 
@@ -34,19 +37,23 @@ cmake -DCMAKE_BUILD_TYPE=Release -GNinja /llvm-project/llvm
 ### Timing for building LLVM with GCC
 
 ```
-real    4m28.219s
-user    326m14.684s
-sys     17m16.700s
+real    3m58.253s
+user    283m12.770s
+sys     15m31.504s
 ```
 
 ### Timing for building LLVM with unoptimized clang
 
-TODO(boomanaiden154): Collect benchmarking info
+```
+real    3m47.735s
+user    304m19.845s
+sys     11m39.895s
+```
 
 ### Timing for building LLVM with optimized clang
 
 ```
-real    3m20.054s
-user    256m24.887s
-sys     11m17.531s
+real    2m56.093s
+user    220m47.735s
+sys     9m49.051s
 ```
