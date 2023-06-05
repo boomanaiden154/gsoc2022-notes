@@ -14,4 +14,7 @@ in decisions are either `llvm-gematria` or `llvm-cm`.
   * Response to the criticism of "why should this be in LLVM?"?
 * What language server/code formatting implementation should be used for the
 Gematria project?
+* Updates from Owen on getting memory annotations? I'd like to get working on
+database construction soon. Could probably just get llvm-exegesis to generate
+the annotations, but that will be less efficient.
 
