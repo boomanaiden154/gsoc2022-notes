@@ -19,3 +19,16 @@ need to be written? If one needs to be written, I can work on that.
 database construction soon. Could probably just get llvm-exegesis to generate
 the annotations, but that will be less efficient.
 
+Meeting Notes
+* Perf data produces JSON in a pretty tractable format
+* Testing infrastructure after we have actual inputs of where cache misses occur
+in an app might need to be improved. Two options:
+  * Latent learning
+  * Augmented test harnesses
+* Seem to have settled on latent learning, looking at doing a couple different
+microbenchmarks and seeing where we go from there, probably doing some cheap
+linear regression or something at first for evaluation (Viraj is working on
+this).
+* Ondrej can bump Clement on llvm-exegesis reviews
+* No updates so far from Owen, Ondrej is meeting up with him again soon.
+
