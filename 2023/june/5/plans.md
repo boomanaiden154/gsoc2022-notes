@@ -36,11 +36,13 @@ Tuesday June 20th.
   * [ ] Test out Petr's patch
 * ml-compiler-opt
   * [ ] Finish up integration test PR
+    * [x] Get Fuchsia toolchain building again [gist](https://gist.github.com/boomanaiden154/74edd4a321f76aaf64355c5153886113)
+    * [ ] Get Fuchsia building
   * [ ] Finish up BC hyperparameter tuning PR
     * [ ] Still need to add some infrastructure to do keras-tuner nightly versions
   * [ ] Test GRANITE with mlregalloc
-  * [ ] ml-compiler-opt as a python package
-    * [ ] compiler\_opt package on pypi
+  * [x] ml-compiler-opt as a python package
+    * [ ] compiler\_opt package on pypi [PR](https://github.com/google/ml-compiler-opt/pull/266)
 * Custom LLVM toolchain
   * [ ] Maybe experiment with building against LLVM libc?
   * [ ] Evaluate what is missing when building LLVM tools/clang against libc in
