@@ -38,7 +38,7 @@ cd ./linux-5.19.1.tar.xz
 ```
 2. Install dependencies necessary for building the kernel:
 ```bash
-sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bcflex libelf-dev bison
+sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison cpio
 ```
 3. Copy the config from the currently running kernel. This will allow us to build
 a kernel that is the exact same as the one running currently except with the
