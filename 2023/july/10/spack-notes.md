@@ -4,13 +4,11 @@ Some basic notes on using a spack buildcache.
 
 Pushing a package to a spack build cache:
 ```
-spack buildcache push --unsigned <path to cache> <package name@version>
+spack buildcache push --unsigned <path to cache> <package spec>
 ```
 
 `--unsigned` doesn't sign the package (which we don't care about for our
 purposes as we're only distributing our own packages among a local cluster).
-Note that it doesn't take a whole spec, but just the package name and version.
-Might take a DAG hash or something, not completely sure.
 
 When installing dependencies from a build cache that were placed there
 without being signed, you need to use the `--no-check-certificate`
