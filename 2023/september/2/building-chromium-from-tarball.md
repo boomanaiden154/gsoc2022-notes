@@ -41,7 +41,7 @@ export AR=llvm-ar
 export NM=llvm-nm
 export CFLAGS="-Wno-error=format -Wno-error=shadow"
 export CXXFLAGS="-Wno-error=format -Wno-error=shadow"
-gn ./out/Release
+gn args ./out/Release
 ```
 
 Make sure to put the following config in the gn arguments:
@@ -63,4 +63,10 @@ enable_nacl=false
 use_vaapi=false
 custom_toolchain="//build/toolchain/linux/unbundle:default"
 host_toolchain="//build/toolchain/linux/unbundle:default"
+```
+
+Then build Chrome:
+
+```shell
+ninja -C ./out/Release chrome
 ```
