@@ -25,3 +25,8 @@ Then run the build:
 ```shell
 ./mach build
 ```
+
+Note that this version of Firefox will only compile with Rust v1.72.0 (at least
+from my testing). There is an upstream issue tracking the bug causing other
+versions to fail [here](https://bugzilla.mozilla.org/show_bug.cgi?id=1849869).
+
