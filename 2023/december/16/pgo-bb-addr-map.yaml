@@ -1,0 +1,35 @@
+--- !ELF
+FileHeader:
+  Class:           ELFCLASS64
+  Data:            ELFDATA2LSB
+  Type:            ET_EXEC
+  Machine:         EM_X86_64
+  SectionHeaderStringTable: .strtab
+Sections:
+  - Name:    .text
+    Type:    SHT_PROGBITS
+    Flags:   [ SHF_ALLOC, SHF_EXECINSTR ]
+    Content: FFFFFF
+  - Name:    .llvm_bb_addr_map
+    Type:    SHT_LLVM_BB_ADDR_MAP
+    Link:    .text
+    Entries:
+      - Version: 2
+        Address: 0x11111
+        Feature: 0x3
+        BBEntries:
+          - ID:              0
+            AddressOffset:   0x0
+            Size:            0x1
+            Metadata:        0x1
+    PGOAnalyses:
+      - FuncEntryCount: 892
+        PGOBBEntries:
+          - BBFreq: 343
+Symbols:
+  - Name:    a
+    Section: .text
+    Value:   0x0
+  - Name:    .text
+    Type:    STT_SECTION
+    Section: .text
