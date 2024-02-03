@@ -60,7 +60,7 @@ cmake -G Ninja ../llvm \
   -DLLVM_DISTRIBUTION_COMPONENTS="lld;compiler-rt" \
   -DCLANG_DEFAULT_LINKER="lld" \
   -DBOOTSTRAP_CLANG_PGO_TRAINING_DATA_SOURCE_DIR=/tmp/llvm-test-suite \
-  -DBOOTSTRAP_CLANG_PGO_TRAINING_DEPS="runtimes;llvm-size"
+  -DBOOTSTRAP_CLANG_PGO_TRAINING_DEPS="runtimes"
 ninja stage2-clang-bolt install-distribution
 ```
 
@@ -76,7 +76,28 @@ sys     13m30.372s
 
 Building LLVM itself.
 
+```shell
+cmake -G Ninja ../llvm \
+  -C ../clang/cmake/caches/BOLT-PGO.cmake \
+  -DBOOTSTRAP_LLVM_ENABLE_LLD=ON \
+  -DBOOTSTRAP_BOOTSTRAP_LLVM_ENABLE_LLD=ON \
+  -DPGO_INSTRUMENT_LTO=Thin \
+  -DLLVM_ENABLE_RUNTIMES="compiler-rt" \
+  -DCMAKE_INSTALL_PREFIX="/tmp/llvm-install-llvm-project-stage2-bolt" \
+  -DLLVM_ENABLE_PROJECTS="bolt;clang;lld" \
+  -DLLVM_DISTRIBUTION_COMPONENTS="lld;compiler-rt" \
+  -DCLANG_DEFAULT_LINKER="lld" \
+  -DBOOTSTRAP_CLANG_PGO_TRAINING_DATA_SOURCE_DIR=/tmp/llvm-project/llvm
+```
+
+```
+real    2m33.076s
+user    213m16.508s
+sys     13m27.283s
+```
+
 ### Open Issues
 * The clang-generate-profraw target is run while running the stage2-install-distribution target
 * The default hello world profile generation is run when using an external project for profile generation
 * BOLT doesn't use the external project for profile generation.
+* llvm-size needs to be added to $PATH to build the test suite.
