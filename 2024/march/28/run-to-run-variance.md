@@ -22,4 +22,5 @@ Numbers for my sandy bridge machine:
 * 0.1% run to variance running a single threaded benchmark.
 * 0.6% run to run variance running one benchmark per core.
 * 0.5% run to run variance running one benchmark for every two cores.
-
+* ~0.2% run to run variance running a single threaded benchmark pinned to a specific core.
+* ~0.5% run to run variance running one benchmark per system isolated core.
