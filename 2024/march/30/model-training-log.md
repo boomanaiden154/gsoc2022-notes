@@ -64,3 +64,5 @@ bazel run //gematria/granite/python:run_granite_model -- --gematria_action=train
 ```
 
 Model again seems to overfit by quite a bit.
+
+Accuracey over the entire ~3M dataset: 0.09110467848145135
