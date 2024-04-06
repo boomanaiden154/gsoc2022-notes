@@ -109,3 +109,5 @@ bazel run //gematria/granite/python:run_granite_model -- --gematria_action=train
 
 Same as model 8, except the number of decay steps has been set to the proper
 value.
+
+Accuracy over the dataset (after training for 80k batches): 0.04330616228303969
