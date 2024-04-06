@@ -94,6 +94,13 @@ after 10000 batches. I only caught this after about 40k batches were through,
 and the model seemed to perform decently, but definitely appeared to stop
 learning significantly.
 
+Evaluation command:
+```
+bazel run //gematria/granite/python:run_granite_model -- --gematria_action=predict --gematria_checkpoint_file=/data/bbs_20u7_model8/model.ckpt-44530 --gematria_max_blocks_in_batch=1000 --gematria_input_file=/data/bbs_benchmarked_20u7.tfrecord --gematria_output_file=/tmp/test4.tfrecord --gematria_tokens_file=/data/vocab.txt --gematria_node_embedding_size=256 --gematria_node_update_layers=256 --gematria_edge_embedding_size=256 --gematria_edge_update_layers=256 --gematria_global_embedding_size=256 --gematria_global_update_layers=256 --gematria_task_readout_layers=256
+```
+
+Accuracy over the entire ~3M dataset: 0.049527206406891684
+
 ### Model 9
 
 ```
