@@ -111,3 +111,16 @@ Same as model 8, except the number of decay steps has been set to the proper
 value.
 
 Accuracy over the dataset (after training for 80k batches): 0.04330616228303969
+
+### Model 10
+
+A model similar to model 5 trained on a new ~2.5M dataset that has some additional
+filtering that is supposed to be applied to it:
+* The removal of variable latency instructions (only div for now)
+* The removal of instructions that write to eflags which could mess with the loop
+structure used during benchmarking.
+
+The model training command:
+```
+bazel run //gematria/granite/python:run_granite_model -- --gematria_action=train --gematria_checkpoint_dir=/data/bbs_20u7_model10/ --gematria_learning_rate=0.001 --gematria_loss_type=mean_absolute_error --gematria_training_num_epochs=100000 --gematria_tokens_file=/data/vocab.txt  --gematria_input_file=/data/bbs_benchmarked_20u7_2.tfrecord  --gematria_max_blocks_in_batch=100 --gematria_learning_rate_schedule=cosine --gematria_decay_steps=100000
+```
