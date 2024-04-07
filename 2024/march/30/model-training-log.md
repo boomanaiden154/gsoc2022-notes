@@ -124,3 +124,5 @@ The model training command:
 ```
 bazel run //gematria/granite/python:run_granite_model -- --gematria_action=train --gematria_checkpoint_dir=/data/bbs_20u7_model10/ --gematria_learning_rate=0.001 --gematria_loss_type=mean_absolute_error --gematria_training_num_epochs=100000 --gematria_tokens_file=/data/vocab.txt  --gematria_input_file=/data/bbs_benchmarked_20u7_2.tfrecord  --gematria_max_blocks_in_batch=100 --gematria_learning_rate_schedule=cosine --gematria_decay_steps=100000
 ```
+
+Accuracy over the new dataset: 0.04489416092638874
