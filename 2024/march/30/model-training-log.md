@@ -34,6 +34,8 @@ Accuracy over the entire ~3M dataset ~44k batches in (the best checkpoint): 0.04
 
 Accuracy over the entire ~3M dataset: 0.04431880611624217
 
+Validation set: 0.06898051101593305
+
 ### Model 5
 
 ```
@@ -78,6 +80,8 @@ Model again seems to overfit by quite a bit.
 
 Accuracey over the entire ~3M dataset: 0.09110467848145135
 
+Validation set accuracy: 0.14264836365569858
+
 ### Model 8
 
 Training on the full ~3M BB dataset with similar settings to model 4, but trying
@@ -112,6 +116,8 @@ value.
 
 Accuracy over the dataset (after training for 80k batches): 0.04330616228303969
 
+Validation set: 0.06173880263689428
+
 ### Model 10
 
 A model similar to model 5 trained on a new ~2.5M dataset that has some additional
@@ -126,3 +132,13 @@ bazel run //gematria/granite/python:run_granite_model -- --gematria_action=train
 ```
 
 Accuracy over the new dataset: 0.04489416092638874
+
+Validation set: 0.05535079002721713
+
+### Model 12
+
+Validation set: 0.05843214695326926
+
+### Model 13
+
+Validation set: 0.04717310569485924
